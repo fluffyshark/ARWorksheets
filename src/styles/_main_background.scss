@@ -1,0 +1,385 @@
+.background {
+    width: 100%;
+    height: 872px;
+    background-image: url(../components/main_background/bigger_background.png);
+    background-position: top top;
+    background-size: cover;
+
+    display: grid;
+    grid-template-columns: 5% 45% 43% 7%; 
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+.iPad_image {
+    width: 550px;
+    grid-column: 3;
+    grid-row: 3;
+    justify-self: right;
+    transform: translateY(-33px);
+    img {
+        width: 40%;
+    }
+}
+.main_title {
+    width: 550px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    grid-column: 2;
+    grid-row: 3;
+    margin: 0;
+}
+.main_text {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    grid-row: 5;
+    grid-column: 2;
+    width: 500px;
+    margin: 0;
+    transform: translateY(-20px);
+}
+
+/*----------Download btn-------------*/
+
+.downlad_worksheet_btn {
+    width: 160px;
+    height: 50px;
+    grid-row: 6;
+    grid-column: 2;
+    border-radius: 10px;
+    border: solid 2px white;
+    transform: translateY(-15px);
+    
+    display: grid;
+    grid-template-columns: 10% 25% 65%;
+
+    img {
+        width: 25px;
+        grid-column: 2;
+        grid-row: 1;
+        justify-self: left;
+        align-self: center;
+    }
+    p {
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        grid-column: 3;
+        grid-row: 1;
+        margin: 0;
+        justify-self: left;
+        align-self: center;    
+    }
+}
+#download_icon_purple {display: none;}
+#download_icon {display: inline}
+
+.downlad_from_app_store {
+    width: auto;
+    height: auto;
+    grid-row: 6;
+    grid-column: 2;
+    transform: translate(190px, -15px);
+
+    img {width: 164px;}    
+}
+
+
+/*----------Feature boxex-------------*/
+
+.feature_box {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    grid-row: 8;
+    grid-column: 2;
+    border-radius: 10px;
+    border: solid 2px #564bde;
+    transform: translateY(-50px);
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 51% 4% 35%;
+
+    img {
+        grid-row: 2;
+        justify-self: center;
+        align-self: center;
+    }
+    p {
+        width:90%;
+        grid-row: 4;
+        justify-self: center;
+        text-align: center; 
+        margin: 0;
+        font-size: 14px;
+    }
+}
+#feature_box_1 {
+    img {
+        transform: translateX(-5px);
+        width: 75px;
+    }
+}
+#feature_box_2 {
+    transform: translate(200px, -50px);
+    img {width: 55px;}
+}
+
+#feature_box_3 {
+    transform: translate(400px, -50px);
+    img {width: 60px;}
+}
+
+
+
+// -------------MEDIA QUERIES-------------
+
+@media only screen and (max-width: 1440px) and (max-height: 740px) {
+    .background {
+        height: 737px;
+        background-image: url(../components/main_background/bigger_background.png);
+        background-position: top top;
+        background-size: cover;
+    }
+    #feature_box_1 {
+        transform: translate(0px, 25px);
+        width: 170px;
+        height: 170px;
+    }
+    #feature_box_2 {
+        transform: translate(190px, 25px);
+        width: 170px;
+        height: 170px;
+    }
+    
+    #feature_box_3 {
+        transform: translate(380px, 25px);
+        width: 170px;
+        height: 170px;
+    }
+}
+
+@media only screen and (max-width: 1390px) {
+    .iPad_image {
+        width: 550px;
+        transform: translate(33px, -33px);
+    }
+    
+
+} // END OF MEDIA QUERY 1390px
+
+@media only screen and (max-width: 1260px) {
+    .background {background-image: url(../components/main_background/background_section.png);}
+
+    .main_title {
+        width: 550px;
+        font-size: 45px;   
+    }
+    .main_text {
+        font-size: 18px;
+        font-weight: 500;
+        width: 450px;
+        transform: translateY(-40px);
+    }
+    .iPad_image {width: 500px;}
+    .feature_box {
+        font-size: 14px; 
+    }
+    #feature_box_1 {
+        width: 150px;
+        height: 150px;
+        img {
+            transform: translateX(-5px);
+            width: 70px;
+        }
+    }
+    #feature_box_2 {
+        width: 150px;
+        height: 150px;
+        transform: translate(170px, 25px);
+        img {width: 55px;}
+    }
+    
+    #feature_box_3 {
+        width: 150px;
+        height: 150px;
+        transform: translate(340px, 25px);
+        img {width: 55px;}
+    }
+
+    .downlad_worksheet_btn {
+        width: 130px;
+        height: 40px;
+        transform: translateY(-40px);
+    
+        img {width: 20px;}
+        p {font-size: 12px;  }
+    }
+    .downlad_from_app_store {
+        width: auto;
+        height: auto;
+        grid-row: 6;
+        grid-column: 2;
+        transform: translate(155px, -40px);
+    
+        img {width: 138px;}    
+    }
+
+
+} // END OF MEDIA QUERY 1260px
+
+@media only screen and (max-width: 1110px) {
+    .iPad_image {width: 410px;}
+    .main_title {
+        width: 550px;
+        font-size: 40px;   
+    }
+    .main_text {
+        font-size: 18px;
+        font-weight: 500;
+        width: 400px;
+        transform: translateY(-40px);
+    }
+    .feature_box {
+        width: 150px;
+        height: 150px;
+        font-size: 14px; 
+        
+
+        img {
+            grid-row: 2;
+            justify-self: center;
+            align-self: center;
+        }
+        p {
+            width:90%;
+            grid-row: 4;
+            justify-self: center;
+            text-align: center; 
+            margin: 0;
+        }
+    }
+    #feature_box_1 {transform: translateY(25px);}
+    #feature_box_2 {transform: translate(170px, 25px);}
+    #feature_box_3 {transform: translate(340px, 25px);}
+
+} // END OF MEDIA QUERY 1110px
+
+@media only screen and (max-width: 940px) {.iPad_image {width: 400px;}}
+
+@media only screen and (max-width: 870px) {
+    .main_title {
+        width: 395px;
+        font-size: 30px;  
+    }
+    .main_text {
+        font-size: 16px;
+        font-weight: 500;
+        width: 290px;
+        transform: translateY(-75px);
+    }
+    .downlad_worksheet_btn {transform: translateY(-60px);}
+    .downlad_from_app_store {transform: translate(155px, -60px);}
+    #feature_box_1 {transform: translate(-25px, 25px);}
+    #feature_box_2 {transform: translate(150px, 25px);}
+    #feature_box_3 {transform: translate(325px, 25px);}
+}
+
+@media only screen and (max-width: 775px) {.iPad_image {width: 340px;}}
+
+@media only screen and (max-width: 700px) {
+    .iPad_image {width: 328px;}
+    .main_title {
+        width: 395px;
+        font-size: 30px;   
+    }
+    .main_text {
+        font-size: 16px;
+        font-weight: 500;
+        width: 290px;
+        transform: translateY(-75px);
+    }
+    .downlad_worksheet_btn {transform: translateY(-60px);}
+    .downlad_from_app_store {transform: translate(155px, -60px);}
+    
+    #feature_box_1 {transform: translateY(25px);}
+    #feature_box_2 {transform: translate(170px, 25px);}
+    #feature_box_3 {transform: translate(340px, 25px);}
+
+} // END OF MEDIA QUERY
+
+@media only screen and (max-width: 685px) {
+    .background {
+        display: grid;
+        grid-template-columns: 100%; 
+        grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    }
+    .iPad_image {
+        grid-column: 1;
+        grid-row: 6;
+        justify-self: center;
+        transform: translateY(-20px);
+    }
+    .main_title {
+        width: 100%;
+        font-size: 50px;
+        grid-column: 1;
+        grid-row: 3;
+        justify-self: center;
+        text-align: center; 
+    }
+    .main_text {
+        font-size: 20px;
+        font-weight: 500;
+        grid-row: 5;
+        grid-column: 1;
+        width: 500px;
+        justify-self: center;
+        text-align: center;
+        transform: translateY(-20px);
+    }
+    .downlad_worksheet_btn {
+        transform: translate(-100px, 40px);
+        grid-row: 10;
+        grid-column: 1;
+        justify-self: center;
+        border: solid 2px #564bde;
+        p {color: #564bde;}
+    }
+    #download_icon_purple {display: inline;}
+    #download_icon {display: hidden}
+    .downlad_from_app_store {
+        transform: translate(60px, 40px);
+        grid-row: 10;
+        grid-column: 1;
+        justify-self: center;
+    }
+    .feature_box {
+        width: 150px;
+        height: 150px;
+        font-size: 14px; 
+        transform: translateY(50px);
+        grid-column: 1;
+        grid-row: 10;
+        justify-self: center;
+
+        img {
+            grid-row: 2;
+            justify-self: center;
+            align-self: center;
+        }
+        p {
+            width:90%;
+            grid-row: 4;
+            justify-self: center;
+            text-align: center; 
+            margin: 0;
+        }
+    }
+    #feature_box_1 {transform: translate(-165px, 107px);}
+    #feature_box_2 {transform: translate(0px, 107px);}
+    #feature_box_3 {transform: translate(165px, 107px);}
+
+}
