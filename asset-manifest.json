@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ARWorksheets/static/css/main.6fd1d658.chunk.css",
-    "main.js": "/ARWorksheets/static/js/main.46890b9a.chunk.js",
-    "main.js.map": "/ARWorksheets/static/js/main.46890b9a.chunk.js.map",
+    "main.js": "/ARWorksheets/static/js/main.afe7719d.chunk.js",
+    "main.js.map": "/ARWorksheets/static/js/main.afe7719d.chunk.js.map",
     "runtime-main.js": "/ARWorksheets/static/js/runtime-main.092364a7.js",
     "runtime-main.js.map": "/ARWorksheets/static/js/runtime-main.092364a7.js.map",
     "static/js/2.02eeef3a.chunk.js": "/ARWorksheets/static/js/2.02eeef3a.chunk.js",
     "static/js/2.02eeef3a.chunk.js.map": "/ARWorksheets/static/js/2.02eeef3a.chunk.js.map",
     "index.html": "/ARWorksheets/index.html",
-    "precache-manifest.3779f1bc210ef2de370b6fb56a48c77d.js": "/ARWorksheets/precache-manifest.3779f1bc210ef2de370b6fb56a48c77d.js",
+    "precache-manifest.1aaaab11abe1e413e28911a883389d33.js": "/ARWorksheets/precache-manifest.1aaaab11abe1e413e28911a883389d33.js",
     "service-worker.js": "/ARWorksheets/service-worker.js",
     "static/css/main.6fd1d658.chunk.css.map": "/ARWorksheets/static/css/main.6fd1d658.chunk.css.map",
     "static/js/2.02eeef3a.chunk.js.LICENSE.txt": "/ARWorksheets/static/js/2.02eeef3a.chunk.js.LICENSE.txt",
@@ -41,6 +41,6 @@
     "static/js/runtime-main.092364a7.js",
     "static/js/2.02eeef3a.chunk.js",
     "static/css/main.6fd1d658.chunk.css",
-    "static/js/main.46890b9a.chunk.js"
+    "static/js/main.afe7719d.chunk.js"
   ]
 }
