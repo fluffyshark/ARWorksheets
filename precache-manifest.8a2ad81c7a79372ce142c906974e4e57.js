@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0c14f0c964aa9df95f9bc4957ff34f10",
+    "revision": "57e5b7f3ee6fe553c2d8e4bd9c564a7f",
     "url": "/ARWorksheets/index.html"
   },
   {
-    "revision": "21864449ec914cf92f84",
-    "url": "/ARWorksheets/static/css/main.4c512a90.chunk.css"
+    "revision": "0a8930e7353816c95fc1",
+    "url": "/ARWorksheets/static/css/main.6e3845ae.chunk.css"
   },
   {
     "revision": "3bcb984cbe173de0b174",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ARWorksheets/static/js/2.02eeef3a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "21864449ec914cf92f84",
-    "url": "/ARWorksheets/static/js/main.d8eb7bf7.chunk.js"
+    "revision": "0a8930e7353816c95fc1",
+    "url": "/ARWorksheets/static/js/main.a6fa997e.chunk.js"
   },
   {
     "revision": "478d5b3aa7195614d718",
