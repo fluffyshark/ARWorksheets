@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ARWorksheets/static/css/main.8c587cf1.chunk.css",
-    "main.js": "/ARWorksheets/static/js/main.1355878b.chunk.js",
-    "main.js.map": "/ARWorksheets/static/js/main.1355878b.chunk.js.map",
+    "main.css": "/ARWorksheets/static/css/main.ac895a4e.chunk.css",
+    "main.js": "/ARWorksheets/static/js/main.7675e4ef.chunk.js",
+    "main.js.map": "/ARWorksheets/static/js/main.7675e4ef.chunk.js.map",
     "runtime-main.js": "/ARWorksheets/static/js/runtime-main.092364a7.js",
     "runtime-main.js.map": "/ARWorksheets/static/js/runtime-main.092364a7.js.map",
     "static/js/2.02eeef3a.chunk.js": "/ARWorksheets/static/js/2.02eeef3a.chunk.js",
     "static/js/2.02eeef3a.chunk.js.map": "/ARWorksheets/static/js/2.02eeef3a.chunk.js.map",
     "index.html": "/ARWorksheets/index.html",
-    "precache-manifest.3f77efdbbf48eca840850741dcea0d11.js": "/ARWorksheets/precache-manifest.3f77efdbbf48eca840850741dcea0d11.js",
+    "precache-manifest.6f5b21a81207583edbfa1f6a36374895.js": "/ARWorksheets/precache-manifest.6f5b21a81207583edbfa1f6a36374895.js",
     "service-worker.js": "/ARWorksheets/service-worker.js",
-    "static/css/main.8c587cf1.chunk.css.map": "/ARWorksheets/static/css/main.8c587cf1.chunk.css.map",
+    "static/css/main.ac895a4e.chunk.css.map": "/ARWorksheets/static/css/main.ac895a4e.chunk.css.map",
     "static/js/2.02eeef3a.chunk.js.LICENSE.txt": "/ARWorksheets/static/js/2.02eeef3a.chunk.js.LICENSE.txt",
     "static/media/style.css": "/ARWorksheets/static/media/contact_img1.8c2d9c19.png",
     "static/media/crossword01.png": "/ARWorksheets/static/media/crossword01.93298fe6.png",
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.092364a7.js",
     "static/js/2.02eeef3a.chunk.js",
-    "static/css/main.8c587cf1.chunk.css",
-    "static/js/main.1355878b.chunk.js"
+    "static/css/main.ac895a4e.chunk.css",
+    "static/js/main.7675e4ef.chunk.js"
   ]
 }
