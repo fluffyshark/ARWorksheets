@@ -61,24 +61,24 @@ class Contact extends React.Component {
 
                 <div className="contact_last_section">
                     <div className="text_container_1">
-                        <Link style={{ textDecoration: 'none' }}>
+                        <Link to="/" style={{ textDecoration: 'none' }}>
                             <p>Home</p>
                         </Link>
-                        <Link style={{ textDecoration: 'none' }}>
+                        <Link to="/" style={{ textDecoration: 'none' }}>
                             <p>Get Worksheets</p>
                         </Link>
-                        <Link style={{ textDecoration: 'none' }}>
+                        <Link to="/" style={{ textDecoration: 'none' }}>
                             <p>Get the App</p>
                         </Link>
                     </div>
                     <div className="text_container_2">
                         <Link to="/tos" style={{ textDecoration: 'none' }}>
-                            <p>Privacy Policy & Terms Of Use</p>
+                            <p>Terms Of Use</p>
                         </Link>
-                        <Link style={{ textDecoration: 'none' }}>
-                            <p>About Us</p>
+                        <Link to="/privacy" style={{ textDecoration: 'none' }}>
+                            <p>Privacy Policy</p>
                         </Link>
-                        <Link style={{ textDecoration: 'none' }}>
+                        <Link to="/" style={{ textDecoration: 'none' }}>
                             <p>Want to help?</p>
                         </Link>
                     </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 
 import iPad_product from "./iPad_product.png"
 import download_icon from "./download_icon.png";
@@ -10,8 +11,9 @@ import fun_icon from "./fun_icon.png";
 
 class Main_background extends React.Component {
 
-    reportWindowSize = e => {console.log(window.innerWidth);}
 
+    reportWindowSize = e => {console.log(window.innerWidth);}
+    listenScrollEvent = e => {console.log(window.scrollY)}
         
 
     componentDidMount() {
@@ -20,6 +22,7 @@ class Main_background extends React.Component {
         window.addEventListener('scroll', this.listenScrollEvent)
         window.addEventListener('resize', this.reportWindowSize)
     }
+    
 
     
 
@@ -30,12 +33,12 @@ class Main_background extends React.Component {
                     <p className="main_title">Correct worksheets effortless with AR</p>
                     <p className="main_text"> Will you be able to correct a student's worksheet in less that 10 seconds, every time?</p>
                     <img className="iPad_image" src={iPad_product} alt="" />
-
-                    <div className="downlad_worksheet_btn">
-                        <p>Download Worksheets</p>
-                        <img src={download_icon} alt="" id="download_icon"/>
-                        <img src={download_icon_purple} alt="" id="download_icon_purple"/>
-                    </div>
+                    <Link className="downlad_worksheet_btn" to="/download_worksheets" style={{ textDecoration: 'none' }}>
+                            <p>Download Worksheets</p>
+                            <img src={download_icon} alt="" id="download_icon"/>
+                            <img src={download_icon_purple} alt="" id="download_icon_purple"/>
+                    </Link>
+                    
                     <div className="downlad_from_app_store">
                         <img src={download_app_store} alt=""/>
                     </div>

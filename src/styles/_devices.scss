@@ -1,0 +1,145 @@
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 1440px) and (max-height: 733px) {
+    .iPad_image {width: 570px;}
+    .main_title {transform: translateY(-15px);}
+}
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 1260px) and (max-height: 733px) {
+    .iPad_image {width: 100%;}
+    .main_text {transform: translateY(-30px);}
+    .downlad_worksheet_btn {transform: translateY(-25px);}
+    .downlad_from_app_store {transform: translate(155px, -25px);}
+    #feature_box_2 {transform: translate(170px, 25px);}
+    #feature_box_3 {transform: translate(340px, 25px);}
+ 
+}
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 910px) and (max-height: 733px) {
+    .iPad_image {width: 395px;}
+    .main_title {width: 445px; font-size: 32px;}
+    .main_text {transform: translateY(-60px);}
+    .downlad_worksheet_btn {transform: translateY(-43px);}
+    .downlad_from_app_store {transform: translate(155px, -43px);}
+    #feature_box_2 {transform: translate(170px, 25px);}
+    #feature_box_3 {transform: translate(340px, 25px);}
+ 
+}
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 790px) and (max-height: 733px) {.iPad_image {width: 355px;}}
+
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 730px) and (max-height: 733px) {
+    .navbar img {height: 35px;margin-left: 20px;}
+    .background {height: 970px;}
+    .iPad_image {width: 350px; transform: translateY(-10px);}
+    .main_title {font-size: 42px; transform: translateY(-18px);}
+    .main_text {font-size: 17px; transform: translateY(13px); width: 400px;}
+    .downlad_worksheet_btn {transform: translate(-90px, -15px);}
+    .downlad_from_app_store {transform: translate(70px, -15px);}
+    #feature_box_2 {transform: translate(0px, 0px);}
+    #feature_box_3 {transform: translate(165px, 0px);}
+}
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 510px) and (max-height: 733px) {
+    .feature_box p {font-size: 12px;}
+    #feature_box_1 {width: 130px; height: 130px; transform: translate(-140px, 0px);}
+    #feature_box_2 {width: 130px; height: 130px; }
+    #feature_box_3 {width: 130px; height: 130px; transform: translate(140px, 0px);}
+}
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 435px) and (max-height: 733px) {
+    .background {height: 865px;}
+    .iPad_image {width: 315px; transform: translateY(50px);}
+    .main_title {font-size: 35px; transform: translateY(15px);}
+    .main_text {transform: translateY(-43px);}
+    .downlad_from_app_store {transform: translate(70px, 50px);}
+    .downlad_worksheet_btn {transform: translate(-90px, 50px);}
+    .main_text {font-size: 16px; transform: translateY(-64px); width: 290px; grid-row: 4;}
+    #feature_box_1 {width: 110px; height: 110px; transform: translate(-120px, 45px); img {transform: translateX(-5px); width: 55px;}}
+    #feature_box_2 {width: 110px; height: 110px; transform: translateY(45px); img {width: 42px;}}
+    #feature_box_3 {width: 110px; height: 110px; transform: translate(120px, 45px); img {width: 45px;}}
+    .feature_box p {font-size: 10px;}
+    .extension {display: block; height: 45px;}
+    .worksheets_section__description p {font-size: 13px; width: 322px; transform: translate(64px, 140px);}
+
+}
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 350px) and (max-height: 733px) {
+    .background {height: 682px; width: 110.5%; overflow: visible;}
+    .main_title {width: 350px; transform: translateY(36px);}
+    .iPad_image {transform: translateY(100px);}
+    .main_text {transform: translateY(10px);}
+    .downlad_worksheet_btn {transform: translate(-90px, 180px);}
+    .downlad_from_app_store {transform: translate(70px, 180px);}
+    #feature_box_3 {display: none;}
+    #feature_box_1 {width: 120px; height: 120px; transform: translate(-84px, 210px); img {width: 65px;}}
+    #feature_box_2 {width: 120px; height: 120px; transform: translate(62px, 210px); img {width: 48px;}}
+    .feature_box p {font-size: 11px;}
+    .extension {height: 245px; width: 110.5%; display: block;}
+    .email_section {width: 110.5%;}
+    .worksheets_section {width: 110.5%;}
+    .worksheets_section__title p {transform: translateY(23px);}
+    .worksheets_section__description p {font-size: 14px; width: 331px; transform: translate(60px, 118px);}
+    .worksheet_container01 img {transform: translate(-17px, -89px);}
+    .contact {width: 110.5%; .contact_last_section {.pinterest-img {margin-left: 22px;}}}
+}
+
+
+
+
+
+// iPad 9.7" Landscape Safari
+@media only screen and (max-width: 1040px) and (min-width: 1020px) and (max-height: 670px) and (min-height: 650px) {
+    .background {height: 675px}
+    .iPad_image {width: 450px;}
+    .main_text {transform: translateY(-37px);}
+    .main_title {transform: translateY(-20px);}
+    .downlad_from_app_store {transform: translate(155px, -30px);}
+    .downlad_worksheet_btn {transform: translateY(-30px);}
+    #feature_box_1 {transform: translate(-20px, 0px); width: 145px; height: 145px;}
+    #feature_box_2 {transform: translate(145px, 0px); width: 145px; height: 145px; p {width:140px}}
+    #feature_box_3 {transform: translate(310px, 0px); width: 145px; height: 145px;}
+ }
+
+ // iPad 9.7" Portrait Safari
+@media only screen and (max-width: 820px) and (min-width: 810px) and (max-height: 990px) and (min-height: 980px) {
+    .background {height: 985px}
+    .iPad_image {width: 400px;}
+    #feature_box_1 {transform: translate(60px, 20px); width: 190px; height: 190px;}
+    #feature_box_2 {transform: translate(275px, 20px); width: 190px; height: 190px; p {width:140px}}
+    #feature_box_3 {transform: translate(490px, 20px); width: 190px; height: 190px;}
+    .contact {.contact_last_section {grid-template-columns: 20% 20% 22% 20% 18%;}} 
+}
+
+
+// MacBook 9" Retina Chrome
+@media only screen and (max-width: 1680px) and (min-width: 1660px) and (max-height: 880px) and (min-height: 860px) {
+    .iPad_image {width: 650px;}
+    #feature_box_2 {p {width:140px}}
+    #feature_box_1 {transform: translate(0px, 20px); width: 190px; height: 190px;}
+    #feature_box_2 {transform: translate(210px, 20px); width: 190px; height: 190px;}
+    #feature_box_3 {transform: translate(420px, 20px); width: 190px; height: 190px;}
+}
+
+// iPhone X Portrait Safari
+@media only screen and (max-width: 390px) and (min-width: 350px) and (max-height: 650px) and (min-height: 620px) {
+    .background {height: 600px; overflow: visible;}
+    .iPad_image {width: 75%; transform: translateY(86px);}
+    .main_title {font-size: 30px; transform: translateY(25px); width: 300px;}
+    .main_text {transform: translateY(-60px);width: 78%; font-size: 17px; grid-row: 5;}
+    #feature_box_1 {transform: translate(-120px, 185px); width: 110px; height: 110px;}
+    #feature_box_2 {transform: translate(0px, 185px); width: 110px; height: 110px;}
+    #feature_box_3 {transform: translate(119px, 185px); width: 110px; height: 110px;}
+    .downlad_from_app_store {transform: translate(80px, 35px);grid-row: 10;}
+    .downlad_worksheet_btn {transform: translate(-80px, 35px); grid-row: 10;}
+    .feature_box p {font-size: 10px;}
+    #feature_box_2 img {width: 50px;}
+    .extension {display: block;height: 222px;}
+    .contact .contact_last_section .text_container_3 {transform: translateX(-5px);}
+    .worksheet_container01 {width: 85%;}
+    .worksheet_container01__title {transform: translateX(25px);}
+    .worksheets_section {overflow: hidden;}
+    .contact .contact_last_section .pinterest-img {margin-left: 22px;}
+}
+ 
+ 

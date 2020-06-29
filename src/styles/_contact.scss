@@ -2,6 +2,7 @@
     width: 100%;
     height: 390px;
     background-color: black;
+    overflow: hidden;
 
     display: grid;
     grid-template-rows: 260px 130px;
@@ -131,8 +132,10 @@
         .contact_last_section {
             grid-template-columns: 5% 30% 35% 30%;
             .text_container_3 {
-                transform: translateX(20px);
+                transform: translateX(0px);
             }
         }   
     }
 } // END OF MEDIA QUERY 940px
+
+

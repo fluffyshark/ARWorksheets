@@ -32,7 +32,7 @@ class Worksheets_section extends React.Component {
     }
 
     highlightImages(props){
-        if (props == "image01") { 
+        if (props === "image01") { 
             this.setState({
                 image02: {left:"34%", transition: '1s' },
                 image03: {left:"48%", transition: '1s' },
@@ -40,26 +40,26 @@ class Worksheets_section extends React.Component {
                 image05: {left:"70%", transition: '1s' },
             }) 
         }
-        if (props == "image02") { 
+        if (props === "image02") { 
             this.setState({
                 image03: {left:"46%", transition: '1s' },
                 image04: {left:"58%", transition: '1s' },
                 image05: {left:"70%", transition: '1s' },
             }) 
         }
-        if (props == "image03") { 
+        if (props === "image03") { 
             this.setState({
                 image04: {left:"58%", transition: '1s' },
                 image05: {left:"70%", transition: '1s' },
             }) 
         }
-        if (props == "image04") { 
+        if (props === "image04") { 
             this.setState({
                 image05: {left:"70%", transition: '1s' },
             }) 
         }
         
-        if (props == "image06") { 
+        if (props === "image06") { 
             this.setState({
                 image07: {left:"34%", transition: '1s' },
                 image08: {left:"48%", transition: '1s' },
@@ -67,27 +67,27 @@ class Worksheets_section extends React.Component {
                 image10: {left:"70%", transition: '1s' },
             }) 
         }
-        if (props == "image07") { 
+        if (props === "image07") { 
             this.setState({
                 image08: {left:"46%", transition: '1s' },
                 image09: {left:"58%", transition: '1s' },
                 image10: {left:"70%", transition: '1s' },
             }) 
         }
-        if (props == "image08") { 
+        if (props === "image08") { 
             this.setState({
                 image09: {left:"58%", transition: '1s' },
                 image10: {left:"70%", transition: '1s' },
             }) 
         }
-        if (props == "image09") { 
+        if (props === "image09") { 
             this.setState({
                 image10: {left:"70%", transition: '1s' },
             }) 
         }
 
 
-        if (props == "image11") { 
+        if (props === "image11") { 
             this.setState({
                 image12: {left:"34%", transition: '1s' },
                 image13: {left:"48%", transition: '1s' },
@@ -95,20 +95,20 @@ class Worksheets_section extends React.Component {
                 image15: {left:"70%", transition: '1s' },
             }) 
         }
-        if (props == "image12") { 
+        if (props === "image12") { 
             this.setState({
                 image13: {left:"46%", transition: '1s' },
                 image14: {left:"58%", transition: '1s' },
                 image15: {left:"70%", transition: '1s' },
             }) 
         }
-        if (props == "image13") { 
+        if (props === "image13") { 
             this.setState({
                 image14: {left:"58%", transition: '1s' },
                 image15: {left:"70%", transition: '1s' },
             }) 
         }
-        if (props == "image14") { 
+        if (props === "image14") { 
             this.setState({
                 image15: {left:"70%", transition: '1s' },
             }) 
@@ -116,7 +116,7 @@ class Worksheets_section extends React.Component {
 
 
 
-        if (props == "image16") { 
+        if (props === "image16") { 
             this.setState({
                 image17: {left:"34%", transition: '1s' },
                 image18: {left:"48%", transition: '1s' },
@@ -124,20 +124,20 @@ class Worksheets_section extends React.Component {
                 image20: {left:"70%", transition: '1s' },
             }) 
         }
-        if (props == "image17") { 
+        if (props === "image17") { 
             this.setState({
                 image18: {left:"46%", transition: '1s' },
                 image19: {left:"58%", transition: '1s' },
                 image20: {left:"70%", transition: '1s' },
             }) 
         }
-        if (props == "image18") { 
+        if (props === "image18") { 
             this.setState({
                 image19: {left:"58%", transition: '1s' },
                 image20: {left:"70%", transition: '1s' },
             }) 
         }
-        if (props == "image19") { 
+        if (props === "image19") { 
             this.setState({
                 image20: {left:"70%", transition: '1s' },
             }) 
@@ -148,7 +148,7 @@ class Worksheets_section extends React.Component {
 
 
     deHighlightImages(props){
-        if (props == "image01") { 
+        if (props === "image01") { 
             this.setState({
                 image02: {left:"22%", transition: '1s' },
                 image03: {left:"34%", transition: '1s' },
@@ -156,27 +156,27 @@ class Worksheets_section extends React.Component {
                 image05: {left:"58%", transition: '1s' },
             }) 
         }
-        if (props == "image02") { 
+        if (props === "image02") { 
             this.setState({
                 image03: {left:"34%", transition: '1s' },
                 image04: {left:"46%", transition: '1s' },
                 image05: {left:"58%", transition: '1s' },
             }) 
         }
-        if (props == "image03") { 
+        if (props === "image03") { 
             this.setState({
                 image04: {left:"46%", transition: '1s' },
                 image05: {left:"58%", transition: '1s' },
             }) 
         }
-        if (props == "image04") { 
+        if (props === "image04") { 
             this.setState({
                 image05: {left:"58%", transition: '1s' },
             }) 
         }
 
 
-        if (props == "image06") { 
+        if (props === "image06") { 
             this.setState({
                 image07: {left:"22%", transition: '1s' },
                 image08: {left:"34%", transition: '1s' },
@@ -184,27 +184,27 @@ class Worksheets_section extends React.Component {
                 image10: {left:"58%", transition: '1s' },
             }) 
         }
-        if (props == "image07") { 
+        if (props === "image07") { 
             this.setState({
                 image08: {left:"34%", transition: '1s' },
                 image09: {left:"46%", transition: '1s' },
                 image10: {left:"58%", transition: '1s' },
             }) 
         }
-        if (props == "image08") { 
+        if (props === "image08") { 
             this.setState({
                 image09: {left:"46%", transition: '1s' },
                 image10: {left:"58%", transition: '1s' },
             }) 
         }
-        if (props == "image09") { 
+        if (props === "image09") { 
             this.setState({
                 image10: {left:"58%", transition: '1s' },
             }) 
         }
 
 
-        if (props == "image11") { 
+        if (props === "image11") { 
             this.setState({
                 image12: {left:"22%", transition: '1s' },
                 image13: {left:"34%", transition: '1s' },
@@ -212,27 +212,27 @@ class Worksheets_section extends React.Component {
                 image15: {left:"58%", transition: '1s' },
             }) 
         }
-        if (props == "image12") { 
+        if (props === "image12") { 
             this.setState({
                 image13: {left:"34%", transition: '1s' },
                 image14: {left:"46%", transition: '1s' },
                 image15: {left:"58%", transition: '1s' },
             }) 
         }
-        if (props == "image13") { 
+        if (props === "image13") { 
             this.setState({
                 image14: {left:"46%", transition: '1s' },
                 image15: {left:"58%", transition: '1s' },
             }) 
         }
-        if (props == "image14") { 
+        if (props === "image14") { 
             this.setState({
                 image15: {left:"58%", transition: '1s' },
             }) 
         }
 
 
-        if (props == "image16") { 
+        if (props === "image16") { 
             this.setState({
                 image17: {left:"22%", transition: '1s' },
                 image18: {left:"34%", transition: '1s' },
@@ -240,20 +240,20 @@ class Worksheets_section extends React.Component {
                 image20: {left:"58%", transition: '1s' },
             }) 
         }
-        if (props == "image17") { 
+        if (props === "image17") { 
             this.setState({
                 image18: {left:"34%", transition: '1s' },
                 image19: {left:"46%", transition: '1s' },
                 image20: {left:"58%", transition: '1s' },
             }) 
         }
-        if (props == "image18") { 
+        if (props === "image18") { 
             this.setState({
                 image19: {left:"46%", transition: '1s' },
                 image20: {left:"58%", transition: '1s' },
             }) 
         }
-        if (props == "image19") { 
+        if (props === "image19") { 
             this.setState({
                 image20: {left:"58%", transition: '1s' },
             }) 
