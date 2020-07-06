@@ -21,11 +21,14 @@ class Main_background extends React.Component {
         console.log(window.innerHeight)
         window.addEventListener('scroll', this.listenScrollEvent)
         window.addEventListener('resize', this.reportWindowSize)
+
+        document.getElementById("standard_logo").style.display = "inherit";
+        document.getElementById("adjusted_logo").style.display = "none";
     }
     
 
     
-
+    
 
     render() {
         return (

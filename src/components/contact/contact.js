@@ -34,18 +34,10 @@ class Contact extends React.Component {
         };
     
     
-
+       
     
 
     render() {
-
-
-        
-
-        
-         
-        
-
 
         return (
             <div className="contact">
@@ -64,7 +56,7 @@ class Contact extends React.Component {
                         <Link to="/" style={{ textDecoration: 'none' }}>
                             <p>Home</p>
                         </Link>
-                        <Link to="/" style={{ textDecoration: 'none' }}>
+                        <Link to="/download_worksheets" style={{ textDecoration: 'none' }} >
                             <p>Get Worksheets</p>
                         </Link>
                         <Link to="/" style={{ textDecoration: 'none' }}>
@@ -107,3 +99,4 @@ class Contact extends React.Component {
 }
 
 export default Contact;
+

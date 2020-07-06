@@ -1,6 +1,12 @@
 import React from "react";
 
 class ToS extends React.Component {
+
+    componentDidMount() {
+        document.getElementById("standard_logo").style.display = "none";
+        document.getElementById("adjusted_logo").style.display = "inherit";
+    }
+
     render() {
         return (
             <div className="privacy">

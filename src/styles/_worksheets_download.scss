@@ -1,11 +1,11 @@
 .worksheets_for_download {
     overflow: hidden;
     width: 100%;
-    height: 1950px;
+    height: 2550px;
     background-color: #f9f9f9;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 250px 1700px;
+    grid-template-rows: 100%;
 
     &__title {
         width: 100%;
@@ -34,12 +34,49 @@
     }
 }
 
+
+.worksheets_section_title_container {
+text-align: center;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    justify-items: center;
+    
+
+    &_text_container {
+        height: 100%;
+        width: 680px;
+        grid-row: 1;
+        grid-column: 1;
+
+        display: grid;
+        align-content: center;
+        h1 {
+            margin: 0;
+            font-size: 30px;
+            font-weight: 500;
+            transform: translateY(-10px);
+        }
+        p {
+            margin: 0;
+            font-size: 20px;
+            transform: translateY(10px);
+        }
+    }
+} // worksheets_section_title_container 
+
+
+
+
 .worksheet_download_page_display_container {
     width: 100%;
-    height: 1700px;
+    height: 380px;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-rows: 380px 50px 380px 50px 380px 50px 380px 50px 380px 50px 380px;
 }
 
 .worksheet_download_page_group {
@@ -47,37 +84,8 @@
     height: 100%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 10% 80% 10%;
+    grid-template-rows: 10% 90%;
     border-radius: 10px;
-}
-
-.worksheet_download_page_container01 {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 10% 80% 10%;
-}
-.worksheet_download_page_container02 {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 10% 80% 10%;
-}
-.worksheet_download_page_container03 {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 10% 80% 10%;
-}
-.worksheet_download_page_container04 {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 10% 80% 10%;
 }
 
 .worksheet_download_page_container01__title {
@@ -90,23 +98,63 @@
         p {margin: 0;  font-weight: 500; transform: translateY(10px);}
 }
 
-#themes_container {
+#images_column {
     grid-row: 2;
     grid-column: 1;
 }
 
-#grammar_container {
-    grid-row: 2;
+
+
+#group1 {
+    grid-row: 1;
     grid-column: 1;
 }
-#crossword_container {
-    grid-row: 2;
+#group2 {
+    grid-row: 1;
+    grid-column: 2;
+}
+#group3 {
+    grid-row: 3;
     grid-column: 1;
 }
-#wordsearch_container {
-    grid-row: 2;
+#group4 {
+    grid-row: 3;
+    grid-column: 2;
+}
+#group5 {
+    grid-row: 5;
     grid-column: 1;
 }
+#group6 {
+    grid-row: 5;
+    grid-column: 2;
+}
+#group7 {
+    grid-row: 7;
+    grid-column: 1;
+}
+#group8 {
+    grid-row: 7;
+    grid-column: 2;
+}
+#group9 {
+    grid-row: 9;
+    grid-column: 1;
+}
+#group10 {
+    grid-row: 9;
+    grid-column: 2;
+}
+#group11 {
+    grid-row: 11;
+    grid-column: 1;
+}
+#group12 {
+    grid-row: 11;
+    grid-column: 2;
+}
+
+
 
 .worksheet_image01 {
     position: absolute;
@@ -142,6 +190,7 @@
 
 
 .download_email_button {
+    display: none;
     width: 116px;
     height: 40px;
     background-color: #00e07f;
@@ -155,34 +204,34 @@
     p {transform: translateY(10px); margin: 0;}
 }
 
-.worksheets_page_next_btn {
-    width: 80px;
-    height: 40px;
-    background-color: #7273ee;
-    position: absolute;
-    top: 1888px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    border-radius: 5px;
-    text-align: center;
-    font-weight: 600;
-    :hover {cursor: pointer;}
-    p {transform: translateY(-6px);}
-}
+
 
 
 
 @media only screen and (max-width: 1170px) {
-    .worksheets_for_download {height: 2150px;}  
+    .worksheets_for_download {height: 5750px;}  
     .worksheet_download_page_display_container {
         width: 100%;
-        height: 1900px;
+        height: 300px;
       
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 25% 25% 25% 25%;   
+        grid-template-rows: 430px 50px 430px 50px 430px 50px 430px 50px 430px 50px 430px 50px 430px 50px 430px 50px 430px 50px 430px 50px 430px 50px 430px ;  
     }
+
+    #group1 {grid-row: 1;grid-column: 1;}
+    #group2 {grid-row: 3;grid-column: 1;}
+    #group3 {grid-row: 5;grid-column: 1;}
+    #group4 {grid-row: 7;grid-column: 1;}
+    #group5 {grid-row: 9;grid-column: 1;}
+    #group6 {grid-row: 11;grid-column: 1;}
+    #group7 {grid-row: 13;grid-column: 1;}
+    #group8 {grid-row: 15;grid-column: 1;}
+    #group9 {grid-row: 17;grid-column: 1;}
+    #group10 {grid-row: 19;grid-column: 1;}
+    #group11 {grid-row: 21;grid-column: 1;}
+    #group12 {grid-row: 23;grid-column: 1;}
+   
     
     .worksheet_download_page_group {
         img {width: 225px;}   
@@ -190,8 +239,8 @@
 } // END OF MEDIA QUERY 1170px
 
 @media only screen and (max-width: 800px) {
-    .worksheets_for_download {height: 1900px;}  
-    .worksheet_download_page_display_container {height: 1650px;}
+    .worksheets_for_download {height: 4550px;}  
+    .worksheet_download_page_display_container {height: auto; grid-template-rows: 370px 10px 370px 10px 370px 10px 370px 10px 370px 10px 370px 10px 370px 10px 370px 10px 370px 10px 370px 10px 370px 10px 370px;}
     .worksheet_download_page_group {
         img {width: 170px;}   
     }  
@@ -208,11 +257,10 @@
 
 @media only screen and (max-width: 500px) {
     .worksheets_for_download {
-        height: 1580px;
+        height: 3620px;
     }
-    .worksheet_download_page_display_container {
-        height: 1313px;
-    }
+  
+    .worksheet_download_page_display_container {height: auto; grid-template-rows: 290px 10px 290px 10px 290px 10px 290px 10px 290px 10px 290px 10px 290px 10px 290px 10px 290px 10px 290px 10px 290px 10px 290px;}
    
     .worksheet_download_page_container01__title p {
         transform: translateY(21px);

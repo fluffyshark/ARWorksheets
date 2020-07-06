@@ -7,6 +7,7 @@ import Contact from "./components/contact/contact";
 import Privacy from "./components/privacy/privacy";
 import Download_Worksheets from "./components/worksheets/worksheets";
 
+
 import './styles/style.css';
 
 
@@ -16,7 +17,7 @@ function App() {
     <div className="App">
 
       <Router>
-        <Navbar />
+        <Navbar/>
        
         <Switch>
           <Route path="/" exact component={HomePage}/>
