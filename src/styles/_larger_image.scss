@@ -24,13 +24,39 @@
 
 .large_image_active {
     z-index: 11;
-    height: 90%;
+    height: 85%;
     position: absolute;
-    top: 50%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
  
+}
+.download_pdf_btn {
+    z-index: 11;
+    position: absolute;
+    top: 90.5%;
+    left: 50%;
+    width: 150px;
+    transform: translateX(-200px);
+    height: 40px;
+    border-radius: 5px;
+    background-color: #00e07f;
+    display: grid;
+    p {
+        color: white;
+        justify-self: center;
+        align-self: center;
+        margin: 0;}
+}
+.download_options_text {
+    z-index: 11;
+    position: absolute;
+    top: 89%;
+    left: 48%;
+    transform: translateX(0px);
+    font-size: 14px;
+    color: white;
 }
 
 

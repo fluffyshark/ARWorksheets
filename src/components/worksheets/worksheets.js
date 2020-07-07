@@ -580,7 +580,7 @@ class Download_Worksheets extends React.Component {
                         <div className="worksheet_download_page_title">
                             <p>Choose your Worksheets</p>
                         </div>
-                        <div className="worksheets_section__description">
+                        <div className="worksheet_download_page_title_description">
                             <p>Click on an image to enlarge, then choose to download as PDF or just save the image to your device.</p>
                         </div>
                         
@@ -592,6 +592,9 @@ class Download_Worksheets extends React.Component {
 
                     <div id="large_image_container" className="large_image_container_inactive" onClick={remove_large_image}>
                             <img id="large_image" className="large_image_inactive"  src={animals01} alt="large_image"/>
+                            <p className="download_options_text">Option 1: Download as PDF<br/>Option 2: Save image to your device
+                            </p>
+                            <div className="download_pdf_btn"><p>Download PDF</p></div>
                     </div>
                 
 
