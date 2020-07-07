@@ -577,7 +577,7 @@ class Download_Worksheets extends React.Component {
         return (
             <div className="worksheets_for_download_container">
                     <div className="worksheets_section_title_container">
-                        <div className="worksheets_section__title">
+                        <div className="worksheet_download_page_title">
                             <p>Choose your Worksheets</p>
                         </div>
                         <div className="worksheets_section__description">
