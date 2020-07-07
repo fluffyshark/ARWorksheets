@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import facebook_share from "./facebook-share.png";
 import twitter_share from "./twitter-share.png";
 import pinterest_share from "./pinterest-share.png";

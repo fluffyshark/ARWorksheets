@@ -1,14 +1,4 @@
 import React from "react";
-import worksheet01 from "./worksheet01.png";
-import worksheet02 from "./worksheet02.png";
-import worksheet03 from "./worksheet03.png";
-import worksheet04 from "./worksheet04.png";
-import worksheet05 from "./worksheet05.png";
-import marine01 from "./marine01.png";
-import marine02 from "./marine02.png";
-import marine03 from "./marine03.png";
-import marine04 from "./marine04.png";
-import marine05 from "./marine05.png";
 import wordpuzzle01 from "./wordpuzzle01.png";
 import wordpuzzle02 from "./wordpuzzle02.png";
 import wordpuzzle03 from "./wordpuzzle03.png";
@@ -18,6 +8,19 @@ import crossword01 from "./crossword01.png";
 import crossword02 from "./crossword02.png";
 import crossword03 from "./crossword03.png";
 import crossword04 from "./crossword04.png";
+
+import marine from "../worksheets/marine02.png"
+import sport from "../worksheets/sports02.png"
+import camping from "../worksheets/camping02.png"
+import space from "../worksheets/space02.png"
+import body from "../worksheets/body04.png"
+
+import grammar01 from "../worksheets/grammar01.png"
+import grammar02 from "../worksheets/grammar07.png"
+import grammar03 from "../worksheets/grammar03.png"
+import grammar04 from "../worksheets/grammar04.png"
+import grammar05 from "../worksheets/grammar05.png"
+import bodycrosswords from "../worksheets/body01.png"
 
 
 class Worksheets_section extends React.Component {
@@ -280,11 +283,11 @@ class Worksheets_section extends React.Component {
                             <p>Themes</p>
                         </div>
                         <div className="worksheet_container01__image" id="themes_container">
-                            <img className="image01" src={marine01} alt="" style={this.state.image01} onMouseLeave={() => this.deHighlightImages('image01')} onMouseEnter={() => this.highlightImages('image01')}/>
-                            <img className="image02" src={marine02} alt="" style={this.state.image02} onMouseLeave={() => this.deHighlightImages('image02')} onMouseEnter={() => this.highlightImages('image02')}/>
-                            <img className="image03" src={marine03} alt="" style={this.state.image03} onMouseLeave={() => this.deHighlightImages('image03')} onMouseEnter={() => this.highlightImages('image03')}/>
-                            <img className="image04" src={marine04} alt="" style={this.state.image04} onMouseLeave={() => this.deHighlightImages('image04')} onMouseEnter={() => this.highlightImages('image04')}/>
-                            <img className="image05" src={marine05} alt="" style={this.state.image05} onMouseLeave={() => this.deHighlightImages('image05')} onMouseEnter={() => this.highlightImages('image05')}/>
+                            <img className="image01" src={marine} alt="" style={this.state.image01} onMouseLeave={() => this.deHighlightImages('image01')} onMouseEnter={() => this.highlightImages('image01')}/>
+                            <img className="image02" src={sport} alt="" style={this.state.image02} onMouseLeave={() => this.deHighlightImages('image02')} onMouseEnter={() => this.highlightImages('image02')}/>
+                            <img className="image03" src={body} alt="" style={this.state.image03} onMouseLeave={() => this.deHighlightImages('image03')} onMouseEnter={() => this.highlightImages('image03')}/>
+                            <img className="image04" src={space} alt="" style={this.state.image04} onMouseLeave={() => this.deHighlightImages('image04')} onMouseEnter={() => this.highlightImages('image04')}/>
+                            <img className="image05" src={camping} alt="" style={this.state.image05} onMouseLeave={() => this.deHighlightImages('image05')} onMouseEnter={() => this.highlightImages('image05')}/>
                         </div>
                     </div>
 
@@ -293,11 +296,11 @@ class Worksheets_section extends React.Component {
                             <p>Grammar</p>
                         </div>
                         <div className="worksheet_container01__image" id="grammar_container">
-                            <img className="image01" src={worksheet01} alt="" style={this.state.image06} onMouseLeave={() => this.deHighlightImages('image06')} onMouseEnter={() => this.highlightImages('image06')}/>
-                            <img className="image02" src={worksheet02} alt="" style={this.state.image07} onMouseLeave={() => this.deHighlightImages('image07')} onMouseEnter={() => this.highlightImages('image07')}/>
-                            <img className="image03" src={worksheet03} alt="" style={this.state.image08} onMouseLeave={() => this.deHighlightImages('image08')} onMouseEnter={() => this.highlightImages('image08')}/>
-                            <img className="image04" src={worksheet04} alt="" style={this.state.image09} onMouseLeave={() => this.deHighlightImages('image09')} onMouseEnter={() => this.highlightImages('image09')}/>
-                            <img className="image05" src={worksheet05} alt="" style={this.state.image10} onMouseLeave={() => this.deHighlightImages('image10')} onMouseEnter={() => this.highlightImages('image10')}/>
+                            <img className="image01" src={grammar01} alt="" style={this.state.image06} onMouseLeave={() => this.deHighlightImages('image06')} onMouseEnter={() => this.highlightImages('image06')}/>
+                            <img className="image02" src={grammar02} alt="" style={this.state.image07} onMouseLeave={() => this.deHighlightImages('image07')} onMouseEnter={() => this.highlightImages('image07')}/>
+                            <img className="image03" src={grammar05} alt="" style={this.state.image08} onMouseLeave={() => this.deHighlightImages('image08')} onMouseEnter={() => this.highlightImages('image08')}/>
+                            <img className="image04" src={grammar04} alt="" style={this.state.image09} onMouseLeave={() => this.deHighlightImages('image09')} onMouseEnter={() => this.highlightImages('image09')}/>
+                            <img className="image05" src={grammar03} alt="" style={this.state.image10} onMouseLeave={() => this.deHighlightImages('image10')} onMouseEnter={() => this.highlightImages('image10')}/>
                         </div>
                     </div>
 
@@ -306,11 +309,11 @@ class Worksheets_section extends React.Component {
                             <p>Crosswords</p>
                         </div>
                         <div className="worksheet_container01__image" id="crossword_container">
-                            <img className="image01" src={crossword01} alt="" style={this.state.image11} onMouseLeave={() => this.deHighlightImages('image11')} onMouseEnter={() => this.highlightImages('image11')}/>
+                            <img className="image01" src={bodycrosswords} alt="" style={this.state.image11} onMouseLeave={() => this.deHighlightImages('image11')} onMouseEnter={() => this.highlightImages('image11')}/>
                             <img className="image02" src={crossword02} alt="" style={this.state.image12} onMouseLeave={() => this.deHighlightImages('image12')} onMouseEnter={() => this.highlightImages('image12')}/>
                             <img className="image03" src={crossword03} alt="" style={this.state.image13} onMouseLeave={() => this.deHighlightImages('image13')} onMouseEnter={() => this.highlightImages('image13')}/>
                             <img className="image04" src={crossword04} alt="" style={this.state.image14} onMouseLeave={() => this.deHighlightImages('image14')} onMouseEnter={() => this.highlightImages('image14')}/>
-                            <img className="image05" src={worksheet05} alt="" style={this.state.image15} onMouseLeave={() => this.deHighlightImages('image15')} onMouseEnter={() => this.highlightImages('image15')}/>
+                            <img className="image05" src={crossword01} alt="" style={this.state.image15} onMouseLeave={() => this.deHighlightImages('image15')} onMouseEnter={() => this.highlightImages('image15')}/>
                         </div>
                     </div>
 

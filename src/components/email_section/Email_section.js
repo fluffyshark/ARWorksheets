@@ -5,7 +5,7 @@ class Email_section extends React.Component {
         return (
             <div className="email_section">
                 <div className="email_section__title">
-                    <p>Where should we send the worksheets?</p>
+                    <p>Be the first to know when new things happens.</p>
                 </div>
                 <div className="email_field_container">
                     <input className="email_field_container__field" type="email" id="email" name="email" placeholder="Enter your email address" />

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 import iPad_product from "./iPad_product.png"
 import download_icon from "./download_icon.png";
