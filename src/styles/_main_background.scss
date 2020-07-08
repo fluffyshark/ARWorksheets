@@ -387,6 +387,26 @@
       
 }
 
+@media only screen and (max-width: 500px) {
+    #feature_box_3 {display: none;}
+    #feature_box_1 {transform: translate(-91px, 0px);}
+    #feature_box_2 {transform: translate(92px, 0px);}
+    .downlad_from_app_store {transform: translate(87px, 10px);}
+    .downlad_worksheet_btn {transform: translate(-81px, 10px);}
+}
+
+@media only screen and (max-width: 450px) {
+    .background {height: 1015px;}
+    .iPad_image {width: 325px;}
+    .main_title {font-size: 33px;transform: translateY(20px);}
+    .main_text {width: 325px;transform: translateY(24px);}
+    .downlad_worksheet_btn {transform: translate(-81px, -30px);}
+    .downlad_from_app_store {transform: translate(87px, -30px);}
+    #feature_box_1 {transform: translate(-91px, -19px);}
+    #feature_box_2 {transform: translate(92px, -19px);}
+    
+}
+
 
 
 

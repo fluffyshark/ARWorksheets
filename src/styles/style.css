@@ -552,6 +552,63 @@ body {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  #feature_box_3 {
+    display: none;
+  }
+  #feature_box_1 {
+    -webkit-transform: translate(-91px, 0px);
+            transform: translate(-91px, 0px);
+  }
+  #feature_box_2 {
+    -webkit-transform: translate(92px, 0px);
+            transform: translate(92px, 0px);
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(87px, 10px);
+            transform: translate(87px, 10px);
+  }
+  .downlad_worksheet_btn {
+    -webkit-transform: translate(-81px, 10px);
+            transform: translate(-81px, 10px);
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .background {
+    height: 1015px;
+  }
+  .iPad_image {
+    width: 325px;
+  }
+  .main_title {
+    font-size: 33px;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  .main_text {
+    width: 325px;
+    -webkit-transform: translateY(24px);
+            transform: translateY(24px);
+  }
+  .downlad_worksheet_btn {
+    -webkit-transform: translate(-81px, -30px);
+            transform: translate(-81px, -30px);
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(87px, -30px);
+            transform: translate(87px, -30px);
+  }
+  #feature_box_1 {
+    -webkit-transform: translate(-91px, -19px);
+            transform: translate(-91px, -19px);
+  }
+  #feature_box_2 {
+    -webkit-transform: translate(92px, -19px);
+            transform: translate(92px, -19px);
+  }
+}
+
 .navbar {
   width: 100%;
   height: 70px;
@@ -933,6 +990,15 @@ body {
   }
   .worksheet_container01 img {
     width: 140px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .worksheets_section__description p {
+    font-size: 17px;
+    width: 318px;
+    -webkit-transform: translate(68px, 140px);
+            transform: translate(68px, 140px);
   }
 }
 
@@ -1700,6 +1766,25 @@ body {
   grid-column: 2;
 }
 
+@media only screen and (max-width: 500px) {
+  .privacy h1 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .privacy h1 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .privacy h1 {
+    -webkit-transform: translateY(-21px);
+            transform: translateY(-21px);
+  }
+}
+
 #body {
   overflow: visible;
 }
@@ -2296,7 +2381,7 @@ body {
 
 @media only screen and (max-width: 350px) {
   .worksheets_for_download_container {
-    width: 110vw;
+    width: 100vw;
   }
   .worksheet_download_page_title p {
     font-size: 25px;
@@ -2304,8 +2389,9 @@ body {
             transform: translateY(70px);
   }
   .worksheet_download_page_title_description p {
-    -webkit-transform: translate(205px, 140px);
-            transform: translate(205px, 140px);
+    -webkit-transform: translate(205px, 159px);
+            transform: translate(205px, 159px);
+    font-size: 13px;
   }
   .large_image_container_active {
     width: 110vw;
@@ -2340,6 +2426,9 @@ body {
     font-size: 18px;
     -webkit-transform: translateY(4px);
             transform: translateY(4px);
+  }
+  .contact .contact_first_section .contact_info {
+    width: 285px;
   }
 }
 /*# sourceMappingURL=style.css.map */
