@@ -67,3 +67,40 @@
     }
 
 } // END OF MEDIA QUERY 600px
+
+@media only screen and (max-width:550px) {
+    .download_pdf_btn {top: 87%;}
+    .download_options_text {top: 85.5%;}
+} // END OF MEDIA QUERY 550px
+
+@media only screen and (max-width:500px) {
+    .download_pdf_btn {top: 83%;}
+    .download_options_text {top: 81.5%;}
+} // END OF MEDIA QUERY 500px
+
+@media only screen and (max-width:450px) {
+    .download_pdf_btn {top: 81%;width: 127px;left: 54%;}
+    .download_options_text {top: 79.5%;left: 40%;}
+} // END OF MEDIA QUERY 450px
+
+@media only screen and (max-width:400px) {
+    .download_pdf_btn {top: 77%;width: 100px;left: 60%;font-size: 13px;}
+    .download_options_text {top: 76.3%;left: 37%;font-size: 11px;}
+} // END OF MEDIA QUERY 450px
+
+@media only screen and (max-width:350px) {
+    .download_pdf_btn {top: 72%;width: 90px;left: 67%;font-size: 11px;}
+    .download_options_text {top: 71.3%;left: 37%;font-size: 11px;}
+} // END OF MEDIA QUERY 350px
+
+@media only screen and (max-width:300px) {
+    .download_pdf_btn {top: 74%;width: 90px;left: 100%;font-size: 11px;}
+    .download_options_text {top: 67.3%;left: 19%;font-size: 11px;}
+} // END OF MEDIA QUERY 300px
+
+// iPhone X Portrait Safari
+@media only screen and (max-width: 390px) and (min-width: 350px) and (max-height: 650px) and (min-height: 620px) {
+    .download_options_text {top: 79.8%;left: 37%;font-size: 12px;}
+    .download_pdf_btn {top: 81%;width: 90px;left: 62%;font-size: 11px;}
+    .large_image_container_active {width: 111vw;height: 111vh;}
+}
