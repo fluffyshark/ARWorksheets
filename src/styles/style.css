@@ -1431,11 +1431,12 @@ body {
 @media only screen and (max-width: 350px) and (max-height: 733px) {
   .background {
     height: 682px;
-    width: 110.5%;
+    width: 100%;
     overflow: visible;
   }
   .main_title {
-    width: 350px;
+    width: 99%;
+    font-size: 32px;
     -webkit-transform: translateY(36px);
             transform: translateY(36px);
   }
@@ -1481,14 +1482,14 @@ body {
   }
   .extension {
     height: 245px;
-    width: 110.5%;
+    width: 100%;
     display: block;
   }
   .email_section {
-    width: 110.5%;
+    width: 100%;
   }
   .worksheets_section {
-    width: 110.5%;
+    width: 100%;
   }
   .worksheets_section__title p {
     -webkit-transform: translateY(23px);
@@ -1505,7 +1506,7 @@ body {
             transform: translate(-17px, -89px);
   }
   .contact {
-    width: 110.5%;
+    width: 100%;
   }
   .contact .contact_last_section .pinterest-img {
     margin-left: 22px;
@@ -1942,21 +1943,21 @@ body {
   }
 }
 
-@media only screen and (max-width: 390px) and (min-width: 350px) and (max-height: 650px) and (min-height: 620px) {
+@media only screen and (max-width: 390px) and (min-width: 350px) and (max-height: 650px) and (min-height: 600px) {
   .download_options_text {
-    top: 79.8%;
+    top: 83.8%;
     left: 37%;
     font-size: 12px;
   }
   .download_pdf_btn {
-    top: 81%;
+    top: 85%;
     width: 90px;
     left: 62%;
     font-size: 11px;
   }
   .large_image_container_active {
-    width: 111vw;
-    height: 111vh;
+    width: 100vw;
+    height: 100vh;
   }
 }
 

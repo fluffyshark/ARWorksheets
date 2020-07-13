@@ -65,8 +65,8 @@
 }
 // MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
 @media only screen and (max-width: 350px) and (max-height: 733px) {
-    .background {height: 682px; width: 110.5%; overflow: visible;}
-    .main_title {width: 350px; transform: translateY(36px);}
+    .background {height: 682px; width: 100%; overflow: visible;}
+    .main_title {width: 99%; font-size: 32px; transform: translateY(36px);}
     .iPad_image {transform: translateY(100px);}
     .main_text {transform: translateY(10px);}
     .downlad_worksheet_btn {transform: translate(-90px, 180px);}
@@ -75,13 +75,13 @@
     #feature_box_1 {width: 120px; height: 120px; transform: translate(-84px, 210px); img {width: 65px;}}
     #feature_box_2 {width: 120px; height: 120px; transform: translate(62px, 210px); img {width: 48px;}}
     .feature_box p {font-size: 11px;}
-    .extension {height: 245px; width: 110.5%; display: block;}
-    .email_section {width: 110.5%;}
-    .worksheets_section {width: 110.5%;}
+    .extension {height: 245px; width: 100%; display: block;}
+    .email_section {width: 100%;}
+    .worksheets_section {width: 100%;}
     .worksheets_section__title p {transform: translateY(23px);}
     .worksheets_section__description p {font-size: 14px; width: 331px; transform: translate(60px, 118px);}
     .worksheet_container01 img {transform: translate(-17px, -89px);}
-    .contact {width: 110.5%; .contact_last_section {.pinterest-img {margin-left: 22px;}}}
+    .contact {width: 100%; .contact_last_section {.pinterest-img {margin-left: 22px;}}}
 }
 
 
