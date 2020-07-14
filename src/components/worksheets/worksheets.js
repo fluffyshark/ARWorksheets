@@ -85,6 +85,9 @@ var largeImageArray = [
     space01, space02, space03, space04, space05,
     foods01, foods02, foods03, foods04, foods05,
     hospital01, hospital02, hospital03, hospital04, hospital05,
+    body01,body02,body03,body04,body05,
+    mystic01,mystic02,mystic03,mystic04,mystic05,
+    sports01,sports02,sports03,sports04,sports05,
 ]
 
 class Download_Worksheets extends React.Component {
@@ -858,7 +861,53 @@ function larger_image(imageNr) {
             case "13": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Animals/Animals+-+Test+your+Knowledge+More.png"; break;
             case "14": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Animals/Animals+-+Match+The+Description.png"; break;
             case "15": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Animals/Animals+-+Crossword+Puzzle.png"; break;
-              break;
+            case "16": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Farming/Farming+-+Fill+in+The+Blanks.png"; break;
+            case "17": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Farming/Farming+-+Match+The+description.png"; break;
+            case "18": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Farming/Farming+-+Match+the+Words.png"; break;
+            case "19": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Farming/Farming+-+Test+your+Knowledge.pdf.png"; break;
+            case "20": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Farming/Farming+-+Word+Puzzle.pdf.png"; break;
+            case "21": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Marine+Life/Marine+Life+-+Word+Puzzle.png"; break;
+            case "22": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Marine+Life/Marine+Life+-+Test+your+Knowledge.png"; break;
+            case "23": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Marine+Life/Marine+Life+-+Read+and+Understand.png"; break;
+            case "24": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Marine+Life/Marine+Life+-+Match+the+Words.png"; break;
+            case "25": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Marine+Life/Marine+Life+-+Crossword+Puzzle.png"; break;
+            case "26": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Wildlife+Camping/Wildlife+Camping+-+Word+Search+Puzzle.png"; break;
+            case "27": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Wildlife+Camping/Wildlife+Camping+-+Match+the+Description.png"; break;
+            case "28": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Wildlife+Camping/Wildlife+Camping+-+Read+and+Understand.png"; break;
+            case "29": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Wildlife+Camping/Wildlife+Camping+-+Match+the+Words.png"; break;
+            case "30": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Wildlife+Camping/Wildlife+Camping+-+Test+your+Knowledge.png"; break;
+            case "31": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Space/Space+-+Word+Search+Puzzle.png"; break;
+            case "32": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Space/Space+-+Test+your+Knowledge.png"; break;
+            case "33": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Space/Space+-+Read+and+Understand.png"; break;
+            case "34": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Space/Space+-+Match+the+Words.png"; break;
+            case "35": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Space/Space+-+Crossword+Puzzle.png"; break;
+            case "36": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Foods/Foods+-+Word+Search+Puzzle02.png"; break;
+            case "37": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Foods/Foods+-+Word+Search+Puzzle01.png"; break;
+            case "38": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Foods/Foods+-+Test+your+Knowledge.png"; break;
+            case "39": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Foods/Foods+-+Match+the+Words.png"; break;
+            case "40": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Foods/Foods+-+Crossword+Puzzle.png"; break;
+            case "41": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Hospital/Hospital+-+Crossword+Puzzle.png"; break;
+            case "42": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Hospital/Hospital+-+Match+the+Description.png"; break;
+            case "43": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Hospital/Hospital+-+Match+the+Words.png"; break;
+            case "44": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Hospital/Hospital+-+Test+your+Knowledge.png"; break;
+            case "45": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Hospital/Hospital+-+Word+Search+Puzzle.png"; break;
+            case "46": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/The+Body/The+Body+-+Crossword+Puzzle.png"; break;
+            case "47": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/The+Body/The+Body+-+Fill+in+The+Blanks.png"; break;
+            case "48": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/The+Body/The+Body+-+Word+Puzzle.png"; break;
+            case "49": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/The+Body/The+Body+-+Test+your+Knowledge.png"; break;
+            case "50": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/The+Body/The+Body+-+Match+the+Parts.png"; break;
+            case "51": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Mystic+Creatures/Mystic+Creatures+-+Word+Search+Puzzle+02.png"; break;
+            case "52": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Mystic+Creatures/Mystic+Creatures+-+Match+the+Words.png"; break;
+            case "53": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Mystic+Creatures/Mystic+Creatures+-+Crossword+Puzzle.png"; break;
+            case "54": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Mystic+Creatures/Mystic+Creatures+-+Word+Seach+Puzzle.png"; break;
+            case "55": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Mystic+Creatures/Mystic+Creatures+-+Match+the+Description.png"; break;
+            case "56": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Sports/Sports+-+Crossword+Puzzle.png"; break;
+            case "57": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Sports/Sports+-+Match+the+Words.png"; break;
+            case "58": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Sports/Sports+-+Test+your+Knowledge.png"; break;
+            case "59": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Sports/Sports+-+Word+Search+Puzzle.png"; break;
+            case "60": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Sports/Sports+-+Test+your+Knowledge+02.png"; break;
+
+            break;
             default:
                 console.log("no value match")
           }
@@ -882,7 +931,53 @@ function download() {
         case "13": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Animals/Animals+-+Test+your+Knowledge+More.pdf"); break;
         case "14": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Animals/Animals+-+Match+The+Description.pdf"); break;
         case "15": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Animals/Animals+-+Crossword+puzzle.pdf"); break;
-          break;
+        case "16": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Farming/Farming+-+Fill+in+The+Blanks.pdf"); break;
+        case "17": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Farming/Farming+-+Match+The+description.pdf"); break;
+        case "18": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Farming/Farming+-+Match+the+Words.pdf"); break;
+        case "19": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Farming/Farming+-+Test+your+Knowledge.pdf"); break;
+        case "20": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Farming/Farming+-+Word+Puzzle.pdf"); break;
+        case "21": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Marine+Life/Marine+Life+-+Word+Puzzle.pdf"); break;
+        case "22": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Marine+Life/Marine+Life+-+Test+your+Knowledge.pdf"); break;
+        case "23": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Marine+Life/Marine+Life+-+Read+and+Understand.pdf"); break;
+        case "24": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Marine+Life/Marine+Life+-+Match+the+Words.pdf"); break;
+        case "25": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Marine+Life/Marine+Life+-+Crossword+Puzzle.pdf"); break;
+        case "26": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Wildlife+Camping/Wildlife+Camping+-+Word+Search+Puzzle.pdf"); break;
+        case "27": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Wildlife+Camping/Wildlife+Camping+-+Match+the+Description.pdf"); break;
+        case "28": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Wildlife+Camping/Wildlife+Camping+-+Read+and+Understand.pdf"); break;
+        case "29": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Wildlife+Camping/Wildlife+Camping+-+Match+the+Words.pdf"); break;
+        case "30": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Wildlife+Camping/Wildlife+Camping+-+Test+your+Knowledge.pdf"); break;
+        case "31": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Space/Space+-+Word+Search+Puzzle.pdf"); break;
+        case "32": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Space/Space+-+Test+your+Knowledge.pdf"); break;
+        case "33": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Space/Space+-+Read+and+Understand.pdf"); break;
+        case "34": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Space/Space+-+Match+the+Words.pdf"); break;
+        case "35": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Space/Space+-+Crossword+Puzzle.pdf"); break;
+        case "36": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Foods/Foods+-+Word+Search+Puzzle02.pdf"); break;
+        case "37": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Foods/Foods+-+Word+Search+Puzzle01.pdf"); break;
+        case "38": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Foods/Foods+-+Test+your+Knowledge.pdf"); break;
+        case "39": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Foods/Foods+-+Match+the+Words.pdf"); break;
+        case "40": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Foods/Foods+-+Crossword+Puzzle.pdf"); break;
+        case "41": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Hospital/Hospital+-+Crossword+Puzzle.pdf"); break;
+        case "42": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Hospital/Hospital+-+Match+the+Description.pdf"); break;
+        case "43": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Hospital/Hospital+-+Match+the+Words.pdf"); break;
+        case "44": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Hospital/Hospital+-+Test+your+Knowledge.pdf"); break;
+        case "45": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Hospital/Hospital+-+Word+Search+Puzzle.pdf"); break;
+        case "46": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/The+Body/The+Body+-+Crossword+Puzzle.pdf"); break;
+        case "47": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/The+Body/The+Body+-+Fill+in+The+Blanks.pdf"); break;
+        case "48": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/The+Body/The+Body+-+Word+Puzzle.pdf"); break;
+        case "49": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/The+Body/The+Body+-+Test+your+Knowledge.pdf"); break;
+        case "50": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/The+Body/The+Body+-+Match+the+Parts.pdf"); break;
+        case "51": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Mystic+Creatures/Mystic+Creatures+-+Word+Search+Puzzle+02.pdf"); break;
+        case "52": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Mystic+Creatures/Mystic+Creatures+-+Match+the+Words.pdf"); break;
+        case "53": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Mystic+Creatures/Mystic+Creatures+-+Crossword+Puzzle.pdf"); break;
+        case "54": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Mystic+Creatures/Mystic+Creatures+-+Word+Seach+Puzzle.pdf"); break;
+        case "55": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Mystic+Creatures/Mystic+Creatures+-+Match+the+Description.pdf"); break;
+        case "56": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Sports/Sports+-+Crossword+Puzzle.pdf"); break;
+        case "57": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Sports/Sports+-+Match+the+Words.pdf"); break;
+        case "58": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Sports/Sports+-+Test+your+Knowledge.pdf"); break;
+        case "59": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Sports/Sports+-+Word+Search+Puzzle.pdf"); break;
+        case "60": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Sports/Sports+-+Test+your+Knowledge+02.pdf"); break;
+
+         break;
         default:
             console.log("no value match")
       }
