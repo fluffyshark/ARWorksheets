@@ -72,8 +72,7 @@ import sports03 from "./sports03.png";
 import sports04 from "./sports04.png";
 import sports05 from "./sports05.png";
 
-
-
+var large_image_selected = 0
 
 var alreadyAddedArray = ["false","false", "false", "false", "false", "false", "false", "false", "false", "false", "false",]
 var largeImageArray = [
@@ -594,7 +593,7 @@ class Download_Worksheets extends React.Component {
                             <img id="large_image" className="large_image_inactive"  src={animals01} alt="large_image"/>
                             <p className="download_options_text">Option 1: Download as PDF<br/>Option 2: Save image to your device
                             </p>
-                            <div className="download_pdf_btn"><p>Download PDF</p></div>
+                            <div className="download_pdf_btn" onClick={() => download()}><p>Download PDF</p></div>
                     </div>
                 
 
@@ -806,16 +805,8 @@ function remove_large_image() {
     
 }
 
-function larger_image(imageNr) {
-    console.log(window.scrollY)
-    document.getElementById("large_image_container").className = "large_image_container_active"
-    document.getElementById("large_image_container").style.top = `${window.scrollY}px`
-    document.getElementById("large_image").className = "large_image_active"
-    document.getElementById("body").style.overflow = "hidden"
-  //  document.getElementById("large_image").src = largeImageArray[imageNr]
-    document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/animals_crosswords.png"
-    
-}
+
+
 
 function add_to_email(groupNr) {
     let whichGroup = `group${groupNr}`
@@ -840,8 +831,61 @@ function add_to_email(groupNr) {
     }
 }
 
+
+
+function larger_image(imageNr) {
+    large_image_selected = imageNr
+    console.log(large_image_selected)
+    document.getElementById("large_image_container").className = "large_image_container_active"
+    document.getElementById("large_image_container").style.top = `${window.scrollY}px`
+    document.getElementById("large_image").className = "large_image_active"
+    document.getElementById("body").style.overflow = "hidden"
+  //  document.getElementById("large_image").src = largeImageArray[imageNr]
+    
+        switch(large_image_selected) {
+            case "1": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Grammar+01/Grammar+-+Have+Has.png"; break;
+            case "2": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Grammar+01/Grammar+-+There+Is+Are.png"; break;
+            case "3": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Grammar+01/Grammar+-+Is+Are+02.png"; break;
+            case "4": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Grammar+01/Grammar+-+In+At+On.png"; break;
+            case "5": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Grammar+01/Grammar+-+Was+Were+01.png"; break;
+            case "6": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Grammar+01/Grammar+-+A+An.png"; break;
+            case "7": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Grammar+01/Grammar+-+Formulate+Sentences.png"; break;
+            case "8": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Grammar+01/Grammar+-+do%2C+don't%2C+does%2C+doesn't%2C+did%2C+didn't.png"; break;
+            case "9": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Grammar+01/Grammar+-+Do+Does.png"; break;
+            case "10": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Grammar+01/Grammar+-+Have+Has+02.png"; break;
+            case "11": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Animals/Animals+-+Word+Puzzle.png"; break; 
+            case "12": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Animals/Animals+-+Test+your+Knowledge.png"; break;
+            case "13": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Animals/Animals+-+Test+your+Knowledge+More.png"; break;
+            case "14": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Animals/Animals+-+Match+The+Description.png"; break;
+            case "15": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Animals/Animals+-+Crossword+Puzzle.png"; break;
+              break;
+            default:
+                console.log("no value match")
+          }
+}
+
 function download() {
-    console.log("download")
-    window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Animals+-+Crossword+puzzle_compressed.pdf");
+    
+    switch(large_image_selected) {
+        case "1": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Grammar+01/Grammar+-+Have+Has.pdf"); break;
+        case "2": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Grammar+01/Grammar+-+There+Is+Are.pdf"); break;
+        case "3": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Grammar+01/Grammar+-+Is+Are+02.pdf"); break;
+        case "4": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Grammar+01/Grammar+-+In+At+On.pdf"); break;
+        case "5": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Grammar+01/Grammar+-+Was+Were+01.pdf"); break;
+        case "6": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Grammar+01/Grammar+-+A+An.pdf"); break;
+        case "7": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Grammar+01/Grammar+-+Formulate+Sentences.pdf"); break;
+        case "8": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Grammar+01/Grammar+-+do%2C+don't%2C+does%2C+doesn't%2C+did%2C+didn't.pdf"); break;
+        case "9": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Grammar+01/Grammar+-+Do+Does.pdf"); break;
+        case "10": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Grammar+01/Grammar+-+Have+Has+02.pdf"); break;
+        case "11": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Animals/Animals+-+Word+Puzzle.pdf"); break;
+        case "12": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Animals/Animals+-+Test+your+Knowledge.pdf"); break;
+        case "13": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Animals/Animals+-+Test+your+Knowledge+More.pdf"); break;
+        case "14": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Animals/Animals+-+Match+The+Description.pdf"); break;
+        case "15": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Animals/Animals+-+Crossword+puzzle.pdf"); break;
+          break;
+        default:
+            console.log("no value match")
+      }
+
 }
 
