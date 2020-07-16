@@ -72,6 +72,18 @@ import sports03 from "./sports03.png";
 import sports04 from "./sports04.png";
 import sports05 from "./sports05.png";
 
+import clothing01 from "./clothing01.png";
+import clothing02 from "./clothing02.png";
+import clothing03 from "./clothing03.png";
+import clothing04 from "./clothing04.png";
+import clothing05 from "./clothing05.png";
+
+import grammar3_01 from "./grammar3_01.png";
+import grammar3_02 from "./grammar3_02.png";
+import grammar3_03 from "./grammar3_03.png";
+import grammar3_04 from "./grammar3_04.png";
+import grammar3_05 from "./grammar3_05.png";
+
 var large_image_selected = 0
 
 var alreadyAddedArray = ["false","false", "false", "false", "false", "false", "false", "false", "false", "false", "false",]
@@ -88,6 +100,8 @@ var largeImageArray = [
     body01,body02,body03,body04,body05,
     mystic01,mystic02,mystic03,mystic04,mystic05,
     sports01,sports02,sports03,sports04,sports05,
+    clothing01,clothing02,clothing03,clothing04,clothing05,
+    grammar3_01,grammar3_02,grammar3_03,grammar3_04,grammar3_05
 ]
 
 class Download_Worksheets extends React.Component {
@@ -785,6 +799,34 @@ class Download_Worksheets extends React.Component {
                         <div id="group12_btn" className="download_email_button" onClick={() => add_to_email("12")}><p>Add to email</p></div>
                     </div>
 
+                    <div className="worksheet_download_page_group" id="group13" >
+                        <div className="worksheet_download_page_container01__title">
+                            <p>Clothing Theme</p>
+                        </div>
+                        <div className="worksheet_container01__image" id="images_column">
+                            <img className="worksheet_image01" src={clothing01} alt="" style={this.state.image21} onClick={() => larger_image("61")} onMouseLeave={() => this.deHighlightImages('image21')} onMouseEnter={() => this.highlightImages('image21')}/>
+                            <img className="worksheet_image02" src={clothing02} alt="" style={this.state.image22} onClick={() => larger_image("62")} onMouseLeave={() => this.deHighlightImages('image22')} onMouseEnter={() => this.highlightImages('image22')}/>
+                            <img className="worksheet_image03" src={clothing03} alt="" style={this.state.image23} onClick={() => larger_image("63")} onMouseLeave={() => this.deHighlightImages('image23')} onMouseEnter={() => this.highlightImages('image23')}/>
+                            <img className="worksheet_image04" src={clothing04} alt="" style={this.state.image24} onClick={() => larger_image("64")} onMouseLeave={() => this.deHighlightImages('image24')} onMouseEnter={() => this.highlightImages('image24')}/>
+                            <img className="worksheet_image05" src={clothing05} alt="" style={this.state.image25} onClick={() => larger_image("65")} onMouseLeave={() => this.deHighlightImages('image25')} onMouseEnter={() => this.highlightImages('image25')}/>
+                        </div>
+                        <div id="group11_btn" className="download_email_button" onClick={() => add_to_email("11")}><p>Add to email</p></div>
+                    </div>
+
+                    <div className="worksheet_download_page_group" id="group14" >
+                        <div className="worksheet_download_page_container01__title">
+                            <p>Grammar</p>
+                        </div>
+                        <div className="worksheet_container01__image" id="images_column">
+                            <img className="worksheet_image01" src={grammar3_01} alt="" style={this.state.image26} onClick={() => larger_image("66")} onMouseLeave={() => this.deHighlightImages('image26')} onMouseEnter={() => this.highlightImages('image26')}/>
+                            <img className="worksheet_image02" src={grammar3_02} alt="" style={this.state.image27} onClick={() => larger_image("67")} onMouseLeave={() => this.deHighlightImages('image27')} onMouseEnter={() => this.highlightImages('image27')}/>
+                            <img className="worksheet_image03" src={grammar3_03} alt="" style={this.state.image28} onClick={() => larger_image("68")} onMouseLeave={() => this.deHighlightImages('image28')} onMouseEnter={() => this.highlightImages('image28')}/>
+                            <img className="worksheet_image04" src={grammar3_04} alt="" style={this.state.image29} onClick={() => larger_image("69")} onMouseLeave={() => this.deHighlightImages('image29')} onMouseEnter={() => this.highlightImages('image29')}/>
+                            <img className="worksheet_image05" src={grammar3_05} alt="" style={this.state.image30} onClick={() => larger_image("70")} onMouseLeave={() => this.deHighlightImages('image30')} onMouseEnter={() => this.highlightImages('image30')}/>
+                        </div>
+                        <div id="group12_btn" className="download_email_button" onClick={() => add_to_email("12")}><p>Add to email</p></div>
+                    </div>
+
 
                     
                 </div>
@@ -906,6 +948,17 @@ function larger_image(imageNr) {
             case "58": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Sports/Sports+-+Test+your+Knowledge.png"; break;
             case "59": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Sports/Sports+-+Word+Search+Puzzle.png"; break;
             case "60": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Sports/Sports+-+Test+your+Knowledge+02.png"; break;
+            case "61": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Clothing/Clothing+-+Crossword+puzzle.png"; break;
+            case "62": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Clothing/Clothing+-+Fill+in+the+blanks.png"; break;
+            case "63": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Clothing/Clothing+-+Test+your+knowledge.png"; break;
+            case "64": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Clothing/Clothing+-+Word+puzzle.png"; break;
+            case "65": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Clothing/Clothing+Accessories++-+Test+your+knowledge.png"; break;
+            case "66": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Grammar+03/Grammar+-+Apostrophe%2C+genitive%2C+possessive.png"; break;
+            case "67": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Grammar+03/Grammar+-+Formulate+sentences2.png"; break;
+            case "68": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Grammar+03/Grammar+-+Gerund+after+prepositions.png"; break;
+            case "69": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Grammar+03/Grammar+-+Singular+or+plural.png"; break;
+            case "70": document.getElementById("large_image").src = "https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+Large+Images/Grammar+03/Grammar+-+who+which+whose.png"; break;
+
 
             break;
             default:
@@ -976,6 +1029,16 @@ function download() {
         case "58": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Sports/Sports+-+Test+your+Knowledge.pdf"); break;
         case "59": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Sports/Sports+-+Word+Search+Puzzle.pdf"); break;
         case "60": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Sports/Sports+-+Test+your+Knowledge+02.pdf"); break;
+        case "61": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Clothing/Clothing+-+Crossword+puzzle.pdf"); break;
+        case "62": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Clothing/Clothing+-+Fill+in+the+blanks.pdf"); break;
+        case "63": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Clothing/Clothing+-+Test+your+knowledge.pdf"); break;
+        case "64": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Clothing/Clothing+-+Word+puzzle.pdf"); break;
+        case "65": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Clothing/Clothing+Accessories++-+Test+your+knowledge.pdf"); break;
+        case "66": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Grammar+03/Grammar+-+Apostrophe%2C+genitive%2C+possessive.pdf"); break;
+        case "67": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Grammar+03/Grammar+-+Formulate+sentences2.pdf"); break;
+        case "68": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Grammar+03/Grammar+-+Gerund+after+prepositions.pdf"); break;
+        case "69": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Grammar+03/Grammar+-+Singular+or+plural.pdf"); break;
+        case "70": window.open("https://worksheetspdf.s3.eu-north-1.amazonaws.com/Worksheets+PDFs/Grammar+03/Grammar+-+who+which+whose.pdf"); break;
 
          break;
         default:
