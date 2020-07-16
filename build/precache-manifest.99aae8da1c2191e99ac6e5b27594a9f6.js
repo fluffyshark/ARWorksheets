@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e334c127487794e5db1adf420a04d44",
+    "revision": "b89dfd42d939ecdbd973d11aadef1c6d",
     "url": "/index.html"
   },
   {
-    "revision": "770959c2bad07cdda586",
-    "url": "/static/css/main.9a7ee698.chunk.css"
+    "revision": "9286e28f5eaeede3cecc",
+    "url": "/static/css/main.3eb474d0.chunk.css"
   },
   {
-    "revision": "a8e1eda38cebe20483c5",
-    "url": "/static/js/2.7ab73095.chunk.js"
+    "revision": "00c388b2ad6fe7436da9",
+    "url": "/static/js/2.0ce7b569.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.7ab73095.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0ce7b569.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "770959c2bad07cdda586",
-    "url": "/static/js/main.4d85d856.chunk.js"
+    "revision": "9286e28f5eaeede3cecc",
+    "url": "/static/js/main.ce9a117b.chunk.js"
   },
   {
     "revision": "56c03dd11c5392f28634",
@@ -94,6 +94,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4bc9f8cca30ef2e9b911b222c4595402",
     "url": "/static/media/camping05.4bc9f8cc.png"
+  },
+  {
+    "revision": "cbc6ba1cb7a4e3d6cc6390c50dbcd2ab",
+    "url": "/static/media/clothing01.cbc6ba1c.png"
+  },
+  {
+    "revision": "1cb1cc7e2af999a58f90e62a1747a490",
+    "url": "/static/media/clothing02.1cb1cc7e.png"
+  },
+  {
+    "revision": "6585c819ea9fe5517d23add4a63da6de",
+    "url": "/static/media/clothing03.6585c819.png"
+  },
+  {
+    "revision": "477287bdcb694b6aa45c8d1b574497b8",
+    "url": "/static/media/clothing04.477287bd.png"
+  },
+  {
+    "revision": "521d8f971ae42283a2e00ca3605a252e",
+    "url": "/static/media/clothing05.521d8f97.png"
   },
   {
     "revision": "8c2d9c198547b89dfaca897a1a139371",
@@ -202,6 +222,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f8983a0c59265e7650cad4cc4ace847d",
     "url": "/static/media/grammar10.f8983a0c.png"
+  },
+  {
+    "revision": "7687a27ca57d486753f0089b436cd566",
+    "url": "/static/media/grammar3_01.7687a27c.png"
+  },
+  {
+    "revision": "c016b285b4cd965a035765bbe0db9ed1",
+    "url": "/static/media/grammar3_02.c016b285.png"
+  },
+  {
+    "revision": "67ffa52024360784b04b6a1c17e9fbb4",
+    "url": "/static/media/grammar3_03.67ffa520.png"
+  },
+  {
+    "revision": "9e6c579419e70f332d879cf75ede85a5",
+    "url": "/static/media/grammar3_04.9e6c5794.png"
+  },
+  {
+    "revision": "1a73a6e7c71158bbc7e75c6ce928e0d5",
+    "url": "/static/media/grammar3_05.1a73a6e7.png"
   },
   {
     "revision": "30f12eea32e272b3585e88df70c5945f",
