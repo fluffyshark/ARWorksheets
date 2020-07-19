@@ -5,7 +5,10 @@ class ToS extends React.Component {
     componentDidMount() {
         document.getElementById("standard_logo").style.display = "none";
         document.getElementById("adjusted_logo").style.display = "inherit";
+        window.scrollTo(0,0);
     }
+
+    
 
     render() {
         return (

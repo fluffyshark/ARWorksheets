@@ -585,13 +585,18 @@ class Download_Worksheets extends React.Component {
     componentDidMount() {
         document.getElementById("standard_logo").style.display = "none";
         document.getElementById("adjusted_logo").style.display = "inherit";
+        window.scrollTo(0,0);
     }
+
+    
+        
+  
 
 
 
     render() {
         return (
-            <div className="worksheets_for_download_container">
+            <div className="worksheets_for_download_container" id="topofpage">
                     <div className="worksheets_section_title_container">
                         <div className="worksheet_download_page_title">
                             <p>Choose your Worksheets</p>

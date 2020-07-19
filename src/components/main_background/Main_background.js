@@ -24,6 +24,7 @@ class Main_background extends React.Component {
 
         document.getElementById("standard_logo").style.display = "inherit";
         document.getElementById("adjusted_logo").style.display = "none";
+        window.scrollTo(0,0);
     }
     
 
