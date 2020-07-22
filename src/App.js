@@ -16,6 +16,7 @@ function App() {
   return (
     <div className="App">
 
+       {/* 
       <Router>
         <Navbar/>
        
@@ -24,6 +25,20 @@ function App() {
           <Route path="/download_worksheets" component={Download_Worksheets}/>
           <Route path="/tos" component={ToS}/>
           <Route path="/privacy" component={Privacy}/>
+        </Switch>
+        <Contact />
+      </Router>
+      */}  
+
+      <Router>
+        <Navbar/>
+       
+        <Switch>
+          <Route path="/" exact component={Download_Worksheets}/>
+          <Route path="/download_worksheets" component={Download_Worksheets}/>
+          <Route path="/tos" component={ToS}/>
+          <Route path="/privacy" component={Privacy}/>
+          <Route path="/app" component={HomePage}/>
         </Switch>
         <Contact />
       </Router>

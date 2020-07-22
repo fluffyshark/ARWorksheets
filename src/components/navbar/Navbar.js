@@ -7,7 +7,7 @@ class Navbar extends React.Component {
     render() {
         return (
             <div className="navbar">
-                <Link to="/" style={{ textDecoration: 'none' }}>
+                <Link to="/app" style={{ textDecoration: 'none' }}>
                 <img id="standard_logo" src={logo1} alt=""/>
                 <img id="adjusted_logo" src={logo2} alt=""/>
                 </Link>

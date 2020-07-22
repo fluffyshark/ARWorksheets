@@ -53,13 +53,13 @@ class Contact extends React.Component {
 
                 <div className="contact_last_section">
                     <div className="text_container_1">
-                        <Link to="/" style={{ textDecoration: 'none' }}>
+                        <Link to="/app" style={{ textDecoration: 'none' }}>
                             <p>Home</p>
                         </Link>
                         <Link to="/download_worksheets" style={{ textDecoration: 'none' }} >
                             <p>Get Worksheets</p>
                         </Link>
-                        <Link to="/" style={{ textDecoration: 'none' }}>
+                        <Link to="/app" style={{ textDecoration: 'none' }}>
                             <p>Get the App</p>
                         </Link>
                     </div>
