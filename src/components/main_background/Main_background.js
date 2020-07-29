@@ -1,7 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import iPad_product from "./iPad_product.png"
+import dark_overlay from "./dark_overlay.png";
+import hand_ipad from "./hand_ipad-min.png";
+import mac from "./mac.png";
+import cup from "./cup.png";
+import iPhone from "./iphone.png";
 import download_icon from "./download_icon.png";
 import download_icon_purple from "./download_icon_purple.png";
 import download_app_store from "./download_app_store.png";
@@ -34,9 +38,13 @@ class Main_background extends React.Component {
     render() {
         return (
             <div className="background">
+                    <img className="dark_overlay" src={dark_overlay} alt="" />
                     <p className="main_title">Correct worksheets effortless with AR</p>
                     <p className="main_text"> Will you be able to correct a student's worksheet in less that 10 seconds, every time?</p>
-                    <img className="iPad_image" src={iPad_product} alt="" />
+                    <img className="iPad_image" src={hand_ipad} alt="" />
+                    <img className="mac" src={mac} alt="" />
+                    <img className="cup" src={cup} alt="" />
+                    <img className="iphone" src={iPhone} alt="" />
                     <Link className="downlad_worksheet_btn" to="/download_worksheets" style={{ textDecoration: 'none' }}>
                             <p>Download Worksheets</p>
                             <img src={download_icon} alt="" id="download_icon"/>

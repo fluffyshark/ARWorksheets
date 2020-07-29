@@ -5,8 +5,8 @@ body {
 .background {
   overflow: hidden;
   width: 100%;
-  height: 872px;
-  background-image: url(../components/main_background/bigger_background.png);
+  height: 100vh;
+  background-image: url(../components/main_background/wood_background.png);
   background-position: top top;
   background-size: cover;
   display: -ms-grid;
@@ -17,20 +17,50 @@ body {
       grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
 }
 
+.dark_overlay {
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+}
+
 .iPad_image {
-  width: 650px;
+  width: 950px;
   -ms-grid-column: 3;
   grid-column: 3;
   -ms-grid-row: 3;
   grid-row: 3;
   -ms-grid-column-align: right;
       justify-self: right;
-  -webkit-transform: translate(33px, -33px);
-          transform: translate(33px, -33px);
+  -webkit-transform: translate(19px, -120px);
+          transform: translate(19px, -120px);
+  z-index: 2;
 }
 
 .iPad_image img {
   width: 40%;
+}
+
+.mac {
+  width: 480px;
+  z-index: 1;
+  -webkit-transform: translate(-90px, 0px);
+          transform: translate(-90px, 0px);
+}
+
+.cup {
+  width: 325px;
+  z-index: 1;
+  -webkit-transform: translate(-319px, 116px);
+          transform: translate(-319px, 116px);
+}
+
+.iphone {
+  width: 535px;
+  z-index: 1;
+  -webkit-transform: translate(118px, 326px);
+          transform: translate(118px, 326px);
+  -ms-grid-column: 2;
+  grid-column: 2;
 }
 
 .main_title {
@@ -44,6 +74,7 @@ body {
   -ms-grid-row: 3;
   grid-row: 3;
   margin: 0;
+  z-index: 2;
 }
 
 .main_text {
@@ -58,6 +89,7 @@ body {
   margin: 0;
   -webkit-transform: translateY(-20px);
           transform: translateY(-20px);
+  z-index: 2;
 }
 
 /*----------Download btn-------------*/
@@ -72,6 +104,7 @@ body {
   border: solid 2px white;
   -webkit-transform: translateY(-15px);
           transform: translateY(-15px);
+  z-index: 2;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 10% 25% 65%;
@@ -124,6 +157,7 @@ body {
   grid-column: 2;
   -webkit-transform: translate(190px, -15px);
           transform: translate(190px, -15px);
+  z-index: 2;
 }
 
 .downlad_from_app_store img {
@@ -134,13 +168,14 @@ body {
 .feature_box {
   width: 170px;
   height: 170px;
-  background-color: white;
   -ms-grid-row: 8;
   grid-row: 8;
   -ms-grid-column: 2;
   grid-column: 2;
   border-radius: 10px;
-  border: solid 2px #564bde;
+  border: solid 3px white;
+  color: white;
+  z-index: 2;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 100%;
@@ -199,13 +234,23 @@ body {
   width: 60px;
 }
 
-@media only screen and (max-width: 1440px) and (max-height: 740px) {
-  .background {
-    height: 737px;
-    background-image: url(../components/main_background/bigger_background.png);
-    background-position: top top;
-    background-size: cover;
+@media only screen and (max-width: 1520px) {
+  .mac {
+    -webkit-transform: translate(-245px, 0px);
+            transform: translate(-245px, 0px);
   }
+  .iphone {
+    -webkit-transform: translate(15px, 326px);
+            transform: translate(15px, 326px);
+  }
+  .iPad_image {
+    width: 912px;
+    -webkit-transform: translate(75px, -79px);
+            transform: translate(75px, -79px);
+  }
+}
+
+@media only screen and (max-width: 1440px) and (max-height: 740px) {
   #feature_box_1 {
     -webkit-transform: translate(0px, 25px);
             transform: translate(0px, 25px);
@@ -226,18 +271,13 @@ body {
   }
 }
 
-@media only screen and (max-width: 1390px) {
-  .iPad_image {
-    width: 550px;
-    -webkit-transform: translate(33px, -33px);
-            transform: translate(33px, -33px);
+@media only screen and (max-width: 1420px) {
+  #feature_box_3 {
+    display: none;
   }
 }
 
 @media only screen and (max-width: 1260px) {
-  .background {
-    background-image: url(../components/main_background/background_section.png);
-  }
   .main_title {
     width: 550px;
     font-size: 45px;
@@ -249,70 +289,29 @@ body {
     -webkit-transform: translateY(-40px);
             transform: translateY(-40px);
   }
-  .iPad_image {
-    width: 500px;
+  .mac {
+    -webkit-transform: translate(-360px, 0px);
+            transform: translate(-360px, 0px);
   }
-  .feature_box {
-    font-size: 14px;
+  .cup {
+    width: 293px;
   }
-  #feature_box_1 {
-    width: 150px;
-    height: 150px;
-  }
-  #feature_box_1 img {
-    -webkit-transform: translateX(-5px);
-            transform: translateX(-5px);
-    width: 70px;
-  }
-  #feature_box_2 {
-    width: 150px;
-    height: 150px;
-    -webkit-transform: translate(170px, -20px);
-            transform: translate(170px, -20px);
-  }
-  #feature_box_2 img {
-    width: 55px;
-  }
-  #feature_box_3 {
-    width: 150px;
-    height: 150px;
-    -webkit-transform: translate(340px, -20px);
-            transform: translate(340px, -20px);
-  }
-  #feature_box_3 img {
-    width: 55px;
+  .iphone {
+    -webkit-transform: translate(-95px, 326px);
+            transform: translate(-95px, 326px);
+    width: 507px;
   }
   .downlad_worksheet_btn {
-    width: 130px;
-    height: 40px;
-    -webkit-transform: translateY(-40px);
-            transform: translateY(-40px);
-  }
-  .downlad_worksheet_btn img {
-    width: 20px;
-  }
-  .downlad_worksheet_btn p {
-    font-size: 12px;
+    -webkit-transform: translateY(-42px);
+            transform: translateY(-42px);
   }
   .downlad_from_app_store {
-    width: auto;
-    height: auto;
-    -ms-grid-row: 6;
-    grid-row: 6;
-    -ms-grid-column: 2;
-    grid-column: 2;
-    -webkit-transform: translate(155px, -40px);
-            transform: translate(155px, -40px);
-  }
-  .downlad_from_app_store img {
-    width: 138px;
+    -webkit-transform: translate(190px, -42px);
+            transform: translate(190px, -42px);
   }
 }
 
-@media only screen and (max-width: 1110px) {
-  .iPad_image {
-    width: 475px;
-  }
+@media only screen and (max-width: 1200px) {
   .main_title {
     width: 550px;
     font-size: 40px;
@@ -323,6 +322,15 @@ body {
     width: 400px;
     -webkit-transform: translateY(-40px);
             transform: translateY(-40px);
+  }
+  .iphone {
+    -webkit-transform: translate(-210px, 358px);
+            transform: translate(-210px, 358px);
+    width: 507px;
+  }
+  .cup {
+    -webkit-transform: translate(-377px, 115px);
+            transform: translate(-377px, 115px);
   }
   .feature_box {
     width: 150px;
@@ -354,10 +362,6 @@ body {
   #feature_box_2 {
     -webkit-transform: translate(170px, 25px);
             transform: translate(170px, 25px);
-  }
-  #feature_box_3 {
-    -webkit-transform: translate(340px, 25px);
-            transform: translate(340px, 25px);
   }
 }
 
@@ -415,7 +419,6 @@ body {
         grid-template-columns: 100%;
     -ms-grid-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
         grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-    height: 1100px;
   }
   .iPad_image {
     width: 400px;
@@ -575,9 +578,6 @@ body {
 }
 
 @media only screen and (max-width: 450px) {
-  .background {
-    height: 1015px;
-  }
   .iPad_image {
     width: 325px;
   }
@@ -615,6 +615,7 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
+  z-index: 3;
 }
 
 .navbar img {
