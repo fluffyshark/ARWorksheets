@@ -22,7 +22,7 @@
     grid-column: 3;
     grid-row: 3;
     justify-self: right;
-    transform: translate(19px, -120px);
+    transform: translate(19px, -100px);
     z-index: 2;
     img {
         width: 40%;
@@ -171,10 +171,12 @@
 // -------------MEDIA QUERIES-------------
 
 
+
+
 @media only screen and (max-width: 1520px) {
     .mac {transform: translate(-245px, 0px);}
     .iphone {transform: translate(15px, 326px);}
-    .iPad_image {width: 912px;transform: translate(75px, -79px);}
+    .iPad_image {width: 912px;transform: translate(75px, -65px);}
 
 }
 
