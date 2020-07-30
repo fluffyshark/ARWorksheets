@@ -1,0 +1,104 @@
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 1590px) and (max-height: 733px) {
+    .iPad_image {width: 794px;}
+    .main_title {transform: translateY(-15px);}
+}
+
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 1440px) and (max-height: 733px) {
+    .iPad_image {width: 794px;}
+    .main_title {transform: translateY(-15px);}
+}
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 1260px) and (max-height: 733px) {
+    .iPad_image {width: 794px;}
+    .main_text {transform: translateY(-30px);}
+    .downlad_worksheet_btn {transform: translateY(-25px);}
+    .downlad_from_app_store {transform: translate(182px, -25px);}
+    #feature_box_2 {transform: translate(191px, 25px);}
+    #feature_box_3 {transform: translate(340px, 25px);}
+ 
+}
+
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 1100px) and (max-height: 733px) {
+    .iPad_image {width: 771px;transform: translate(48px, -65px);}
+    .cup {display: none;}
+    .mac {transform: translate(-199px, -78px);}
+    #feature_box_1 {transform: translateY(-27px);}
+    #feature_box_2 {transform: translate(191px, -27px);}
+    
+ 
+}
+
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 1000px) and (max-height: 733px) {
+    .iPad_image {width: 700px;transform: translate(48px, 0px);}
+    #feature_box_1 {display: none;}
+    #feature_box_2 {display: none;}
+    .main_title {width: 445px; font-size: 32px;}
+    .main_text {transform: translateY(-60px);}
+    .mac {width: 327px;transform: translate(-53px, -4px);}
+    .iphone {transform: translate(-143px, 317px);width: 433px;}
+    
+ 
+}
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 910px) and (max-height: 733px) {
+    .background {grid-template-columns: 100%;grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
+    .iPad_image {width: 541px;transform: translate(-91px, 188px);grid-column: 1;justify-self: center;}
+    .main_title {grid-column: 1;font-size: 42px;transform: translateY(-78px);justify-self: center;text-align: center;}
+    .main_text {grid-column: 1;font-size: 17px;transform: translateY(-105px);width: 400px;justify-self: center;text-align: center;}
+    .downlad_worksheet_btn {grid-column: 1;transform: translate(-85px, -106px);justify-self: center;width: 147px;height: 43px;}
+    .downlad_from_app_store {grid-column: 1;transform: translate(90px, -106px);justify-self: center;img {width: 147px;}}
+    .mac {grid-column: 1;transform: scaleX(-1) translate(-611px, -79px);width: 243px;}
+    .iphone {grid-column: 1;transform: translate(602px, 10px);width: 293px;}
+    .cup {display: inherit;grid-column: 1;transform: translate(13px, -65px);width: 171px;}
+}
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 730px) and (max-height: 733px) {
+    .background {grid-template-columns: 100%;grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
+    .iPad_image {width: 541px;transform: translate(-91px, 93px);grid-column: 1;justify-self: center;}
+    .main_title {grid-column: 1;font-size: 42px;transform: translateY(-8px);;justify-self: center;text-align: center;}
+    .main_text {grid-column: 1;font-size: 17px;transform: translateY(32px);width: 400px;justify-self: center;text-align: center;}
+    .downlad_worksheet_btn {transform: translate(-85px, -271px);justify-self: center;width: 147px;height: 43px;border-color: white;}
+    .downlad_from_app_store {grid-column: 1;transform: translate(90px, -271px);justify-self: center;img {width: 147px;}}
+    .mac {grid-column: 1;transform: scaleX(-1) translate(-473px, -295px);}
+    .iphone {grid-column: 1;transform: translate(536px, 10px);width: 293px;}
+    .cup {grid-column: 1;transform: translate(-71px, -65px);;width: 171px;}
+  
+}
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 600px) and (max-height: 733px) {
+    .cup {transform: translate(-108px, -65px);}
+    .iphone {transform: translate(471px, 10px);}
+    .mac {transform: scaleX(-1) translate(-413px, -295px);}
+}
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 500px) and (max-height: 733px) {
+    .main_title {font-size: 35px;transform: translateY(6px);}
+    .cup {display: none;}
+    .iphone {display: none;}
+    .mac {transform: scaleX(-1) translate(-331px, -320px);}
+}
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 435px) and (max-height: 733px) {
+    .iPad_image {width: 500px;transform: translate(-70px, 105px);}
+    .main_text {font-size: 16px;width: 292px;}
+    .downlad_worksheet_btn {transform: translate(-85px, -254px);}
+    .downlad_from_app_store {transform: translate(90px, -254px);}
+
+}
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 400px) and (max-height: 733px) {
+    .iPad_image {width: 470px;transform: translate(-70px, 117px);}
+    .mac {transform: scaleX(-1) translate(-269px, -320px);}
+}
+// MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports) RESPONSIVE
+@media only screen and (max-width: 350px) and (max-height: 733px) {
+    .iPad_image {width: 446px;transform: translate(-70px, 144px);}
+    .downlad_worksheet_btn {transform: translate(-78px, -243px);}
+    .downlad_from_app_store {transform: translate(83px, -243px);}
+    .main_title {font-size: 32px;transform: translateY(11px);}
+    .mac {transform: scaleX(-1) translate(-242px, -320px);}
+}

@@ -48,7 +48,7 @@ class Main_background extends React.Component {
                     <Link className="downlad_worksheet_btn" to="/download_worksheets" style={{ textDecoration: 'none' }}>
                             <p>Download Worksheets</p>
                             <img src={download_icon} alt="" id="download_icon"/>
-                            <img src={download_icon_purple} alt="" id="download_icon_purple"/>
+                            
                     </Link>
                     
                     <div className="downlad_from_app_store">
