@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "23cedfac849dc2ade732d94d22a1b599",
+    "revision": "f60387a0c32147ec09eda89e6193873e",
     "url": "/index.html"
   },
   {
-    "revision": "cf65bee918c0ad543397",
-    "url": "/static/css/main.4ee44509.chunk.css"
+    "revision": "1bf4761c683006b81ccf",
+    "url": "/static/css/main.2d72817e.chunk.css"
   },
   {
-    "revision": "98a538a5acec172d914b",
-    "url": "/static/js/2.506c7f39.chunk.js"
+    "revision": "b0a796203373522a12c7",
+    "url": "/static/js/2.c853e78d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.506c7f39.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c853e78d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cf65bee918c0ad543397",
-    "url": "/static/js/main.3e080614.chunk.js"
+    "revision": "1bf4761c683006b81ccf",
+    "url": "/static/js/main.661e56c3.chunk.js"
   },
   {
     "revision": "56c03dd11c5392f28634",
@@ -46,14 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a0fb592443d12dd7989594e352c634e6",
     "url": "/static/media/animals05.a0fb5924.png"
-  },
-  {
-    "revision": "0da62eb9354a0bea226705f9d6e5ec3e",
-    "url": "/static/media/background_section.0da62eb9.png"
-  },
-  {
-    "revision": "b59143672118fcad749365bdb2c0781d",
-    "url": "/static/media/bigger_background.b5914367.png"
   },
   {
     "revision": "55eb8255534eda675eda3e541e098747",
@@ -134,6 +126,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f73416079909b31f0d29d9587663f69f",
     "url": "/static/media/crossword04.f7341607.png"
+  },
+  {
+    "revision": "6dbbd7e5dd373d241005170972328198",
+    "url": "/static/media/cup.6dbbd7e5.png"
   },
   {
     "revision": "4fe23caa2dd95cc0d9e020ff7ef90a6b",
@@ -244,6 +240,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/grammar3_05.1a73a6e7.png"
   },
   {
+    "revision": "6f1c7f89ae312717eaa7fecc939cb114",
+    "url": "/static/media/hand_ipad-min.6f1c7f89.png"
+  },
+  {
     "revision": "30f12eea32e272b3585e88df70c5945f",
     "url": "/static/media/hospital01.30f12eea.png"
   },
@@ -264,8 +264,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hospital05.33907da8.png"
   },
   {
-    "revision": "9c2a83b520643ba01c433771a92564a8",
-    "url": "/static/media/iPad_product.9c2a83b5.png"
+    "revision": "a3afd3f7ecc129f7cef6bd4ae84bcb46",
+    "url": "/static/media/iphone.a3afd3f7.png"
+  },
+  {
+    "revision": "cbceb21a9a9eeddd0e0d6e9a537cbe9b",
+    "url": "/static/media/mac.cbceb21a.png"
   },
   {
     "revision": "57ef759b6614826eb3466c4a82109c06",
@@ -308,10 +312,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mystic05.d54b6343.png"
   },
   {
-    "revision": "9db1131b1dfa5d189f8aab562d49979c",
-    "url": "/static/media/saves_time_icon.9db1131b.png"
-  },
-  {
     "revision": "31b067c925f822305e2801bb3323a67e",
     "url": "/static/media/space01.31b067c9.png"
   },
@@ -350,6 +350,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8525725945f98846b2d0313b8aaac732",
     "url": "/static/media/sports05.85257259.png"
+  },
+  {
+    "revision": "67b0950620bce50176e93bb87c42d9b0",
+    "url": "/static/media/subscriptionBackground.67b09506.png"
+  },
+  {
+    "revision": "7241a1bde0c763182f84d7fed4a9d44a",
+    "url": "/static/media/wood_background.7241a1bd.png"
   },
   {
     "revision": "475deccd538db351fd0098f697992a71",

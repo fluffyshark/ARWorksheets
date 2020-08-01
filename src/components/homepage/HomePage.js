@@ -13,8 +13,8 @@ class HomePage extends React.Component {
             <div className="homepage">
                 <Main_background />
                 <Extension />
-                <Email_section />
                 <Worksheets_section />
+                <Email_section />
                 
             </div>
         );

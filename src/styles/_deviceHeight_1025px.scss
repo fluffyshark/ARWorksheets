@@ -1,0 +1,69 @@
+@media only screen and (max-width: 2222px) and (max-height: 1025px) and (min-height: 901px) {
+    .iPad_image {width: 1116px;}
+    .mac {width: 542px;transform: translate(-115px, 0px);}
+    .iphone {transform: translate(118px, 418px);}
+}
+@media only screen and (max-width: 2222px) and (max-height: 1025px) and (min-height: 901px) {
+    .iPad_image {transform: translate(73px, -100px);}
+    .mac {width: 542px;transform: translate(-115px, 0px);}
+    .iphone {transform: translate(-61px, 418px);}
+}
+@media only screen and (max-width: 1650px) and (max-height: 1025px) and (min-height: 901px) {
+    .iPad_image {width: 912px;transform: translate(26px, 70px);}
+    .cup {width: 284px;}
+    .iphone {transform: translate(15px, 416px);width: 477px;}
+    .mac {width: 490px;transform: translate(-149px, 0px);}
+}
+@media only screen and (max-width: 1400px) and (max-height: 1025px) and (min-height: 901px) {
+    .cup {transform: translate(-587px, 590px);}
+    .iphone {transform: translate(732px, -217px);}   
+}
+@media only screen and (max-width: 1160px) and (max-height: 1025px) and (min-height: 901px) {
+    .main_text {transform: translateY(-75px);}
+    .iphone {transform: translate(488px, -217px);} 
+    .downlad_worksheet_btn {transform: translateY(-88px);} 
+    .downlad_from_app_store {transform: translate(190px, -88px);}
+    #feature_box_1 {display: none;}
+    #feature_box_2 {display: none;}
+}
+@media only screen and (max-width: 1120px) and (max-height: 1025px) and (min-height: 901px) {
+    .background {grid-template-columns: 100%;grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
+    .iPad_image {transform: translate(-96px, 253px);width: 743px;justify-self: center;grid-column: 1;}
+    .mac {justify-self: center;grid-column: 1;transform: scaleX(-1) translate(-381px, -101px);width: 347px;}
+    .iphone {grid-column: 1;justify-self: center;transform: translate(454px, -58px);width: 379px;}
+    .cup {display: inherit;grid-column: 1;transform: translate(30px, 63px);width: 224px;}
+    .main_title {width: 500px;grid-column: 1;font-size: 52px;transform: translateY(-88px);justify-self: center;text-align: center;}
+    .main_text {grid-column: 1;font-size: 20px;transform: translateY(-123px);width: 431px;justify-self: center;text-align: center;}
+    .downlad_worksheet_btn {grid-column: 1;transform: translate(-85px, -139px);justify-self: center;width: 147px;height: 43px;}
+    .downlad_from_app_store {grid-column: 1;transform: translate(90px, -139px);justify-self: center;img {width: 147px;}}
+}
+@media only screen and (max-width: 940px) and (max-height: 1025px) and (min-height: 901px) {
+    .cup {transform: translate(-94px, 63px);}
+}
+@media only screen and (max-width: 730px) and (max-height: 1025px) and (min-height: 901px) {
+    .main_title {grid-row: 3;}
+    .main_text {transform: translateY(-39px);grid-row: 4;}
+    .downlad_worksheet_btn {grid-row: 6;transform: translate(-85px, -147px)}
+    .downlad_from_app_store {grid-row: 6;transform: translate(90px, -147px);}
+    .iPad_image {grid-row: 3;}
+    .cup {transform: translate(-142px, 63px);}
+    .mac {transform: scaleX(-1) translate(-322px, -101px);}
+}
+@media only screen and (max-width: 730px) and (max-height: 1025px) and (min-height: 901px) {
+    .iphone {display: none;}
+    .cup {display: none;}
+  
+}
+@media only screen and (max-width: 570px) and (max-height: 1025px) and (min-height: 901px) {
+    .iPad_image {transform: translate(-80px, 288px);width: 643px;}
+    .main_title {font-size: 46px;}
+    .main_text {transform: translateY(-52px);width: 348px;}
+    .mac {transform: scaleX(-1) translate(-270px, -101px);}
+}
+@media only screen and (max-width: 500px) and (max-height: 1025px) and (min-height: 901px) {
+    .iPad_image {transform: translate(-71px, 344px);width: 573px;}
+    .downlad_worksheet_btn {transform: translate(-85px, -75px);}
+    .downlad_from_app_store {transform: translate(90px, -75px);}
+    .main_text {transform: translateY(20px);}
+    .main_title {font-size: 42px;transform: translateY(-17px);}
+}

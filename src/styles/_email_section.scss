@@ -1,45 +1,109 @@
 .email_section {
-    width: 100%;
-    height: 200px;
+    
 
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 50% 50%;
+    width: auto;
+    height: auto;
+
+   
 
    &__title {
     width: 100%;
     height: 100%;
-    text-align: center;
-    grid-row: 1;
-    grid-column: 1;
+    text-align: left;
+    grid-row: 3;
+    grid-column: 2;
+    font-weight: bold;
+    transform: translateY(26px);
+    color: #5152ce;
+    font-weight: 800;
+    p {margin: 0; font-size: 22px;}
+   }
+}
+.email_section_background_for_smaller_screens {
+   // overflow: hidden;
+    background-image: url(../components/email_section/subscriptionBackground.png);
+    background-position: top top;
+    background-size: cover;
+    width: 100%;
+    height: 625px;
+    display: none;
+}
+.email_section_background_for_larger_screens {
+    overflow: hidden;
+    background-image: url(../components/email_section/subscriptionBackground.png);
+    background-position: top top;
+    background-size: cover;
+
+    width: 100%;
+    height: 625px;
 
     display: grid;
-    align-content: center;
-    
-    p {margin: 0; font-size: 20px;}
-   }
+    grid-template-columns: 25px calc(100% - 50px) 25px;
+    grid-template-rows: 100%;
+}
+.email_section_white_box {
+    width: 588px;
+    height: 576px;
+    background-color: white;
+    z-index: 1;
+    grid-row: 1;
+    grid-column: 2;
+    justify-self: right;
+    align-self: center;
+
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+.project_motivating_learning {
+    grid-row: 3;
+    grid-column: 2;
+    font-weight: 700;
+    font-size: 11px;
+    transform: translateY(4px);
+    margin: 0;
+    color: #4d4d4d;
+}
+.the_methods_text {
+    grid-row: 5;
+    grid-column: 2;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    transform: translateY(10px);
+}
+.the_list {
+    font-size: 12px;
+    margin: 0;
+    grid-row: 5;
+    grid-column: 2;
+    transform: translate(10px, 27px);
 }
 .email_field_container {
     width: 100%;
     height: 100%;
     display: inline-flex;
-    justify-content: center;
+    grid-column: 2;
+    grid-row: 8;
+
 
     &__button {
-        width: 120px;
-        height: 55px;
+        width: 97px;
+        height: 42px;
         background-color: #00e07f;
         display: grid;
         justify-content: center;
         align-items: center;
         color: white;
         font-weight: 500;
-        font-size: 18px;   
-    }
+        font-size: 14px;  
+    } 
+    
     &__field {
-        width: 500px;
-        height: 50px; 
+        width: 340px;
+        height: 36px;
         padding-left: 10px;
+        font-size: 11px;
     }
     
 }
@@ -51,3 +115,42 @@
     .email_section__title p {font-size: 18px;}
     .email_field_container__field {width: 205px;}
 }
+@media only screen and (max-width: 1050px) {
+    .email_section_white_box {justify-self: left;}
+}
+@media only screen and (max-width: 900px) {
+    .email_section_background_for_smaller_screens {height: 350px;display: inherit;}
+    .email_section_background_for_larger_screens {grid-template-columns: 100%;background-image: none;height: 350px;}
+    .email_section_white_box {justify-self: left;grid-column: 1;height: 100%;}
+    .project_motivating_learning {grid-row: 1;transform: translateY(23px);display: none;}
+    .email_section__title {grid-row: 1;transform: translateY(41px);}
+    .the_methods_text {transform: translateY(-12px);}
+    .the_list {transform: translate(10px, 8px);}
+    .email_field_container {grid-row: 9;transform: translateY(-15px);}
+}
+@media only screen and (max-width: 900px) {
+    .email_section_background_for_larger_screens {grid-template-columns: 25px calc(100% - 50px) 25px;}
+    .email_section_white_box {width: 100%;grid-column: 2;grid-template-columns: 100%;}
+    .project_motivating_learning {grid-column: 1;}
+    .email_section__title {grid-column: 1;}
+    .the_methods_text {grid-column: 1;}
+    .the_list {transform: translate(10px, 4px);grid-column: 1;}
+    .email_field_container {grid-column: 1;}
+}
+@media only screen and (max-width: 540px) {
+    .email_section__title p {font-size: 18px;} 
+}
+@media only screen and (max-width: 451px) {
+    .email_section__title p {font-size: 16px;} 
+    .the_methods_text {font-size: 11px;}
+    .the_list {font-size: 11px;}
+}
+@media only screen and (max-width: 382px) {
+    .the_methods_text {font-size: 10px;}
+    .the_list {font-size: 10px;}
+}
+@media only screen and (max-width: 350px) {
+    .the_list {transform: translate(10px, 20px);}
+}
+
+
