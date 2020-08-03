@@ -1412,86 +1412,6 @@ body {
   }
 }
 
-@media only screen and (max-width: 1040px) and (min-width: 1020px) and (max-height: 670px) and (min-height: 650px) {
-  .background {
-    height: 675px;
-  }
-  .iPad_image {
-    width: 450px;
-  }
-  .main_text {
-    -webkit-transform: translateY(-37px);
-            transform: translateY(-37px);
-  }
-  .main_title {
-    -webkit-transform: translateY(-20px);
-            transform: translateY(-20px);
-  }
-  .downlad_from_app_store {
-    -webkit-transform: translate(155px, -30px);
-            transform: translate(155px, -30px);
-  }
-  .downlad_worksheet_btn {
-    -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
-  }
-  #feature_box_1 {
-    -webkit-transform: translate(-20px, 0px);
-            transform: translate(-20px, 0px);
-    width: 145px;
-    height: 145px;
-  }
-  #feature_box_2 {
-    -webkit-transform: translate(145px, 0px);
-            transform: translate(145px, 0px);
-    width: 145px;
-    height: 145px;
-  }
-  #feature_box_2 p {
-    width: 140px;
-  }
-  #feature_box_3 {
-    -webkit-transform: translate(310px, 0px);
-            transform: translate(310px, 0px);
-    width: 145px;
-    height: 145px;
-  }
-}
-
-@media only screen and (max-width: 820px) and (min-width: 810px) and (max-height: 990px) and (min-height: 980px) {
-  .background {
-    height: 985px;
-  }
-  .iPad_image {
-    width: 400px;
-  }
-  #feature_box_1 {
-    -webkit-transform: translate(60px, 20px);
-            transform: translate(60px, 20px);
-    width: 190px;
-    height: 190px;
-  }
-  #feature_box_2 {
-    -webkit-transform: translate(275px, 20px);
-            transform: translate(275px, 20px);
-    width: 190px;
-    height: 190px;
-  }
-  #feature_box_2 p {
-    width: 140px;
-  }
-  #feature_box_3 {
-    -webkit-transform: translate(490px, 20px);
-            transform: translate(490px, 20px);
-    width: 190px;
-    height: 190px;
-  }
-  .contact .contact_last_section {
-    -ms-grid-columns: 20% 20% 22% 20% 18%;
-        grid-template-columns: 20% 20% 22% 20% 18%;
-  }
-}
-
 .tos {
   width: 100%;
   height: auto;
@@ -3533,20 +3453,12 @@ body {
     overflow: hidden;
   }
   .main_text {
-    -webkit-transform: translateY(-94px);
-            transform: translateY(-94px);
+    -webkit-transform: translateY(29px);
+            transform: translateY(29px);
   }
   .downlad_worksheet_btn {
-    -webkit-transform: translate(-85px, -321px);
-            transform: translate(-85px, -321px);
-  }
-  .downlad_from_app_store {
-    -webkit-transform: translate(90px, -321px);
-            transform: translate(90px, -321px);
-  }
-  .downlad_worksheet_btn {
-    -webkit-transform: translate(-72px, -321px);
-            transform: translate(-72px, -321px);
+    -webkit-transform: translate(90px, -205px);
+            transform: translate(90px, -205px);
     width: 120px;
     height: 35px;
     border-radius: 6px;
@@ -3560,8 +3472,8 @@ body {
     width: 22px;
   }
   .downlad_from_app_store {
-    -webkit-transform: translate(72px, -321px);
-            transform: translate(72px, -321px);
+    -webkit-transform: translate(72px, -205px);
+            transform: translate(72px, -205px);
   }
   .downlad_from_app_store img {
     width: 120px;
@@ -3997,6 +3909,94 @@ body {
   .iphone {
     -webkit-transform: translate(-224px, 465px);
             transform: translate(-224px, 465px);
+  }
+}
+
+@media only screen and (max-width: 1040px) and (min-width: 1020px) and (max-height: 670px) and (min-height: 650px) {
+  .background {
+    height: 675px;
+  }
+  .iPad_image {
+    width: 450px;
+  }
+  .main_text {
+    -webkit-transform: translateY(-37px);
+            transform: translateY(-37px);
+  }
+  .main_title {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(155px, -30px);
+            transform: translate(155px, -30px);
+  }
+  .downlad_worksheet_btn {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  #feature_box_1 {
+    -webkit-transform: translate(-20px, 0px);
+            transform: translate(-20px, 0px);
+    width: 145px;
+    height: 145px;
+  }
+  #feature_box_2 {
+    -webkit-transform: translate(145px, 0px);
+            transform: translate(145px, 0px);
+    width: 145px;
+    height: 145px;
+  }
+  #feature_box_2 p {
+    width: 140px;
+  }
+  #feature_box_3 {
+    -webkit-transform: translate(310px, 0px);
+            transform: translate(310px, 0px);
+    width: 145px;
+    height: 145px;
+  }
+}
+
+@media only screen and (max-width: 820px) and (min-width: 810px) and (max-height: 990px) and (min-height: 980px) {
+  .background {
+    height: 985px;
+  }
+  .iPad_image {
+    width: 400px;
+  }
+  #feature_box_1 {
+    -webkit-transform: translate(60px, 20px);
+            transform: translate(60px, 20px);
+    width: 190px;
+    height: 190px;
+  }
+  #feature_box_2 {
+    -webkit-transform: translate(275px, 20px);
+            transform: translate(275px, 20px);
+    width: 190px;
+    height: 190px;
+  }
+  #feature_box_2 p {
+    width: 140px;
+  }
+  #feature_box_3 {
+    -webkit-transform: translate(490px, 20px);
+            transform: translate(490px, 20px);
+    width: 190px;
+    height: 190px;
+  }
+  .contact .contact_last_section {
+    -ms-grid-columns: 20% 20% 22% 20% 18%;
+        grid-template-columns: 20% 20% 22% 20% 18%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 768px) and (max-height: 940px) and (min-height: 901px) {
+  .iPad_image {
+    -webkit-transform: translate(-96px, 219px);
+            transform: translate(-96px, 219px);
+    width: 699px;
   }
 }
 /*# sourceMappingURL=style.css.map */
