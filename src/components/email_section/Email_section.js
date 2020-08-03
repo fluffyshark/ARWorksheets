@@ -1,4 +1,7 @@
 import React from "react";
+import MailchimpSubscribe from "react-mailchimp-subscribe"
+import SimpleForm from './SimpleForm';
+
 
 class Email_section extends React.Component {
 
@@ -35,6 +38,9 @@ class Email_section extends React.Component {
         } // END OF FUNCTION
 
 
+        // a basic form
+
+        
         return (
             <div className="email_section">
 
@@ -48,8 +54,21 @@ class Email_section extends React.Component {
                             <p className="the_methods_text">Want to know what methods we discovered for making students:</p>
                             {changeText()}
                             <div className="email_field_container">
-                                <input className="email_field_container__field" type="email" id="email" name="email" placeholder="Enter your email address" />
-                                <div className="email_field_container__button">Send</div>
+                              
+
+                                <MailchimpSubscribe url={'https://motivatinglearning.us17.list-manage.com/subscribe/post?u=fc57c2d42794ebe99bc438e70&amp;id=7d5334c656'} 
+                                
+                                render={({subscribe, status, message}) => <SimpleForm
+                                    status={status}
+                                    message={message}
+                                    className="email_field_container__button"
+                                    style={{}}
+                                    onSubmitted={formData => subscribe(formData)}
+                                    />
+                                }/>
+                                
+                                
+                           
                             </div>
                         </div>
                     </div>
@@ -60,3 +79,4 @@ class Email_section extends React.Component {
 }
 
 export default Email_section;
+

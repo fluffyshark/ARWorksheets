@@ -713,6 +713,7 @@ body {
       justify-self: right;
   -ms-grid-row-align: center;
       align-self: center;
+  position: relative;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 10% 90%;
@@ -784,6 +785,9 @@ body {
   color: white;
   font-weight: 500;
   font-size: 14px;
+  border: none;
+  position: absolute;
+  left: 209px;
 }
 
 .email_field_container__field {
@@ -791,13 +795,14 @@ body {
   height: 36px;
   padding-left: 10px;
   font-size: 11px;
+  position: absolute;
+  left: -148px;
 }
 
 @media only screen and (max-width: 700px) {
   .email_field_container {
-    width: 95%;
-    -ms-grid-column-align: center;
-        justify-self: center;
+    -webkit-transform: translate(9px, -20px);
+            transform: translate(9px, -20px);
   }
 }
 
@@ -823,70 +828,37 @@ body {
     display: inherit;
   }
   .email_section_background_for_larger_screens {
-    -ms-grid-columns: 100%;
-        grid-template-columns: 100%;
+    -ms-grid-columns: 25px calc(100% - 50px) 25px;
+        grid-template-columns: 25px calc(100% - 50px) 25px;
     background-image: none;
     height: 350px;
   }
   .email_section_white_box {
+    width: 100%;
+    height: 100%;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
     -ms-grid-column-align: left;
         justify-self: left;
-    -ms-grid-column: 1;
-    grid-column: 1;
-    height: 100%;
   }
   .project_motivating_learning {
-    -ms-grid-row: 1;
-    grid-row: 1;
-    -webkit-transform: translateY(23px);
-            transform: translateY(23px);
     display: none;
   }
   .email_section__title {
+    -ms-grid-column: 1;
+    grid-column: 1;
     -ms-grid-row: 1;
     grid-row: 1;
     -webkit-transform: translateY(41px);
             transform: translateY(41px);
   }
   .the_methods_text {
+    -ms-grid-column: 1;
+    grid-column: 1;
     -webkit-transform: translateY(-12px);
             transform: translateY(-12px);
-  }
-  .the_list {
-    -webkit-transform: translate(10px, 8px);
-            transform: translate(10px, 8px);
-  }
-  .email_field_container {
-    -ms-grid-row: 9;
-    grid-row: 9;
-    -webkit-transform: translateY(-15px);
-            transform: translateY(-15px);
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .email_section_background_for_larger_screens {
-    -ms-grid-columns: 25px calc(100% - 50px) 25px;
-        grid-template-columns: 25px calc(100% - 50px) 25px;
-  }
-  .email_section_white_box {
-    width: 100%;
-    -ms-grid-column: 2;
-    grid-column: 2;
-    -ms-grid-columns: 100%;
-        grid-template-columns: 100%;
-  }
-  .project_motivating_learning {
-    -ms-grid-column: 1;
-    grid-column: 1;
-  }
-  .email_section__title {
-    -ms-grid-column: 1;
-    grid-column: 1;
-  }
-  .the_methods_text {
-    -ms-grid-column: 1;
-    grid-column: 1;
   }
   .the_list {
     -webkit-transform: translate(10px, 4px);
@@ -897,12 +869,23 @@ body {
   .email_field_container {
     -ms-grid-column: 1;
     grid-column: 1;
+    -ms-grid-row: 9;
+    grid-row: 9;
+    -webkit-transform: translate(-64px, -19px);
+            transform: translate(-64px, -19px);
   }
 }
 
 @media only screen and (max-width: 540px) {
   .email_section__title p {
     font-size: 18px;
+  }
+  .email_field_container__field {
+    width: 205px;
+    left: -79px;
+  }
+  .email_field_container__button {
+    left: 144px;
   }
 }
 
@@ -931,6 +914,18 @@ body {
   .the_list {
     -webkit-transform: translate(10px, 20px);
             transform: translate(10px, 20px);
+  }
+  .email_field_container__field {
+    width: 176px;
+    left: -65px;
+    height: 31px;
+  }
+  .email_field_container__button {
+    left: 129px;
+    height: 36px;
+    width: 83px;
+    -webkit-transform: translate(0px, 0.5px);
+            transform: translate(0px, 0.5px);
   }
 }
 
@@ -2783,8 +2778,12 @@ body {
             transform: translate(-85px, -106px);
     -ms-grid-column-align: center;
         justify-self: center;
-    width: 147px;
-    height: 43px;
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+  }
+  .downlad_worksheet_btn p {
+    font-size: 12px;
   }
   .downlad_from_app_store {
     -ms-grid-column: 1;
@@ -2795,7 +2794,7 @@ body {
         justify-self: center;
   }
   .downlad_from_app_store img {
-    width: 147px;
+    width: 120px;
   }
   .mac {
     -ms-grid-column: 1;
@@ -2987,150 +2986,6 @@ body {
   .mac {
     -webkit-transform: scaleX(-1) translate(-242px, -320px);
             transform: scaleX(-1) translate(-242px, -320px);
-  }
-}
-
-@media only screen and (max-width: 375px) and (max-height: 723px) {
-  .iPad_image {
-    width: 444px;
-    -webkit-transform: translate(-70px, 140px);
-            transform: translate(-70px, 140px);
-  }
-  .downlad_from_app_store {
-    -webkit-transform: translate(90px, -229px);
-            transform: translate(90px, -229px);
-  }
-  .downlad_worksheet_btn {
-    -webkit-transform: translate(-85px, -229px);
-            transform: translate(-85px, -229px);
-  }
-}
-
-@media only screen and (max-width: 375px) and (max-height: 685px) {
-  .downlad_from_app_store {
-    -webkit-transform: translate(90px, -210px);
-            transform: translate(90px, -210px);
-  }
-  .downlad_worksheet_btn {
-    -webkit-transform: translate(-85px, -210px);
-            transform: translate(-85px, -210px);
-  }
-}
-
-@media only screen and (max-width: 375px) and (max-height: 650px) {
-  .mac {
-    display: none;
-  }
-  .iPad_image {
-    width: 410px;
-    -webkit-transform: translate(-56px, 123px);
-            transform: translate(-56px, 123px);
-  }
-  .main_title {
-    width: 359px;
-    font-size: 30px;
-  }
-  .background {
-    height: 100vh;
-    overflow: hidden;
-  }
-  .main_text {
-    -webkit-transform: translateY(-94px);
-            transform: translateY(-94px);
-  }
-  .downlad_worksheet_btn {
-    -webkit-transform: translate(-85px, -321px);
-            transform: translate(-85px, -321px);
-  }
-  .downlad_from_app_store {
-    -webkit-transform: translate(90px, -321px);
-            transform: translate(90px, -321px);
-  }
-  .downlad_worksheet_btn {
-    -webkit-transform: translate(-72px, -321px);
-            transform: translate(-72px, -321px);
-    width: 120px;
-    height: 35px;
-    border-radius: 6px;
-  }
-  .downlad_worksheet_btn p {
-    font-size: 12px;
-    -webkit-transform: translate(3px, 0px);
-            transform: translate(3px, 0px);
-  }
-  .downlad_worksheet_btn img {
-    width: 22px;
-  }
-  .downlad_from_app_store {
-    -webkit-transform: translate(72px, -321px);
-            transform: translate(72px, -321px);
-  }
-  .downlad_from_app_store img {
-    width: 120px;
-  }
-}
-
-@media only screen and (max-width: 375px) and (max-height: 619px) {
-  .downlad_worksheet_btn {
-    -ms-grid-row: 10;
-    grid-row: 10;
-    -webkit-transform: translate(-72px, -308px);
-            transform: translate(-72px, -308px);
-  }
-  .downlad_from_app_store {
-    -ms-grid-row: 10;
-    grid-row: 10;
-    -webkit-transform: translate(72px, -308px);
-            transform: translate(72px, -308px);
-  }
-  .main_text {
-    -ms-grid-row: 5;
-    grid-row: 5;
-    -webkit-transform: translateY(-86px);
-            transform: translateY(-86px);
-  }
-  .navbar img {
-    height: 30px;
-  }
-}
-
-@media only screen and (max-width: 375px) and (max-height: 600px) {
-  .main_title {
-    font-size: 27px;
-    -webkit-transform: translateY(14px);
-            transform: translateY(14px);
-  }
-  .main_text {
-    font-size: 14px;
-    width: 300px;
-    -webkit-transform: translateY(-77px);
-            transform: translateY(-77px);
-  }
-  .iPad_image {
-    -webkit-transform: translate(-56px, 110px);
-            transform: translate(-56px, 110px);
-  }
-}
-
-@media only screen and (max-width: 375px) and (max-height: 580px) {
-  .iPad_image {
-    -webkit-transform: translate(-56px, 98px);
-            transform: translate(-56px, 98px);
-  }
-}
-
-@media only screen and (max-width: 375px) and (max-height: 555px) {
-  .downlad_worksheet_btn {
-    -webkit-transform: translate(-72px, -291px);
-            transform: translate(-72px, -291px);
-  }
-  .downlad_from_app_store {
-    -webkit-transform: translate(72px, -291px);
-            transform: translate(72px, -291px);
-  }
-  .main_text {
-    -webkit-transform: translateY(-71px);
-            transform: translateY(-71px);
   }
 }
 
@@ -3444,6 +3299,10 @@ body {
     -webkit-transform: translate(118px, 418px);
             transform: translate(118px, 418px);
   }
+  .main_title {
+    font-size: 60px;
+    width: 600px;
+  }
 }
 
 @media only screen and (max-width: 2222px) and (max-height: 1025px) and (min-height: 901px) {
@@ -3491,6 +3350,20 @@ body {
   .iphone {
     -webkit-transform: translate(732px, -217px);
             transform: translate(732px, -217px);
+  }
+}
+
+@media only screen and (max-width: 1300px) and (max-height: 1025px) and (min-height: 901px) {
+  .main_title {
+    width: 500px;
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 1300px) and (max-height: 1025px) and (min-height: 901px) {
+  .main_title {
+    width: 500px;
+    font-size: 45px;
   }
 }
 
@@ -3701,6 +3574,518 @@ body {
     font-size: 42px;
     -webkit-transform: translateY(-17px);
             transform: translateY(-17px);
+  }
+}
+
+@media only screen and (max-width: 375px) and (max-height: 723px) {
+  .iPad_image {
+    width: 444px;
+    -webkit-transform: translate(-70px, 140px);
+            transform: translate(-70px, 140px);
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(90px, -229px);
+            transform: translate(90px, -229px);
+  }
+  .downlad_worksheet_btn {
+    -webkit-transform: translate(-85px, -229px);
+            transform: translate(-85px, -229px);
+  }
+}
+
+@media only screen and (max-width: 375px) and (max-height: 685px) {
+  .downlad_from_app_store {
+    -webkit-transform: translate(90px, -210px);
+            transform: translate(90px, -210px);
+  }
+  .downlad_worksheet_btn {
+    -webkit-transform: translate(-85px, -210px);
+            transform: translate(-85px, -210px);
+  }
+}
+
+@media only screen and (max-width: 375px) and (max-height: 650px) {
+  .mac {
+    display: none;
+  }
+  .iPad_image {
+    width: 410px;
+    -webkit-transform: translate(-56px, 123px);
+            transform: translate(-56px, 123px);
+  }
+  .main_title {
+    width: 359px;
+    font-size: 30px;
+  }
+  .background {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .main_text {
+    -webkit-transform: translateY(-94px);
+            transform: translateY(-94px);
+  }
+  .downlad_worksheet_btn {
+    -webkit-transform: translate(-85px, -321px);
+            transform: translate(-85px, -321px);
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(90px, -321px);
+            transform: translate(90px, -321px);
+  }
+  .downlad_worksheet_btn {
+    -webkit-transform: translate(-72px, -321px);
+            transform: translate(-72px, -321px);
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+  }
+  .downlad_worksheet_btn p {
+    font-size: 12px;
+    -webkit-transform: translate(3px, 0px);
+            transform: translate(3px, 0px);
+  }
+  .downlad_worksheet_btn img {
+    width: 22px;
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(72px, -321px);
+            transform: translate(72px, -321px);
+  }
+  .downlad_from_app_store img {
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 375px) and (max-height: 619px) {
+  .downlad_worksheet_btn {
+    -ms-grid-row: 10;
+    grid-row: 10;
+    -webkit-transform: translate(-72px, -308px);
+            transform: translate(-72px, -308px);
+  }
+  .downlad_from_app_store {
+    -ms-grid-row: 10;
+    grid-row: 10;
+    -webkit-transform: translate(72px, -308px);
+            transform: translate(72px, -308px);
+  }
+  .main_text {
+    -ms-grid-row: 5;
+    grid-row: 5;
+    -webkit-transform: translateY(-86px);
+            transform: translateY(-86px);
+  }
+  .navbar img {
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 375px) and (max-height: 600px) {
+  .main_title {
+    font-size: 27px;
+    -webkit-transform: translateY(14px);
+            transform: translateY(14px);
+  }
+  .main_text {
+    font-size: 14px;
+    width: 300px;
+    -webkit-transform: translateY(-77px);
+            transform: translateY(-77px);
+  }
+  .iPad_image {
+    -webkit-transform: translate(-56px, 110px);
+            transform: translate(-56px, 110px);
+  }
+}
+
+@media only screen and (max-width: 375px) and (max-height: 580px) {
+  .iPad_image {
+    -webkit-transform: translate(-56px, 98px);
+            transform: translate(-56px, 98px);
+  }
+}
+
+@media only screen and (max-width: 375px) and (max-height: 555px) {
+  .downlad_worksheet_btn {
+    -webkit-transform: translate(-72px, -278px);
+            transform: translate(-72px, -278px);
+    width: 110px;
+    height: 31px;
+  }
+  .downlad_worksheet_btn p {
+    font-size: 10px;
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(72px, -277px);
+            transform: translate(72px, -277px);
+  }
+  .downlad_from_app_store img {
+    width: 110px;
+  }
+  .main_text {
+    -webkit-transform: translateY(-61px);
+            transform: translateY(-61px);
+  }
+  .iPad_image {
+    -webkit-transform: translate(-56px, 111px);
+            transform: translate(-56px, 111px);
+    width: 355px;
+  }
+}
+
+@media only screen and (max-width: 375px) and (max-height: 535px) {
+  .downlad_worksheet_btn {
+    -webkit-transform: translate(-72px, -264px);
+            transform: translate(-72px, -264px);
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(72px, -264px);
+            transform: translate(72px, -264px);
+  }
+}
+
+@media only screen and (max-width: 375px) and (max-height: 510px) {
+  .downlad_worksheet_btn {
+    -webkit-transform: translate(-72px, -246px);
+            transform: translate(-72px, -246px);
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(72px, -246px);
+            transform: translate(72px, -246px);
+  }
+  .main_text {
+    -webkit-transform: translateY(-52px);
+            transform: translateY(-52px);
+  }
+  .iPad_image {
+    width: 320px;
+  }
+}
+
+@media only screen and (max-width: 375px) and (max-height: 485px) {
+  .downlad_worksheet_btn {
+    -webkit-transform: translate(-72px, -234px);
+            transform: translate(-72px, -234px);
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(72px, -234px);
+            transform: translate(72px, -234px);
+  }
+  .main_text {
+    -webkit-transform: translateY(-45px);
+            transform: translateY(-45px);
+  }
+}
+
+@media only screen and (max-width: 360px) and (max-height: 800px) {
+  .main_title {
+    font-size: 35px;
+    width: 335px;
+  }
+  .iPad_image {
+    -webkit-transform: translate(-53px, 188px);
+            transform: translate(-53px, 188px);
+    width: 445px;
+  }
+}
+
+@media only screen and (max-width: 360px) and (max-height: 760px) {
+  .iPad_image {
+    -webkit-transform: translate(-53px, 165px);
+            transform: translate(-53px, 165px);
+    width: 445px;
+  }
+}
+
+@media only screen and (max-width: 360px) and (max-height: 733px) {
+  .iPad_image {
+    -webkit-transform: translate(-53px, 143px);
+            transform: translate(-53px, 143px);
+  }
+  .downlad_worksheet_btn {
+    -webkit-transform: translate(-85px, -225px);
+            transform: translate(-85px, -225px);
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(90px, -225px);
+            transform: translate(90px, -225px);
+  }
+  .main_text {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+
+@media only screen and (max-width: 360px) and (max-height: 700px) {
+  .iPad_image {
+    -webkit-transform: translate(-53px, 117px);
+            transform: translate(-53px, 117px);
+  }
+  .downlad_worksheet_btn {
+    -webkit-transform: translate(-75px, -226px);
+            transform: translate(-75px, -226px);
+    width: 110px;
+    height: 32px;
+  }
+  .downlad_worksheet_btn img {
+    width: 22px;
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(75px, -225px);
+            transform: translate(75px, -225px);
+  }
+  .downlad_from_app_store img {
+    width: 110px;
+  }
+  .main_text {
+    -webkit-transform: translateY(55px);
+            transform: translateY(55px);
+    font-size: 14px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 360px) and (max-height: 660px) {
+  .iPad_image {
+    width: 410px;
+  }
+  .downlad_worksheet_btn {
+    -webkit-transform: translate(-75px, -205px);
+            transform: translate(-75px, -205px);
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(75px, -205px);
+            transform: translate(75px, -205px);
+  }
+}
+
+@media only screen and (max-width: 360px) and (max-height: 650px) {
+  .main_text {
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
+  }
+  .iPad_image {
+    width: 410px;
+  }
+  .downlad_worksheet_btn {
+    -webkit-transform: translate(-75px, -335px);
+            transform: translate(-75px, -335px);
+  }
+  .downlad_worksheet_btn p {
+    font-size: 11px;
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(75px, -335px);
+            transform: translate(75px, -335px);
+  }
+}
+
+@media only screen and (max-width: 360px) and (max-height: 620px) {
+  .main_title {
+    font-size: 30px;
+  }
+  .main_text {
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
+  }
+  .downlad_worksheet_btn {
+    -webkit-transform: translate(-75px, -315px);
+            transform: translate(-75px, -315px);
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(75px, -315px);
+            transform: translate(75px, -315px);
+  }
+}
+
+@media only screen and (max-width: 360px) and (max-height: 600px) {
+  .iPad_image {
+    -webkit-transform: translate(-53px, 99px);
+            transform: translate(-53px, 99px);
+  }
+  .main_text {
+    -webkit-transform: translateY(-77px);
+            transform: translateY(-77px);
+  }
+}
+
+@media only screen and (max-width: 360px) and (max-height: 580px) {
+  .main_title {
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+  .main_text {
+    -webkit-transform: translateY(-83px);
+            transform: translateY(-83px);
+  }
+  .downlad_worksheet_btn {
+    -webkit-transform: translate(-75px, -300px);
+            transform: translate(-75px, -300px);
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(75px, -300px);
+            transform: translate(75px, -300px);
+  }
+}
+
+@media only screen and (max-width: 360px) and (max-height: 560px) {
+  .main_text {
+    -webkit-transform: translateY(-75px);
+            transform: translateY(-75px);
+  }
+  .downlad_worksheet_btn {
+    -webkit-transform: translate(-75px, -293px);
+            transform: translate(-75px, -293px);
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(75px, -293px);
+            transform: translate(75px, -293px);
+  }
+  .iPad_image {
+    width: 388px;
+  }
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1366px) and (max-height: 900px) {
+  .iPad_image {
+    width: 825px;
+    -webkit-transform: translate(19px, 41px);
+            transform: translate(19px, 41px);
+  }
+  .iphone {
+    -webkit-transform: translate(-7px, 398px);
+            transform: translate(-7px, 398px);
+    width: 465px;
+  }
+  .cup {
+    width: 292px;
+  }
+  .mac {
+    width: 407px;
+    -webkit-transform: translate(-201px, 0px);
+            transform: translate(-201px, 0px);
+  }
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1366px) and (max-height: 820px) {
+  .iPad_image {
+    -webkit-transform: translate(19px, -25px);
+            transform: translate(19px, -25px);
+  }
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1366px) and (max-height: 740px) {
+  #feature_box_1 {
+    -webkit-transform: translate(0px, 10px);
+            transform: translate(0px, 10px);
+  }
+  #feature_box_2 {
+    -webkit-transform: translate(190px, 10px);
+            transform: translate(190px, 10px);
+  }
+  .downlad_worksheet_btn {
+    -webkit-transform: translateY(13px);
+            transform: translateY(13px);
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(190px, 13px);
+            transform: translate(190px, 13px);
+  }
+  .main_text {
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1366px) and (max-height: 700px) {
+  .iPad_image {
+    -webkit-transform: translate(19px, -81px);
+            transform: translate(19px, -81px);
+  }
+}
+
+@media only screen and (max-width: 2000px) and (max-height: 1100px) and (min-height: 1026px) {
+  .iPad_image {
+    width: 1100px;
+    -webkit-transform: translate(19px, -32px);
+            transform: translate(19px, -32px);
+  }
+  .main_title {
+    width: 700px;
+    font-size: 65px;
+  }
+  .main_text {
+    font-size: 27px;
+    width: 700px;
+  }
+  .mac {
+    -webkit-transform: translate(-105px, 0px);
+            transform: translate(-105px, 0px);
+  }
+  .feature_box {
+    width: 220px;
+    height: 220px;
+  }
+  #feature_box_2 {
+    -webkit-transform: translate(245px, -20px);
+            transform: translate(245px, -20px);
+  }
+  #feature_box_3 {
+    -webkit-transform: translate(489px, -20px);
+            transform: translate(489px, -20px);
+  }
+  .feature_box p {
+    font-size: 20px;
+  }
+  .iphone {
+    -webkit-transform: translate(118px, 404px);
+            transform: translate(118px, 404px);
+  }
+}
+
+@media only screen and (max-width: 1675px) and (max-height: 1100px) and (min-height: 1026px) {
+  #feature_box_3 {
+    display: none;
+  }
+  .main_text {
+    font-size: 25px;
+    width: 553px;
+  }
+  .cup {
+    display: none;
+  }
+  .iphone {
+    -webkit-transform: translate(-102px, 467px);
+            transform: translate(-102px, 467px);
+  }
+}
+
+@media only screen and (max-width: 1540px) and (max-height: 1100px) and (min-height: 1026px) {
+  .main_title {
+    font-size: 55px;
+  }
+  .main_text {
+    font-size: 25px;
+    -webkit-transform: translateY(-53px);
+            transform: translateY(-53px);
+    width: 449px;
+  }
+}
+
+@media only screen and (max-width: 1425px) and (max-height: 1100px) and (min-height: 1026px) {
+  .iPad_image {
+    width: 1000px;
+    -webkit-transform: translate(55px, 66px);
+            transform: translate(55px, 66px);
+  }
+  .mac {
+    -webkit-transform: translate(-105px, 0px);
+            transform: translate(-105px, 0px);
+  }
+  .iphone {
+    -webkit-transform: translate(-224px, 465px);
+            transform: translate(-224px, 465px);
   }
 }
 /*# sourceMappingURL=style.css.map */
