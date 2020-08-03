@@ -3457,8 +3457,8 @@ body {
             transform: translateY(29px);
   }
   .downlad_worksheet_btn {
-    -webkit-transform: translate(90px, -205px);
-            transform: translate(90px, -205px);
+    -webkit-transform: translate(-72px, -205px);
+            transform: translate(-72px, -205px);
     width: 120px;
     height: 35px;
     border-radius: 6px;
@@ -3477,6 +3477,10 @@ body {
   }
   .downlad_from_app_store img {
     width: 120px;
+  }
+  .worksheets_section__description p {
+    -webkit-transform: translate(23px, 140px);
+            transform: translate(23px, 140px);
   }
 }
 
