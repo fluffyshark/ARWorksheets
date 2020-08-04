@@ -60,18 +60,48 @@
    .downlad_from_app_store {transform: translate(72px,-208px);display:none; img {width: 120px;}}
    .worksheets_section__description p {transform: translate(23px, 140px);}
 }
+@media only screen and (max-width: 375px) and (max-height: 629px) and (min-height: 629px){
+   .mac {display: none;}
+   .iPad_image {width: 410px;transform: translate(-56px, 120px);}
+   .main_title {width: 359px;font-size: 30px;display:none;}
+   .background {height: 100vh;overflow: hidden;}
+   .main_text {transform: translateY(29px);display:inherit;}
+   .downlad_worksheet_btn {transform: translate(-72px, -208px);width: 120px;height: 35px;border-radius: 6px; p {font-size: 12px;transform: translate(3px, 0px);}img {width: 22px;}}
+   .downlad_from_app_store {transform: translate(72px,-208px);display:inherit; img {width: 120px;}}
+   .worksheets_section__description p {transform: translate(23px, 140px);}
+}
+@media only screen and (max-width: 375px) and (max-height: 628px) and (min-height: 628px){
+   .mac {display: none;}
+   .iPad_image {width: 410px;transform: translate(-56px, 120px);}
+   .main_title {width: 359px;font-size: 30px;display:inherit;}
+   .background {height: 100vh;overflow: hidden;}
+   .main_text {transform: translateY(29px);}
+   .downlad_worksheet_btn {transform: translate(-72px, -208px);display: none;width: 120px;height: 35px;border-radius: 6px; p {font-size: 12px;transform: translate(3px, 0px);}img {width: 22px;}}
+   .downlad_from_app_store {transform: translate(72px,-208px); img {width: 120px;}}
+   .worksheets_section__description p {transform: translate(23px, 140px);}
+}
+@media only screen and (max-width: 375px) and (max-height: 627px){
+   .mac {display: none;}
+   .iPad_image {width: 410px;transform: translate(-56px, 120px);display: none;}
+   .main_title {width: 359px;font-size: 30px;}
+   .background {height: 100vh;overflow: hidden;}
+   .main_text {transform: translateY(29px);}
+   .downlad_worksheet_btn {transform: translate(-72px, -208px);display: inherit;width: 120px;height: 35px;border-radius: 6px; p {font-size: 12px;transform: translate(3px, 0px);}img {width: 22px;}}
+   .downlad_from_app_store {transform: translate(72px,-208px); img {width: 120px;}}
+   .worksheets_section__description p {transform: translate(23px, 140px);}
+}
 
  @media only screen and (max-width: 375px) and (max-height: 619px){
     .downlad_worksheet_btn {grid-row: 10;transform: translate(-72px, -308px);}
-    .downlad_from_app_store {grid-row: 10;transform: translate(72px, -308px);display:inherit;}
+    .downlad_from_app_store {grid-row: 10;transform: translate(72px, -308px);}
     .main_text {grid-row: 5;transform: translateY(-86px);}
     .navbar img {height: 30px;}
     .background {height: 100vh;overflow: hidden;}
+    .iPad_image {width: 410px;transform: translate(-56px, 120px);display:inherit;}
  }
  @media only screen and (max-width: 375px) and (max-height: 600px){
     .main_title {font-size: 27px;transform: translateY(14px);}
     .main_text {font-size: 14px;width: 300px;transform: translateY(-77px);}
-    .iPad_image {transform: translate(-56px, 110px);}
  }
  @media only screen and (max-width: 375px) and (max-height: 580px){
     .iPad_image {transform: translate(-56px, 98px);}
