@@ -3449,7 +3449,56 @@ body {
     font-size: 30px;
   }
   .background {
-    height: 95vh;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .main_text {
+    -webkit-transform: translateY(29px);
+            transform: translateY(29px);
+  }
+  .downlad_worksheet_btn {
+    -webkit-transform: translate(-72px, -208px);
+            transform: translate(-72px, -208px);
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+  }
+  .downlad_worksheet_btn p {
+    font-size: 12px;
+    -webkit-transform: translate(3px, 0px);
+            transform: translate(3px, 0px);
+  }
+  .downlad_worksheet_btn img {
+    width: 22px;
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(72px, -208px);
+            transform: translate(72px, -208px);
+  }
+  .downlad_from_app_store img {
+    width: 120px;
+  }
+  .worksheets_section__description p {
+    -webkit-transform: translate(23px, 140px);
+            transform: translate(23px, 140px);
+  }
+}
+
+@media only screen and (max-width: 375px) and (max-height: 635px) and (min-height: 635px) {
+  .mac {
+    display: none;
+  }
+  .iPad_image {
+    width: 410px;
+    -webkit-transform: translate(-56px, 120px);
+            transform: translate(-56px, 120px);
+  }
+  .main_title {
+    width: 359px;
+    font-size: 30px;
+  }
+  .background {
+    height: 100vh;
     overflow: hidden;
   }
   .main_text {
@@ -3474,6 +3523,55 @@ body {
   .downlad_from_app_store {
     -webkit-transform: translate(72px, -230px);
             transform: translate(72px, -230px);
+  }
+  .downlad_from_app_store img {
+    width: 120px;
+  }
+  .worksheets_section__description p {
+    -webkit-transform: translate(23px, 140px);
+            transform: translate(23px, 140px);
+  }
+}
+
+@media only screen and (max-width: 375px) and (max-height: 634px) {
+  .mac {
+    display: none;
+  }
+  .iPad_image {
+    width: 410px;
+    -webkit-transform: translate(-56px, 120px);
+            transform: translate(-56px, 120px);
+  }
+  .main_title {
+    width: 359px;
+    font-size: 30px;
+  }
+  .background {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .main_text {
+    -webkit-transform: translateY(29px);
+            transform: translateY(29px);
+  }
+  .downlad_worksheet_btn {
+    -webkit-transform: translate(-72px, -208px);
+            transform: translate(-72px, -208px);
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+  }
+  .downlad_worksheet_btn p {
+    font-size: 12px;
+    -webkit-transform: translate(3px, 0px);
+            transform: translate(3px, 0px);
+  }
+  .downlad_worksheet_btn img {
+    width: 22px;
+  }
+  .downlad_from_app_store {
+    -webkit-transform: translate(72px, -208px);
+            transform: translate(72px, -208px);
   }
   .downlad_from_app_store img {
     width: 120px;
