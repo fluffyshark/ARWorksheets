@@ -3490,8 +3490,8 @@ body {
   }
   .iPad_image {
     width: 410px;
-    -webkit-transform: translate(-56px, 130px);
-            transform: translate(-56px, 130px);
+    -webkit-transform: translate(-56px, 110px);
+            transform: translate(-56px, 110px);
   }
   .main_title {
     width: 359px;
@@ -3506,8 +3506,8 @@ body {
             transform: translateY(29px);
   }
   .downlad_worksheet_btn {
-    -webkit-transform: translate(-72px, -238px);
-            transform: translate(-72px, -238px);
+    -webkit-transform: translate(-72px, -250px);
+            transform: translate(-72px, -250px);
     width: 120px;
     height: 35px;
     border-radius: 6px;
@@ -3521,8 +3521,8 @@ body {
     width: 22px;
   }
   .downlad_from_app_store {
-    -webkit-transform: translate(72px, -238px);
-            transform: translate(72px, -238px);
+    -webkit-transform: translate(72px, -250px);
+            transform: translate(72px, -250px);
   }
   .downlad_from_app_store img {
     width: 120px;

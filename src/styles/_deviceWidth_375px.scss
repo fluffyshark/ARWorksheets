@@ -21,12 +21,12 @@
  // iPhone X safari exact Viewport 375px x 635px 
 @media only screen and (max-width: 375px) and (max-height: 635px) and (min-height: 635px){
    .mac {display: none;}
-   .iPad_image {width: 410px;transform: translate(-56px, 130px);}
+   .iPad_image {width: 410px;transform: translate(-56px, 110px);}
    .main_title {width: 359px;font-size: 30px;}
    .background {height: 100vh;overflow: hidden;}
    .main_text {transform: translateY(29px);}
-   .downlad_worksheet_btn {transform: translate(-72px, -238px);width: 120px;height: 35px;border-radius: 6px; p {font-size: 12px;transform: translate(3px, 0px);}img {width: 22px;}}
-   .downlad_from_app_store {transform: translate(72px,-238px); img {width: 120px;}}
+   .downlad_worksheet_btn {transform: translate(-72px, -250px);width: 120px;height: 35px;border-radius: 6px; p {font-size: 12px;transform: translate(3px, 0px);}img {width: 22px;}}
+   .downlad_from_app_store {transform: translate(72px,-250px); img {width: 120px;}}
    .worksheets_section__description p {transform: translate(23px, 140px);}
 }
 // iPhone X Firefox exact Viewport 375px x 632px 
