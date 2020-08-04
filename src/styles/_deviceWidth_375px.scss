@@ -17,13 +17,33 @@
     .downlad_from_app_store {transform: translate(72px,-208px); img {width: 120px;}}
     .worksheets_section__description p {transform: translate(23px, 140px);}
  }
+ @media only screen and (max-width: 375px) and (max-height: 638px) and (min-height: 638px){
+   .mac {display: none;}
+   .iPad_image {width: 410px;transform: translate(-56px, 120px);}
+   .main_title {width: 359px;font-size: 30px;overflow: hidden;}
+   .background {height: 100vh;overflow: hidden;}
+   .main_text {transform: translateY(29px);}
+   .downlad_worksheet_btn {transform: translate(-72px, -230px);width: 120px;height: 35px;border-radius: 6px; p {font-size: 12px;transform: translate(3px, 0px);}img {width: 22px;}}
+   .downlad_from_app_store {transform: translate(72px,-230px); img {width: 120px;}}
+   .worksheets_section__description p {transform: translate(23px, 140px);}
+}
+   @media only screen and (max-width: 375px) and (max-height: 637px) and (min-height: 637px){
+      .mac {display: none;}
+      .iPad_image {width: 410px;transform: translate(-56px, 120px);}
+      .main_title {width: 359px;font-size: 30px;overflow: inherit;}
+      .background {height: 100vh;overflow: hidden;}
+      .main_text {transform: translateY(29px);overflow: hidden;}
+      .downlad_worksheet_btn {transform: translate(-72px, -230px);width: 120px;height: 35px;border-radius: 6px; p {font-size: 12px;transform: translate(3px, 0px);}img {width: 22px;}}
+      .downlad_from_app_store {transform: translate(72px,-230px); img {width: 120px;}}
+      .worksheets_section__description p {transform: translate(23px, 140px);}
+   }
   // iPhone X safari exact Viewport 375px x 635px 
   @media only screen and (max-width: 375px) and (max-height: 636px) and (min-height: 636px){
    .mac {display: none;}
    .iPad_image {width: 410px;transform: translate(-56px, 120px);}
    .main_title {width: 359px;font-size: 30px;}
    .background {height: 100vh;overflow: hidden;}
-   .main_text {transform: translateY(29px);}
+   .main_text {transform: translateY(29px);overflow: inherit;}
    .downlad_worksheet_btn {transform: translate(-72px, -230px);overflow:hidden; width: 120px;height: 35px;border-radius: 6px; p {font-size: 12px;transform: translate(3px, 0px);}img {width: 22px;}}
    .downlad_from_app_store {transform: translate(72px,-230px); img {width: 120px;}}
    .worksheets_section__description p {transform: translate(23px, 140px);}
@@ -38,13 +58,23 @@
    .downlad_from_app_store {transform: translate(72px,-208px);overflow: hidden; img {width: 120px;}}
    .worksheets_section__description p {transform: translate(23px, 140px);}
 }
-@media only screen and (max-width: 375px) and (max-height: 635px){
+@media only screen and (max-width: 375px) and (max-height: 634px) and (max-height: 634px){
    .mac {display: none;}
-   .iPad_image {width: 410px;transform: translate(-56px, 120px);}
+   .iPad_image {width: 410px;transform: translate(-56px, 120px);overflow:none;}
    .main_title {width: 359px;font-size: 30px;}
    .background {height: 100vh;overflow: hidden;}
    .main_text {transform: translateY(29px);}
-   .downlad_worksheet_btn {transform: translate(-72px, -208px);overflow:inherit;width: 120px;height: 35px;border-radius: 6px; p {font-size: 12px;transform: translate(3px, 0px);}img {width: 22px;}}
+   .downlad_worksheet_btn {transform: translate(-72px, -208px);width: 120px;height: 35px;border-radius: 6px; p {font-size: 12px;transform: translate(3px, 0px);}img {width: 22px;}}
+   .downlad_from_app_store {transform: translate(72px,-208px);overflow:inherit; img {width: 120px;}}
+   .worksheets_section__description p {transform: translate(23px, 140px);}
+}
+@media only screen and (max-width: 375px) and (max-height: 633px){
+   .mac {display: none;}
+   .iPad_image {width: 410px;transform: translate(-56px, 120px);overflow:inherit;}
+   .main_title {width: 359px;font-size: 30px;}
+   .background {height: 100vh;overflow: hidden;}
+   .main_text {transform: translateY(29px);}
+   .downlad_worksheet_btn {transform: translate(-72px, -208px);width: 120px;height: 35px;border-radius: 6px; p {font-size: 12px;transform: translate(3px, 0px);}img {width: 22px;}}
    .downlad_from_app_store {transform: translate(72px,-208px); img {width: 120px;}}
    .worksheets_section__description p {transform: translate(23px, 140px);}
 }
