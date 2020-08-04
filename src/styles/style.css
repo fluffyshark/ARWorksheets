@@ -3552,6 +3552,7 @@ body {
   .background {
     height: 100vh;
     overflow: hidden;
+    display: none;
   }
   .main_text {
     -webkit-transform: translateY(29px);
@@ -3595,7 +3596,6 @@ body {
     width: 410px;
     -webkit-transform: translate(-56px, 120px);
             transform: translate(-56px, 120px);
-    display: inherit;
   }
   .main_title {
     width: 359px;
@@ -3647,7 +3647,6 @@ body {
     width: 410px;
     -webkit-transform: translate(-56px, 120px);
             transform: translate(-56px, 120px);
-    display: inherit;
   }
   .main_title {
     width: 359px;
@@ -3661,7 +3660,6 @@ body {
   .main_text {
     -webkit-transform: translateY(29px);
             transform: translateY(29px);
-    display: inherit;
   }
   .downlad_worksheet_btn {
     -webkit-transform: translate(-72px, -208px);
