@@ -3496,7 +3496,7 @@ body {
   .main_title {
     width: 359px;
     font-size: 30px;
-    overflow: hidden;
+    display: none;
   }
   .background {
     height: 100vh;
@@ -3546,7 +3546,7 @@ body {
   .main_title {
     width: 359px;
     font-size: 30px;
-    overflow: inherit;
+    display: inherit;
   }
   .background {
     height: 100vh;
@@ -3555,7 +3555,7 @@ body {
   .main_text {
     -webkit-transform: translateY(29px);
             transform: translateY(29px);
-    overflow: hidden;
+    display: none;
   }
   .downlad_worksheet_btn {
     -webkit-transform: translate(-72px, -230px);
@@ -3605,12 +3605,12 @@ body {
   .main_text {
     -webkit-transform: translateY(29px);
             transform: translateY(29px);
-    overflow: inherit;
+    display: inherit;
   }
   .downlad_worksheet_btn {
     -webkit-transform: translate(-72px, -230px);
             transform: translate(-72px, -230px);
-    overflow: hidden;
+    display: none;
     width: 120px;
     height: 35px;
     border-radius: 6px;
@@ -3660,7 +3660,7 @@ body {
   .downlad_worksheet_btn {
     -webkit-transform: translate(-72px, -208px);
             transform: translate(-72px, -208px);
-    overflow: inherit;
+    display: inherit;
     width: 120px;
     height: 35px;
     border-radius: 6px;
@@ -3676,7 +3676,7 @@ body {
   .downlad_from_app_store {
     -webkit-transform: translate(72px, -208px);
             transform: translate(72px, -208px);
-    overflow: hidden;
+    display: none;
   }
   .downlad_from_app_store img {
     width: 120px;
@@ -3695,7 +3695,7 @@ body {
     width: 410px;
     -webkit-transform: translate(-56px, 120px);
             transform: translate(-56px, 120px);
-    overflow: none;
+    display: none;
   }
   .main_title {
     width: 359px;
@@ -3727,7 +3727,7 @@ body {
   .downlad_from_app_store {
     -webkit-transform: translate(72px, -208px);
             transform: translate(72px, -208px);
-    overflow: inherit;
+    display: inherit;
   }
   .downlad_from_app_store img {
     width: 120px;
@@ -3746,7 +3746,7 @@ body {
     width: 410px;
     -webkit-transform: translate(-56px, 120px);
             transform: translate(-56px, 120px);
-    overflow: inherit;
+    display: inherit;
   }
   .main_title {
     width: 359px;
