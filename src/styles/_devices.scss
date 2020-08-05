@@ -1,14 +1,16 @@
 // iPad 9.7" Landscape Safari
 @media only screen and (max-width: 1040px) and (min-width: 1020px) and (max-height: 670px) and (min-height: 650px) {
     .background {height: 675px}
-    .iPad_image {width: 450px;}
+    .iPad_image {width: 723px;}
     .main_text {transform: translateY(-37px);}
     .main_title {transform: translateY(-20px);}
-    .downlad_from_app_store {transform: translate(155px, -30px);}
+    .downlad_from_app_store {transform: translate(189px, -30px);}
     .downlad_worksheet_btn {transform: translateY(-30px);}
     #feature_box_1 {transform: translate(-20px, 0px); width: 145px; height: 145px;}
     #feature_box_2 {transform: translate(145px, 0px); width: 145px; height: 145px; p {width:140px}}
     #feature_box_3 {transform: translate(310px, 0px); width: 145px; height: 145px;}
+    .mac {transform: translate(-66px, -78px);width: 420px;}
+    .iphone {transform: translate(-81px, 265px);width: 425px;}
  }
 
  // iPad 9.7" Portrait Safari
