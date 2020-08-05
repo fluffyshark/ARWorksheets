@@ -90,6 +90,7 @@
         grid-row: 1;
         justify-self: left;
         align-self: center;
+        pointer-events:none;
     }
     p {
         color: white;
@@ -99,7 +100,8 @@
         grid-row: 1;
         margin: 0;
         justify-self: left;
-        align-self: center;    
+        align-self: center; 
+        pointer-events: none;   
     }
 }
 #download_icon_purple {display: none;}
@@ -113,7 +115,7 @@
     transform: translate(190px, -15px);
     z-index: 2;
 
-    img {width: 164px;}    
+    img {width: 164px;pointer-events:none;}    
 }
 
 

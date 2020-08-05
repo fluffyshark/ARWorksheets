@@ -122,6 +122,7 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  pointer-events: none;
 }
 
 .downlad_worksheet_btn p {
@@ -138,6 +139,7 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  pointer-events: none;
 }
 
 #download_icon_purple {
@@ -162,6 +164,7 @@ body {
 
 .downlad_from_app_store img {
   width: 164px;
+  pointer-events: none;
 }
 
 /*----------Feature boxex-------------*/
@@ -788,6 +791,7 @@ body {
   border: none;
   position: absolute;
   left: 209px;
+  cursor: pointer;
 }
 
 .email_field_container__field {
@@ -1544,9 +1548,6 @@ body {
   background-color: #00e07f;
   display: -ms-grid;
   display: grid;
-}
-
-.download_pdf_btn :hover {
   cursor: pointer;
 }
 
@@ -1558,6 +1559,7 @@ body {
       -ms-grid-row-align: center;
       align-self: center;
   margin: 0;
+  pointer-events: none;
 }
 
 .download_options_text {
@@ -2157,6 +2159,7 @@ body {
   left: 10%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .worksheet_image02 {
@@ -2165,6 +2168,7 @@ body {
   left: 22%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .worksheet_image03 {
@@ -2173,6 +2177,7 @@ body {
   left: 34%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .worksheet_image04 {
@@ -2181,6 +2186,7 @@ body {
   left: 46%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .worksheet_image05 {
@@ -2189,6 +2195,7 @@ body {
   left: 58%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .download_email_button {

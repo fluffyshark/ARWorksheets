@@ -630,11 +630,11 @@ class Download_Worksheets extends React.Component {
                             <p>English Grammar</p>
                         </div>
                         <div className="worksheet_container01__image" id="images_column">
-                            <img className="worksheet_image01" src={grammar01} alt="" style={this.state.image01} onClick={() => larger_image("1")} onMouseLeave={() => this.deHighlightImages('image01')} onMouseEnter={() => this.highlightImages('image01')}/>
-                            <img className="worksheet_image02" src={grammar02} alt="" style={this.state.image02} onClick={() => larger_image("2")} onMouseLeave={() => this.deHighlightImages('image02')} onMouseEnter={() => this.highlightImages('image02')}/>
-                            <img className="worksheet_image03" src={grammar03} alt="" style={this.state.image03} onClick={() => larger_image("3")} onMouseLeave={() => this.deHighlightImages('image03')} onMouseEnter={() => this.highlightImages('image03')}/>
-                            <img className="worksheet_image04" src={grammar04} alt="" style={this.state.image04} onClick={() => larger_image("4")} onMouseLeave={() => this.deHighlightImages('image04')} onMouseEnter={() => this.highlightImages('image04')}/>
-                            <img className="worksheet_image05" src={grammar05} alt="" style={this.state.image05} onClick={() => larger_image("5")} onMouseLeave={() => this.deHighlightImages('image05')} onMouseEnter={() => this.highlightImages('image05')}/>
+                            <img id="Worksheet_001" className="worksheet_image01" src={grammar01} alt="" style={this.state.image01} onClick={() => larger_image("1")} onMouseLeave={() => this.deHighlightImages('image01')} onMouseEnter={() => this.highlightImages('image01')}/>
+                            <img id="Worksheet_002" className="worksheet_image02" src={grammar02} alt="" style={this.state.image02} onClick={() => larger_image("2")} onMouseLeave={() => this.deHighlightImages('image02')} onMouseEnter={() => this.highlightImages('image02')}/>
+                            <img id="Worksheet_003" className="worksheet_image03" src={grammar03} alt="" style={this.state.image03} onClick={() => larger_image("3")} onMouseLeave={() => this.deHighlightImages('image03')} onMouseEnter={() => this.highlightImages('image03')}/>
+                            <img id="Worksheet_004" className="worksheet_image04" src={grammar04} alt="" style={this.state.image04} onClick={() => larger_image("4")} onMouseLeave={() => this.deHighlightImages('image04')} onMouseEnter={() => this.highlightImages('image04')}/>
+                            <img id="Worksheet_005" className="worksheet_image05" src={grammar05} alt="" style={this.state.image05} onClick={() => larger_image("5")} onMouseLeave={() => this.deHighlightImages('image05')} onMouseEnter={() => this.highlightImages('image05')}/>
                             
                         </div>
                         <div id="group1_btn" className="download_email_button" onClick={() => add_to_email("1")}><p id="group1_btn_text">Add to email</p></div>

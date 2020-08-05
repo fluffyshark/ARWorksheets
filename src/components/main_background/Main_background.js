@@ -50,7 +50,7 @@ class Main_background extends React.Component {
                     </Link>
                     
                     <div className="downlad_from_app_store">
-                        <a href="https://apps.apple.com/se/app/ar-worksheets/id1523196289"><img src={download_app_store} alt=""/></a>
+                        <a href="https://apps.apple.com/se/app/ar-worksheets/id1523196289"><img className="to_app_store" src={download_app_store} alt=""/></a>
                     </div>
 
                     <div className="feature_box" id="feature_box_1">
