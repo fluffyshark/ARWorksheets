@@ -1,13 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import ReactGa from 'react-ga';
 import dark_overlay from "./dark_overlay.png";
 import hand_ipad from "./hand_ipad-min.png";
 import mac from "./mac.png";
 import cup from "./cup.png";
 import iPhone from "./iphone.png";
 import download_icon from "./download_icon.png";
-import download_icon_purple from "./download_icon_purple.png";
 import download_app_store from "./download_app_store.png";
 import saves_time_icon from "./saves_time_icon.png";
 import organize_icon from "./organize_icon.png";
@@ -45,14 +44,14 @@ class Main_background extends React.Component {
                     <img className="mac" src={mac} alt="" />
                     <img className="cup" src={cup} alt="" />
                     <img className="iphone" src={iPhone} alt="" />
-                    <Link className="downlad_worksheet_btn" to="/download_worksheets" style={{ textDecoration: 'none' }}>
+                    <Link className="downlad_worksheet_btn" to="/download_worksheets" onClick={ClickDownloadWorksheets} style={{ textDecoration: 'none' }}>
                             <p>Download Worksheets</p>
                             <img src={download_icon} alt="" id="download_icon"/>
                             
                     </Link>
                     
                     <div className="downlad_from_app_store">
-                        <a href="https://apps.apple.com/se/app/ar-worksheets/id1523196289"><img src={download_app_store} alt=""/></a>
+                        <a href="https://apps.apple.com/se/app/ar-worksheets/id1523196289"><img src={download_app_store} alt="" onClick={ClickToAppStore}/></a>
                     </div>
 
                     <div className="feature_box" id="feature_box_1">
@@ -76,3 +75,16 @@ class Main_background extends React.Component {
 }
 
 export default Main_background;
+
+function ClickDownloadWorksheets() {
+    ReactGa.event({
+        category: 'Button - Download Worksheets',
+        action: 'Takes users to Worksheets Section'
+    })
+}
+function ClickToAppStore() {
+    ReactGa.event({
+        category: 'Button - Go to App Store',
+        action: 'Takes users to App Store'
+    })
+}
