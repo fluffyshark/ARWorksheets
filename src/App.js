@@ -6,6 +6,7 @@ import ToS from "./components/tos/ToS";
 import Contact from "./components/contact/contact";
 import Privacy from "./components/privacy/privacy";
 import Download_Worksheets from "./components/worksheets/worksheets";
+import Email_section from "./components/email_section/Email_section";
 
 
 import './styles/style.css';
@@ -40,6 +41,7 @@ function App() {
           <Route path="/privacy" component={Privacy}/>
           <Route path="/app" component={HomePage}/>
         </Switch>
+        <Email_section />
         <Contact />
       </Router>
       
