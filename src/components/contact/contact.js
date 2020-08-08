@@ -29,8 +29,8 @@ class Contact extends React.Component {
             facebook_btn.setAttribute("href", `https://www.facebook.com/sharer.php?u=${postURL}`);
             twitter_btn.setAttribute("href", `https://twitter.com/share?url=${postURL}&text=${postTitle}&via=[via]&hashtags=[hashtags]
             `);
-            pinterest_btn.setAttribute("href", `https://pinterest.com/pin/create/bookmarklet/?media=${postImg}&url=${postURL}&is_video=[is_video]&description=${postTitle}
-            `);
+            pinterest_btn.setAttribute("href", "https://www.pinterest.se/robiny13961089/"
+            );
         };
     
     
@@ -59,9 +59,9 @@ class Contact extends React.Component {
                         <Link to="/download_worksheets" style={{ textDecoration: 'none' }} >
                             <p>Get Worksheets</p>
                         </Link>
-                        <Link to="/app" style={{ textDecoration: 'none' }}>
+                        <a style={{textDecoration: 'none'}} href="https://apps.apple.com/se/app/ar-worksheets/id1523196289">
                             <p>Get the App</p>
-                        </Link>
+                        </a>
                     </div>
                     <div className="text_container_2">
                         <Link to="/tos" style={{ textDecoration: 'none' }}>

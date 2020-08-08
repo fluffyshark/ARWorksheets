@@ -24,9 +24,15 @@
         justify-self: center;
         p {
         font-size: 20px;
-        transform: translateY(160px);
+        transform: translateY(144px);
         }
 }
+
+.pinterest_follow_btn {
+    width: 120px;
+    transform: translateY(-50px);
+}
+
 
 .worksheets_for_download {
     overflow: hidden;
@@ -303,7 +309,7 @@
 
 
 @media only screen and (max-width: 600px) {
-    .worksheet_download_page_title_description p {width: 400px; transform: translate(165px, 170px);}
+    .worksheet_download_page_title_description p {width: 400px; transform: translate(165px, 153px);}
 }// END OF MEDIA QUERY 600px
 
 
@@ -327,30 +333,28 @@
 
 @media only screen and (max-width: 420px) {
     .worksheets_section_title_container {height: 260px;}
-    .worksheet_download_page_title_description p {font-size: 16px; transform: translate(165px, 160px);}
-    .worksheet_download_page_title p {font-size: 25px; font-weight: 500; transform: translateY(85px);}
+    .worksheet_download_page_title_description p {font-size: 16px; transform: translate(165px, 133px);}
+    .worksheet_download_page_title p {font-size: 25px; font-weight: 500; transform: translateY(64px);}
 }// END OF MEDIA QUERY 420px
 
 
 @media only screen and (max-width: 390px) {
     .worksheets_for_download {width: 100%;}
-    .worksheet_download_page_title_description P {transform: translate(205px, 162px);width: 315px;}
+    .worksheet_download_page_title_description P {transform: translate(205px, 137px);width: 315px;}
 
 } // END OF MEDIA QUERY 390px
 
 @media only screen and (max-width: 350px) {
     .worksheets_for_download_container {width: 100vw;}
     .worksheet_download_page_title p {font-size: 25px; transform: translateY(70px);}
-    .worksheet_download_page_title_description p {transform: translate(205px, 159px);font-size: 13px;}
+    .worksheet_download_page_title_description p {transform: translate(205px, 140px);font-size: 13px;}
     
 } // END OF MEDIA QUERY 350px
 
 @media only screen and (max-width: 300px) {
     .worksheets_for_download {height: 3500px;}
     .worksheet_download_page_title p {font-size: 24px;}
-    .worksheet_download_page_title_description p {
-        transform: translate(205px, 150px);
-    }
+    .worksheet_download_page_title_description p {transform: translate(205px, 142px);}
     .worksheet_download_page_group img { width: 110px;}
     .worksheet_download_page_display_container {
         height: auto;

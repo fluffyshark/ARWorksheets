@@ -40,7 +40,7 @@ function App() {
         <Navbar/>
         
         <Switch>
-          <Route path="/" exact component={Download_Worksheets}/>
+          <Route path="/" exact component={HomePage}/>
           <Route path="/download_worksheets" component={Download_Worksheets}/>
           <Route path="/tos" component={ToS}/>
           <Route path="/privacy" component={Privacy}/>

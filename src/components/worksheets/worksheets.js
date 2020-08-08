@@ -1,5 +1,7 @@
 import React from "react";
 
+import pinterest_btn from './pinterest_follow_btn1.png'
+
 import grammar01 from "./grammar01.png";
 import grammar02 from "./grammar02.png";
 import grammar03 from "./grammar03.png";
@@ -603,9 +605,13 @@ class Download_Worksheets extends React.Component {
                         </div>
                         <div className="worksheet_download_page_title_description">
                             <p>Click on an image to enlarge, then choose to download as PDF or just save the image to your device.</p>
+                           
+                            
+
                         </div>
-                        
-                       
+                        <a href="https://www.pinterest.se/robiny13961089/pins/">
+                            <img src={pinterest_btn} alt="pinterest_btn" className="pinterest_follow_btn" />
+                        </a>
                         </div>
 
                 
