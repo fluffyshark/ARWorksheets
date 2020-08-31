@@ -17,6 +17,10 @@
     .downlad_from_app_store {transform: translate(72px,-208px); img {width: 120px;}}
     .worksheets_section__description p {transform: translate(23px, 140px);}
  }
+ @media only screen and (max-width: 375px) and (max-height: 640px) {
+   .downlad_worksheet_btn {transform: translate(-72px, -232px)}
+   .downlad_from_app_store {transform: translate(72px, -232px);}
+}
  
  // iPhone X safari exact Viewport 375px x 635px 
 @media only screen and (max-width: 375px) and (max-height: 635px) and (min-height: 635px){
