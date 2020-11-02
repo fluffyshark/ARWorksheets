@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1b63df0f0d61afed23089ef9bab0723",
+    "revision": "20def2b4cec0de1c4eb8dad4dc39ea7b",
     "url": "/index.html"
   },
   {
-    "revision": "c34032f96c88b3adba8e",
-    "url": "/static/css/main.be8dae4e.chunk.css"
+    "revision": "8bf62b81daffbda7988c",
+    "url": "/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "1cb051f9ea17a30b8696",
-    "url": "/static/js/2.d5bed1f9.chunk.js"
+    "revision": "246475c86d9c9fb3d5e2",
+    "url": "/static/css/main.89b8f9f0.chunk.css"
+  },
+  {
+    "revision": "8bf62b81daffbda7988c",
+    "url": "/static/js/2.5641c2a5.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.d5bed1f9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.5641c2a5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c34032f96c88b3adba8e",
-    "url": "/static/js/main.ea3b174d.chunk.js"
+    "revision": "246475c86d9c9fb3d5e2",
+    "url": "/static/js/main.d1101cdc.chunk.js"
   },
   {
     "revision": "56c03dd11c5392f28634",
@@ -46,6 +50,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a0fb592443d12dd7989594e352c634e6",
     "url": "/static/media/animals05.a0fb5924.png"
+  },
+  {
+    "revision": "af051912c51220c5918617a68cd0706a",
+    "url": "/static/media/app01.af051912.png"
+  },
+  {
+    "revision": "b11873c9964b012bcf503f8f529359bb",
+    "url": "/static/media/app02.b11873c9.png"
+  },
+  {
+    "revision": "f41b20a74c70091c1be8d9f35b1bce9b",
+    "url": "/static/media/app03.f41b20a7.png"
+  },
+  {
+    "revision": "f2ee78718afd8752b48a7da47ba0092c",
+    "url": "/static/media/app04.f2ee7871.png"
+  },
+  {
+    "revision": "e19595c913337d96a643c2c44629210c",
+    "url": "/static/media/background.e19595c9.jpg"
   },
   {
     "revision": "55eb8255534eda675eda3e541e098747",
@@ -158,6 +182,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ab69bfe62717c2acd024ce20b7e3775a",
     "url": "/static/media/farming05.ab69bfe6.png"
+  },
+  {
+    "revision": "0a772829f8f1106cbe5c23653b5103f0",
+    "url": "/static/media/fifthimage.0a772829.png"
   },
   {
     "revision": "59ccd15f01273587d0ab33acf241256b",
@@ -292,6 +320,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/marine05.3b6eaefa.png"
   },
   {
+    "revision": "94be1c8d7fa72915b872a22ed2059044",
+    "url": "/static/media/math_leveling_logo.94be1c8d.png"
+  },
+  {
+    "revision": "70f5fe287c4f4cc6a923f86a40ae4796",
+    "url": "/static/media/motivating-learning-logo.70f5fe28.png"
+  },
+  {
     "revision": "3fda37a3dcf0e46cb308e696288729a8",
     "url": "/static/media/mystic01.3fda37a3.png"
   },
@@ -314,6 +350,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0982aa4dec7668e14ed3f54bdffe3017",
     "url": "/static/media/pinterest_follow_btn1.0982aa4d.png"
+  },
+  {
+    "revision": "28d4e4652ce38194bcebc1abffb680b9",
+    "url": "/static/media/sixthpart01.28d4e465.png"
+  },
+  {
+    "revision": "bc8b100052597cb057f0ce9dc5ab239a",
+    "url": "/static/media/sixthpart02.bc8b1000.png"
   },
   {
     "revision": "31b067c925f822305e2801bb3323a67e",
