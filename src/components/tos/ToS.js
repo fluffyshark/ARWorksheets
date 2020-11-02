@@ -3,8 +3,9 @@ import React from "react";
 class ToS extends React.Component {
 
     componentDidMount() {
-        document.getElementById("standard_logo").style.display = "none";
-        document.getElementById("adjusted_logo").style.display = "inherit";
+        // document.getElementById("standard_logo").style.display = "none";
+        // document.getElementById("adjusted_logo").style.display = "none";
+        // document.getElementById("motivating_logo").style.display = "inherit";
         window.scrollTo(0,0);
     }
 

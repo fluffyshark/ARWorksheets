@@ -1,0 +1,143 @@
+.MGXFourthSection {
+    width: 100%;
+    height: 85vh;
+    background: rgb(139,139,248);
+    background: linear-gradient(270deg, rgba(139,139,248,1) 34%, rgba(164,171,255,1) 71%);
+
+display: grid;
+grid-template-columns: 50% 50%;
+grid-template-rows: 100%;
+
+
+}
+
+.MGXFourthSection-textHolder {
+    width: 530px;
+    height: 150px;
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 35px;
+    color: white;
+    justify-self: center;
+    align-self: center;
+    p {margin:0;}
+}
+
+.MGXSmall-text {
+    font-size: 20px;
+    transform: translateY(15px);
+}
+
+.MGXFourthSection-imageHolder {
+    width: 100%;
+    height: 400px;
+    grid-column: 2;
+    grid-row: 1;
+    color: white;
+    justify-self: center;
+    align-self: center;
+
+    display: grid;
+}
+
+.MGXFourthSection-app_images {
+    height: 100%;
+    grid-row: 1;
+    grid-column: 1;
+}
+#MGXFourthSection-app01 {
+    transform: translateX(-28px);
+    z-index: 2;
+}
+#MGXFourthSection-app02 {
+    transform: translateX(120px);
+    z-index: 3;
+}
+#MGXFourthSection-app03 {
+    transform: translateX(277px);
+    z-index: 2;
+}
+#MGXFourthSection-app04 {
+    transform: translateX(372px);
+    z-index: 1;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .MGXFourthSection {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 75%;
+        overflow: hidden;
+    }
+    .MGXFourthSection-textHolder {
+        text-align: center;
+        grid-row: 1;
+        grid-column: 1;
+        transform: translateY(54px);
+    }
+    .MGXFourthSection-imageHolder {
+        grid-row: 2;
+        grid-column: 1;
+        justify-self: center;
+        width: auto;
+        transform: translate(-155px, 20px) scale(0.90);
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .MGXFourthSection {height: 550px;}
+}
+
+@media only screen and (max-width: 1360px) {
+    .MGXFourthSection-textHolder {transform: scale(1) translateY(0px);}
+    .MGXFourthSection-imageHolder {transform: translate(-30px, 0px); img {width: 200px; height: 290px; margin-top: 50px;} }
+    .MGXFourthSection {height: 550px;}
+}
+
+@media only screen and (max-width: 1200px) {
+    .MGXFourthSection-textHolder {transform: scale(0.9) translateY(54px);}
+    .MGXFourthSection-imageHolder {img {margin-top: 75px; margin-left: -210px;} }
+    .MGXFourthSection {height: 550px;}
+    #MGXFourthSection-app04 {display: none;}
+}
+
+@media only screen and (max-width: 600px) {
+    .MGXFourthSection-textHolder {transform: scale(0.8) translateY(54px);}
+    .MGXFourthSection-imageHolder { img {margin-left: -225px; width: 200px; height: 275px;} }
+    #MGXFourthSection-app04 {display: none;}
+}
+
+@media only screen and (max-width: 540px) {
+    .MGXFourthSection-imageHolder { img {margin-left: -220px; width: 200px; height: 265px;} }
+    #MGXFourthSection-app01 {transform: translateX(0px);}
+    #MGXFourthSection-app03 {transform: translateX(245px);}
+}
+
+@media only screen and (max-width: 460px) {
+    .MGXFourthSection {height: 480px;}
+    .MGXFourthSection-textHolder {transform: scale(0.7) translateY(54px);}
+    .MGXFourthSection-imageHolder { img {margin-left: -202px; width: 160px; height: 235px;} }
+}
+
+@media only screen and (max-width: 420px) {
+    .MGXFourthSection {height: 400px;}
+    .MGXFourthSection-imageHolder { img {margin-left: -190px; margin-top: 120px; width: 130px; height: 185px;} }
+    #MGXFourthSection-app01 {transform: translateX(20px);}
+    #MGXFourthSection-app03 {transform: translateX(225px);}
+}
+
+@media only screen and (max-width: 390px) {
+    .MGXFourthSection {height: 380px;}
+    .MGXFourthSection-textHolder {transform: scale(0.65) translateY(54px);}
+    .MGXFourthSection-imageHolder { img {margin-left: -190px; margin-top: 120px; width: 130px; height: 185px;} }
+}
+
+@media only screen and (max-width: 350px) {
+    .MGXFourthSection {height: 365px;}
+    .MGXFourthSection-textHolder {transform: scale(0.55) translateY(54px);}
+    .MGXFourthSection-imageHolder { img {margin-left: -180px; margin-top: 120px; width: 120px; height: 175px;} }
+    #MGXFourthSection-app01 {transform: translateX(50px);}
+    #MGXFourthSection-app03 {transform: translateX(195px);}
+}

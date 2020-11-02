@@ -8,6 +8,9 @@ import Privacy from "./components/privacy/privacy";
 import Download_Worksheets from "./components/worksheets/worksheets";
 import Email_section from "./components/email_section/Email_section";
 
+// MATH GENIUS
+import MGXHome from "./components/MathGenius/MGXHome";
+
 
 import './styles/style.css';
 
@@ -45,6 +48,9 @@ function App() {
           <Route path="/tos" component={ToS}/>
           <Route path="/privacy" component={Privacy}/>
           <Route path="/app" component={HomePage}/>
+
+          <Route path="/math-leveling" component={MGXHome}/>
+
         </Switch>
         <Email_section />
         <Contact />

@@ -1,0 +1,166 @@
+.MGXSixthSection {
+    width: 100%;
+    height: 85vh;
+    background: rgb(114,215,157);
+    background: linear-gradient(180deg, rgba(114,215,157,1) 34%, rgba(114,182,157,1) 71%);
+    overflow: hidden;
+
+display: grid;
+grid-template-columns: 50% 50%;
+grid-template-rows: 100%;
+
+
+}
+
+.MGXSixthSection-textHolder {
+    width: 500px;
+    height: 150px;
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 35px;
+    color: white;
+    justify-self: center;
+    align-self: center;
+    transform: translateY(-38px);
+    p {margin:0;}
+
+}
+
+.MGXSixthSection-imageHolder {
+    grid-row: 1;
+    grid-column: 2;
+
+    display: grid;
+}
+
+.MGXSixthSection-images {
+    
+    align-self: end;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#MGXSixthSection-image01 {
+    width: 570px;
+}
+#MGXSixthSection-image02 {
+    width: 150px;
+    transform: translate(-14px, -115px);
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .MGXSixthSection {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 75%;
+        overflow: hidden;
+    }
+    .MGXSixthSection-textHolder {
+        width: 700px;
+        grid-row: 1;
+        grid-column: 1;
+        text-align: center;
+        justify-self: center;
+        transform: translateY(54px);
+        p {width: auto;}
+    }
+    .MGXSixthSection-imageHolder {
+        grid-row: 2;
+        grid-column: 1;
+    }
+    #MGXSixthSection-image01 {
+        transform: scale(0.70)
+    }
+    #MGXSixthSection-image02 {
+        transform: scale(0.70) translateY(-165px);
+        
+    }
+}
+
+
+@media only screen and (max-width: 1400px) {
+    #MGXSixthSection-image01 {width: 500px; margin-top: -30px;}
+    #MGXSixthSection-image02 {width: 120px; margin-left: 0px;}
+    .MGXSixthSection {overflow: hidden;}
+}
+
+@media only screen and (max-width: 1200px) {
+    .MGXSixthSection-textHolder {transform: scale(1) translateY(54px);}
+    .MGXSixthSection {height: 650px; overflow: hidden;}
+    #MGXSixthSection-image01 {width: 600px; margin-top: -30px;}
+    #MGXSixthSection-image02 {width: 170px; margin-left: 0px;}
+}
+
+@media only screen and (max-width: 750px) {
+    .MGXSixthSection-textHolder {transform: scale(0.9) translateY(54px);}
+    .MGXSixthSection {height: 650px;}
+    .MGXSixthSection-imageHolder {transform: scale(1.1)}
+}
+
+@media only screen and (max-width: 650px) {
+    .MGXSixthSection-textHolder {transform: scale(0.8) translateY(54px);}
+    .MGXSixthSection {height: 650px;}
+    .MGXSixthSection-imageHolder {transform: scale(1.1)}
+}
+
+@media only screen and (max-width: 600px) {
+    .MGXSixthSection-textHolder {transform: scale(0.70) translateY(54px);}
+    #MGXSixthSection-image01 {width: 550px; margin-top: -30px;}
+    .MGXSixthSection {height: 570px; overflow: hidden;}
+}
+
+@media only screen and (max-width: 500px) {
+    .MGXSixthSection-textHolder {
+        transform: scale(0.60) translateY(54px);
+        .MGXSmall-text {width: 650px;transform: translate(22px, 20px);}}
+    #MGXSixthSection-image01 {width: 500px; margin-top: -20px;}
+    .MGXSixthSection {height: 530px;}
+}
+
+@media only screen and (max-width: 480px) {
+    .MGXSixthSection-textHolder {transform: scale(0.60) translateY(54px);}
+    #MGXSixthSection-image01 {width: 430px; margin-top: -20px;}
+    #MGXSixthSection-image02 {width: 120px; margin-left: 15px;}
+    .MGXSixthSection {height: 450px; overflow: hidden;}
+    
+}
+
+@media only screen and (max-width: 430px) {
+    .MGXSixthSection-textHolder {transform: scale(0.55) translateY(54px);}
+    .MGXSixthSection {height: 445px;}
+}
+
+@media only screen and (max-width: 380px) {
+    #MGXSixthSection-image01 {width: 430px; margin-top: -20px; margin-left: -10px;}
+}
+
+@media only screen and (max-width: 370px) {
+    .MGXSixthSection-textHolder {transform: scale(0.50) translateY(54px);}
+    #MGXSixthSection-image01 {width: 430px; margin-top: -20px; margin-left: -20px;}
+    .MGXSixthSection {height: 450px;}
+}
+
+@media only screen and (max-width: 355px) {
+    #MGXSixthSection-image01 {width: 430px; margin-top: -20px; margin-left: -30px;}
+    #MGXSixthSection-image02 {width: 110px; margin-left: 15px;}
+}
+
+@media only screen and (max-width: 350px) {
+    #MGXSixthSection-image01 {width: 400px; margin-top: -20px; margin-left: -30px;}
+    #MGXSixthSection-image02 {width: 110px; margin-left: 5px;}
+    .MGXSixthSection {height: 420px;}
+}
+
+@media only screen and (max-width: 325px) {
+    .MGXSixthSection-textHolder {transform: scale(0.45) translateY(54px);}
+    #MGXSixthSection-image01 {width: 380px; margin-top: -20px; margin-left: -30px;}
+    #MGXSixthSection-image02 {width: 100px; margin-left: 5px;}
+    .MGXSixthSection {height: 400px;}
+}
+
+
+
+
+

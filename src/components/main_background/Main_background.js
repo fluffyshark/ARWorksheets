@@ -24,8 +24,9 @@ class Main_background extends React.Component {
         window.addEventListener('scroll', this.listenScrollEvent)
         window.addEventListener('resize', this.reportWindowSize)
 
-        document.getElementById("standard_logo").style.display = "inherit";
-        document.getElementById("adjusted_logo").style.display = "none";
+        // document.getElementById("standard_logo").style.display = "inherit";
+        // document.getElementById("adjusted_logo").style.display = "none";
+        // document.getElementById("motivating_logo").style.display = "none";
         window.scrollTo(0,0);
     }
     

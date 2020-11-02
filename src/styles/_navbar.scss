@@ -5,12 +5,12 @@
     top: 0px;
     left: 0px;
     z-index: 3;
+}
 
+.ar_worksheets_navbar {
     img {
-        height: 45px;
-        margin-left: 30px;
-        margin-top: 20px;
-       
+        width: 250px;
+        transform: translate(20px, 20px);
     }
 }
 
@@ -18,12 +18,183 @@
     display: none;
 }
 
+.navbar_blog {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 100%;
+
+   
+}
+.navbar_blog_small {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 100%;
+
+    display: none;
+}
+
+#motivating_logo {
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 20px;
+    justify-self: center;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+
+.navbar_home {
+    grid-row: 1;
+    grid-column: 1;
+    align-self: center;
+    transform: translateX(40px);
+    font-size: 14px;
+    font-weight: 600;
+    color: #8f8f8f; 
+    width: 100px;
+    cursor: pointer;
+}
+.navbar_home_icon {
+    width: 25px;
+    cursor: pointer;
+    grid-row: 1;
+    grid-column: 1;
+    align-self: center;
+    transform: translateX(30px);
+}
+
+.navbar_our_apps {
+    grid-row: 1;
+    grid-column: 1;
+    align-self: center;
+    transform: translateX(130px);
+    font-size: 14px;
+    font-weight: 600;
+    color: #8f8f8f;
+    width: 100px;
+    cursor: pointer;
+}
+
+.navbar_star_icon {
+    width: 25px;
+    cursor: pointer;
+    grid-row: 1;
+    grid-column: 1;
+    align-self: center;
+    transform: translateX(100px);
+}
+
+.navbar_our_apps_dropdown {
+    width: 170px;
+    height: 80px;
+    background-color: white;
+    transform: translate(110px, -12px);
+    width: 150px;
+    p {
+        font-size: 12px;
+        font-weight: 600;
+        color: #8f8f8f;
+        transform: translate(20px, 14px);
+    }
+}
+
+.navbar_menu_dropdown {
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    transform: translate(0px, -12px);
+    display: none;
+ 
+
+}
+.navbar_menu_icons p {
+    font-size: 12px;
+    font-weight: 600;
+    color: #8f8f8f;
+    transform: translate(20px, 14px);
+}
+
+.navbar_menu_apps p {
+    font-size: 11px;
+    font-weight: 600;
+    color: #8f8f8f;
+    transform: translate(35px, 14px);
+}
+
+.navbar_subscribe {
+    grid-row: 1;
+    grid-column: 1;
+    align-self: center;
+    transform: translateX(240px);
+    font-size: 14px;
+    font-weight: 600;
+    color: #8f8f8f;
+    width: 100px;
+    cursor: pointer;
+}
+
+.navbar_bell_icon {
+    width: 25px;
+    cursor: pointer;
+    grid-row: 1;
+    grid-column: 1;
+    align-self: center;
+    transform: translateX(170px);
+}
+.navbar_menu_icon {
+    width: 25px;
+    cursor: pointer;
+    grid-row: 1;
+    grid-column: 1;
+    align-self: center;
+    transform: translateX(15px);
+    display:none;
+}
+
+
+
+
 // iPhone X Portrait Safari
 @media only screen and (max-width: 390px) and (min-width: 350px) and (max-height: 650px) and (min-height: 620px) {
-    .navbar img {
-        height: 30px;
-        margin-left: 20px;
-        margin-top: 20px;
-    }
+  
+}
+
+
+@media only screen and (max-width: 1025px) {
+    .navbar_blog {display:none;}
+    .navbar_blog_small {display: grid;}
+    .navbar_our_apps_dropdown {transform: translate(85px, -12px);}
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar_home_icon {transform: translateX(15px);}
+    .navbar_star_icon {transform: translateX(65px);}
+    .navbar_bell_icon {transform: translateX(115px);}
+    .navbar_our_apps_dropdown {transform: translate(50px, -12px);}
+}
+
+@media only screen and (max-width: 700px) {
+    #motivating_logo {height: 40px;}
+}
+
+@media only screen and (max-width: 550px) {
+    .navbar_home_icon {display:none;}
+    .navbar_star_icon {display:none;}
+    .navbar_bell_icon {display:none;}
+    .navbar_our_apps_dropdown {display:none;}
+    .navbar_menu_icon {display: inherit;}
+}
+
+@media only screen and (max-width: 350px) {
+    #motivating_logo {height: 35px; transform: translateY(-5px);}
+    .navbar_blog_small {height: 60px;}
 }
 
