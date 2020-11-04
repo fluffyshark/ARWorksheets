@@ -59,7 +59,7 @@ class Contact extends React.Component {
                         <Link to="/download_worksheets" style={{ textDecoration: 'none' }} >
                             <p>Get Worksheets</p>
                         </Link>
-                        <a style={{textDecoration: 'none'}} href="https://apps.apple.com/se/app/ar-worksheets/id1523196289">
+                        <a style={{textDecoration: 'none'}} href="https://apps.apple.com/us/app/math-leveling-x/id1535821552">
                             <p>Get the App</p>
                         </a>
                     </div>

@@ -41,12 +41,22 @@
     grid-row: 1;
     grid-column: 1;
     justify-self: center;
+    transform: translateY(-20px);
 }
 .MGX_download_app_store {
     width: 100px;
     grid-row: 3;
     grid-column: 1;
     justify-self: center;
+    transform: translateY(10px);
+}
+.MGX_download_app_store_link {
+    justify-self: center;
+    transform: translateY(35px);
+}
+.MGX_download_app_store_link_logo {
+    justify-self: center;
+    transform: translateY(-30px);
 }
 
 @media only screen and (max-width: 1200px) {
@@ -71,7 +81,7 @@
 @media only screen and (max-width: 600px) {
     .MGXThirdSection {height: 480px;}
     .MGXThirdSection-textHolder {transform: scale(0.8) translateY(54px);}
-    .math_leveling_logo {width: 200px;transform: translateY(50px);}
+    .math_leveling_logo {width: 200px;transform: translateY(30px);}
 }
 
 @media only screen and (max-width: 350px) {
