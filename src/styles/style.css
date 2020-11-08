@@ -5206,8 +5206,8 @@ body {
   grid-column: 1;
   -ms-grid-column-align: center;
       justify-self: center;
-  -webkit-transform: translateY(-20px);
-          transform: translateY(-20px);
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
 }
 
 .MGX_download_app_store {
@@ -5272,8 +5272,8 @@ body {
   }
   .math_leveling_logo {
     width: 200px;
-    -webkit-transform: translateY(30px);
-            transform: translateY(30px);
+    -webkit-transform: translateY(80px);
+            transform: translateY(80px);
   }
 }
 
@@ -6099,6 +6099,12 @@ body {
   -ms-grid-rows: 100%;
       grid-template-rows: 100%;
   overflow: hidden;
+}
+
+.MGXSeventhSection img {
+  width: 150px;
+  -webkit-transform: translateY(60px);
+          transform: translateY(60px);
 }
 
 .MGXSeventhSection-textHolder {

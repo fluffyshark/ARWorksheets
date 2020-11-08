@@ -9,6 +9,11 @@ grid-template-columns: 100%;
 grid-template-rows: 100%;
 overflow: hidden;
 
+    img {
+        width: 150px;
+        transform: translateY(60px);
+    }
+
 }
 
 .MGXSeventhSection-textHolder {

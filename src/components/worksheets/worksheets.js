@@ -110,9 +110,7 @@ class Download_Worksheets extends React.Component {
     constructor() {
         super()
 
-        this.state = {
-           
-        }
+        this.state = {}
       
         
     }

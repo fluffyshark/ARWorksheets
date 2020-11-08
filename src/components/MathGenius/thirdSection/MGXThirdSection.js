@@ -18,7 +18,7 @@ const MGXThirdSection = () => {
                 </div>
 
                 <div data-aos="fade-up" className="MGXThirdSection-imageHolder">
-                    <a className="MGX_download_app_store_link" href="https://apps.apple.com/us/app/math-leveling-x/id1535821552"><img className="math_leveling_logo" src={mathlevelinglogo} alt="mathlevelinglogo" /></a>
+                    <a className="MGX_download_app_store_link_logo" href="https://apps.apple.com/us/app/math-leveling-x/id1535821552"><img className="math_leveling_logo" src={mathlevelinglogo} alt="mathlevelinglogo" /></a>
                     <a className="MGX_download_app_store_link" href="https://apps.apple.com/us/app/math-leveling-x/id1535821552"><img className="MGX_download_app_store" src={download_app_store} alt="download_app_store" /></a>
                 </div>
             </div>

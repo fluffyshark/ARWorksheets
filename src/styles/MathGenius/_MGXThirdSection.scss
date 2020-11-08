@@ -41,7 +41,7 @@
     grid-row: 1;
     grid-column: 1;
     justify-self: center;
-    transform: translateY(-20px);
+    transform: translateY(30px);
 }
 .MGX_download_app_store {
     width: 100px;
@@ -81,7 +81,7 @@
 @media only screen and (max-width: 600px) {
     .MGXThirdSection {height: 480px;}
     .MGXThirdSection-textHolder {transform: scale(0.8) translateY(54px);}
-    .math_leveling_logo {width: 200px;transform: translateY(30px);}
+    .math_leveling_logo {width: 200px;transform: translateY(80px);}
 }
 
 @media only screen and (max-width: 350px) {

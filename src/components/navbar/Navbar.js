@@ -15,7 +15,18 @@ class Navbar extends React.Component {
     constructor() {
         super()
 
+        this.state = {
+            navbarDropdown: {display:"none"}
+        }
 
+    }
+
+    hoverDropdown() {
+        console.log("HELLO DROM")
+        this.setState({
+            navbarDropdown: {display:"none"}
+        })
+        
     }
 
     reportWindowSize = e => {console.log(window.innerWidth);}
@@ -51,7 +62,7 @@ class Navbar extends React.Component {
                 <div className="navbar_blog" id="navbar_blog">
                     <img id="motivating_logo" src={logo3} alt=""/>
                     <p className="navbar_home">HOME</p>
-                    <p className="navbar_our_apps" onClick={toggleDropdown}>OUR APPS</p>
+                    <p className="navbar_our_apps" onClick={toggleDropdown} onMouseLeave={() => this.hoverDropdown()}>OUR APPS</p>
                     <p className="navbar_subscribe">SUBSCRIBE</p> 
                 </div>
 
@@ -63,7 +74,7 @@ class Navbar extends React.Component {
                     <img src={menu} className="navbar_menu_icon" onClick={toggleDropdown_menu} alt="menu"/>
                 </div>
 
-                <div className="navbar_our_apps_dropdown" id="navbar_dropdown" style={{display:"none"}}>
+                <div className="navbar_our_apps_dropdown" id="navbar_dropdown" style={this.state.navbarDropdown}>
                     <Link to="/math-leveling" onClick={() => whichApp("MathLevelingX")} style={{ textDecoration: 'none' }}><p >MATH LEVELING X</p></Link>
                     <Link to="/app" onClick={() => whichApp("ARWorksheets")} style={{ textDecoration: 'none' }}><p>AR WORKSHEETS</p></Link>
                 </div>
@@ -105,6 +116,11 @@ function toggleDropdown_menu() {
 function whichApp(app) {
     if (app == "ARWorksheets") {whichAppIsActive = "ARWorksheets"; console.log(whichAppIsActive)}
     if (app == "MathLevelingX") {whichAppIsActive = "MathLevelingX"; console.log(whichAppIsActive)}
+
+    document.getElementById("navbar_dropdown").style.display = "none"
+    document.getElementById("navbar_menu_dropdown").style.display = "none";
 }
+
+
 
 
