@@ -6,7 +6,7 @@ body {
   overflow: hidden;
   width: 100%;
   height: 100vh;
-  background-image: url(../components/main_background/wood_background.png);
+  background-image: url(../components/main_background/wood_background.jpg);
   background-position: top top;
   background-size: cover;
   display: -ms-grid;

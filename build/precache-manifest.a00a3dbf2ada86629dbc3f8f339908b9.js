@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "55514a054f5bb32cc724ee8bc279d27e",
+    "revision": "8741765c03efa5ee9a9c7c446b187e3a",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "2d6bc9c1c2f34fc0ec2f",
-    "url": "/static/css/main.209cc8af.chunk.css"
+    "revision": "1bf8d7f79f5da2e41987",
+    "url": "/static/css/main.56838385.chunk.css"
   },
   {
     "revision": "7623fd5b328d1ac91970",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.2fd44730.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2d6bc9c1c2f34fc0ec2f",
-    "url": "/static/js/main.24efd26f.chunk.js"
+    "revision": "1bf8d7f79f5da2e41987",
+    "url": "/static/js/main.6db2b4bf.chunk.js"
   },
   {
     "revision": "56c03dd11c5392f28634",
@@ -152,8 +152,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/crossword04.f7341607.png"
   },
   {
-    "revision": "6dbbd7e5dd373d241005170972328198",
-    "url": "/static/media/cup.6dbbd7e5.png"
+    "revision": "af0e69e45bfc02a6b5e1149cb47ba9de",
+    "url": "/static/media/cup.af0e69e4.png"
   },
   {
     "revision": "4fe23caa2dd95cc0d9e020ff7ef90a6b",
@@ -268,10 +268,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/grammar3_05.1a73a6e7.png"
   },
   {
-    "revision": "6f1c7f89ae312717eaa7fecc939cb114",
-    "url": "/static/media/hand_ipad-min.6f1c7f89.png"
-  },
-  {
     "revision": "30f12eea32e272b3585e88df70c5945f",
     "url": "/static/media/hospital01.30f12eea.png"
   },
@@ -290,6 +286,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "33907da8c51887660ef8c03d99178e31",
     "url": "/static/media/hospital05.33907da8.png"
+  },
+  {
+    "revision": "7fd79a2eaaf5b37b13570629ffbbe811",
+    "url": "/static/media/ipad1.7fd79a2e.png"
   },
   {
     "revision": "a3afd3f7ecc129f7cef6bd4ae84bcb46",
@@ -404,8 +404,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/subscriptionBackground.67b09506.png"
   },
   {
-    "revision": "7241a1bde0c763182f84d7fed4a9d44a",
-    "url": "/static/media/wood_background.7241a1bd.png"
+    "revision": "1920d9796b4efb65b16daec0c682f786",
+    "url": "/static/media/wood_background.1920d979.jpg"
   },
   {
     "revision": "475deccd538db351fd0098f697992a71",

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import dark_overlay from "./dark_overlay.png";
-import hand_ipad from "./hand_ipad-min.png";
+import hand_ipad from "./ipad1.png";
 import mac from "./mac.png";
 import cup from "./cup.png";
 import iPhone from "./iphone.png";
