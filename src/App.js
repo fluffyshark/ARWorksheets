@@ -17,6 +17,7 @@ import ThinkTheyFinished from "./components/Blog/Articles/ThinkTheyFinished/Thin
 import FantasyWorld from "./components/Blog/Articles/FantasyWorld/FantasyWorld";
 import MathLeveling from "./components/Blog/Articles/MathLeveling/MathLeveling";
 import Trello from "./components/Blog/Articles/Trello/Trello";
+import BrainDrain from "./components/Blog/Articles/BrainDrain/BrainDrain";
 
 
 import './styles/style.css';
@@ -63,6 +64,7 @@ function App() {
           <Route path="/fantasy-world" component={FantasyWorld}/>
           <Route path="/mathleveling" component={MathLeveling}/>
           <Route path="/trello" component={Trello}/>
+          <Route path="/braindrain" component={BrainDrain}/>
 
         </Switch>
         <Email_section />

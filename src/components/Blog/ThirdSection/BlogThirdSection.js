@@ -18,11 +18,13 @@ class BlogThirdSection extends React.Component {
             <div className="BlogThirdSection">
 
                 <div className="BlogPostContainer" id="blog01">
+                <Link to="/braindrain" style={{ textDecoration: 'none' }} >
                     <img className="BlogPostImage" src={test} alt="blogimage" />
                     <div className="BlogPostBottom">
                         <p className="BlogPostCategoryText" id="researchColor">RESEARCH STUDY</p>
-                        <p className="BlogPostTitle">Brain Drain - This Common Distraction Might<br/> Be More Serious Than You Think </p>
+                        <p className="BlogPostTitle" style={{color:"black"}}>Brain Drain - This Common Distraction Might<br/> Be More Serious Than You Think </p>
                     </div>
+                    </Link>
                 </div>
 
                 <div className="BlogPostContainer" id="blog02">
