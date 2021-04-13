@@ -1,35 +1,59 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8741765c03efa5ee9a9c7c446b187e3a",
+    "revision": "6bb65e4edb7cb0b0c4e5cf7f2f732403",
     "url": "/index.html"
   },
   {
-    "revision": "7623fd5b328d1ac91970",
+    "revision": "80819edfa43ec38de95a",
     "url": "/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "1bf8d7f79f5da2e41987",
-    "url": "/static/css/main.56838385.chunk.css"
+    "revision": "69df658da0b860cb022f",
+    "url": "/static/css/main.d63aa711.chunk.css"
   },
   {
-    "revision": "7623fd5b328d1ac91970",
-    "url": "/static/js/2.2fd44730.chunk.js"
+    "revision": "80819edfa43ec38de95a",
+    "url": "/static/js/2.b9cff59a.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.2fd44730.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b9cff59a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1bf8d7f79f5da2e41987",
-    "url": "/static/js/main.6db2b4bf.chunk.js"
+    "revision": "69df658da0b860cb022f",
+    "url": "/static/js/main.1fd719f9.chunk.js"
   },
   {
     "revision": "56c03dd11c5392f28634",
     "url": "/static/js/runtime-main.7f7731cf.js"
   },
   {
+    "revision": "dc0cfe6de7c46caebf21915d4039566d",
+    "url": "/static/media/ClassView.dc0cfe6d.png"
+  },
+  {
+    "revision": "71c7af0ba3b62a408cfb0f17210b3767",
+    "url": "/static/media/CollectionView.71c7af0b.png"
+  },
+  {
+    "revision": "1f6d80e6f2ea392df2de751e56103ca9",
+    "url": "/static/media/MathLevelingBlogImage.1f6d80e6.jpg"
+  },
+  {
+    "revision": "e1e6abb84d70a67f901a1ad80dcb06b6",
+    "url": "/static/media/MathLevelingMain.e1e6abb8.png"
+  },
+  {
+    "revision": "0e85bfa5785b3a9b1645f0c1448e24fa",
+    "url": "/static/media/ProgressView.0e85bfa5.png"
+  },
+  {
     "revision": "42c324d60b75dec6a27036650efd3896",
     "url": "/static/media/adjusted_logo.42c324d6.png"
+  },
+  {
+    "revision": "1538ce0cb01406f5da58f57c635d10a8",
+    "url": "/static/media/almostdone.1538ce0c.png"
   },
   {
     "revision": "16f21e53402a6d912425b632fe155956",
@@ -156,12 +180,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cup.af0e69e4.png"
   },
   {
+    "revision": "406ddcf74d31d793e9861d54b7bca71e",
+    "url": "/static/media/deercrest.406ddcf7.jpg"
+  },
+  {
     "revision": "4fe23caa2dd95cc0d9e020ff7ef90a6b",
     "url": "/static/media/download_app_store.4fe23caa.png"
   },
   {
+    "revision": "6de7150992e6fc61027ecad0ed1775f4",
+    "url": "/static/media/elderport.6de71509.jpg"
+  },
+  {
     "revision": "719199657100120883c6cc236423eda6",
     "url": "/static/media/facebook-share.71919965.png"
+  },
+  {
+    "revision": "efd50f11ecd839481559ff3a7b6f1f53",
+    "url": "/static/media/fantasyWorldImg.efd50f11.jpg"
+  },
+  {
+    "revision": "06db1e41704fc1d5fa6c857ffbb4fab7",
+    "url": "/static/media/fantasyworld.06db1e41.jpg"
   },
   {
     "revision": "52257c0dcd58eccd6b38600e5796bf97",
@@ -324,6 +364,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/math_leveling_logo.94be1c8d.png"
   },
   {
+    "revision": "2ffbcc5aa0e0e7ad59ccedf815afe153",
+    "url": "/static/media/medalimage.2ffbcc5a.png"
+  },
+  {
+    "revision": "ab8467b952dc690b86244cf330cff183",
+    "url": "/static/media/medalsbackground.ab8467b9.png"
+  },
+  {
     "revision": "70f5fe287c4f4cc6a923f86a40ae4796",
     "url": "/static/media/motivating-learning-logo.70f5fe28.png"
   },
@@ -350,6 +398,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0982aa4dec7668e14ed3f54bdffe3017",
     "url": "/static/media/pinterest_follow_btn1.0982aa4d.png"
+  },
+  {
+    "revision": "69b8aeff493e5db1e43dd29b7a6f9548",
+    "url": "/static/media/progressbar.69b8aeff.png"
+  },
+  {
+    "revision": "aa2c4d69738038a43de0b8adf1bab5a5",
+    "url": "/static/media/questcards.aa2c4d69.jpg"
   },
   {
     "revision": "28d4e4652ce38194bcebc1abffb680b9",
@@ -402,6 +458,78 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "67b0950620bce50176e93bb87c42d9b0",
     "url": "/static/media/subscriptionBackground.67b09506.png"
+  },
+  {
+    "revision": "0b4e2a8fc273fd5560f937541e2296b8",
+    "url": "/static/media/test.0b4e2a8f.jpg"
+  },
+  {
+    "revision": "2c567ba8ee9bb8b6c53d2a39213e8a70",
+    "url": "/static/media/test10.2c567ba8.jpg"
+  },
+  {
+    "revision": "3702ff64dea5fcedd6016eea16b8d3ed",
+    "url": "/static/media/test11.3702ff64.jpg"
+  },
+  {
+    "revision": "a6609746593797d4b6f56c134cca8114",
+    "url": "/static/media/test2.a6609746.jpg"
+  },
+  {
+    "revision": "e113f29a7ad469a21369bd7726c8b38f",
+    "url": "/static/media/test3.e113f29a.jpg"
+  },
+  {
+    "revision": "897976b639d22b1f178eadd5a6856258",
+    "url": "/static/media/test4.897976b6.jpg"
+  },
+  {
+    "revision": "ca5ed17031d251f0a13680f8e37e04a6",
+    "url": "/static/media/test5.ca5ed170.jpg"
+  },
+  {
+    "revision": "2b59e4c824b56bc147852ea5c2205b4d",
+    "url": "/static/media/test6.2b59e4c8.jpg"
+  },
+  {
+    "revision": "3242cfd18cd310ee0b9fcaf009f6bd70",
+    "url": "/static/media/test7.3242cfd1.jpg"
+  },
+  {
+    "revision": "107aeab7fd52de01a2fc024fc12ceb23",
+    "url": "/static/media/test8.107aeab7.jpg"
+  },
+  {
+    "revision": "03332414291eb335209852544ba801df",
+    "url": "/static/media/test9.03332414.jpg"
+  },
+  {
+    "revision": "73f23a5ecc6e7a1967dd531c55b3a9e6",
+    "url": "/static/media/threestars.73f23a5e.png"
+  },
+  {
+    "revision": "2222377d5394d804c97225a9ace5f44d",
+    "url": "/static/media/trello-QR.2222377d.png"
+  },
+  {
+    "revision": "f31f5951705bdc43c9969f442eb35722",
+    "url": "/static/media/trello-cover.f31f5951.png"
+  },
+  {
+    "revision": "d42ea0fce2158ca80726b1c8013e2152",
+    "url": "/static/media/trello-example.d42ea0fc.png"
+  },
+  {
+    "revision": "331249c53c214ef3c3b667196ebdd437",
+    "url": "/static/media/trello-example01.331249c5.png"
+  },
+  {
+    "revision": "8bec2478f9a8b0e75d01c065914b4503",
+    "url": "/static/media/trello-front.8bec2478.png"
+  },
+  {
+    "revision": "44004ef602c5ef048a9b8e2feaa7ba61",
+    "url": "/static/media/trello-google.44004ef6.png"
   },
   {
     "revision": "1920d9796b4efb65b16daec0c682f786",

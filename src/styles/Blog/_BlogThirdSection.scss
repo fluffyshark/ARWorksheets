@@ -1,0 +1,78 @@
+.BlogThirdSection {
+    width: 100%;
+    height: 1461px;
+    display: grid;
+  //  grid-template-columns: 10% 35% 1% 35% 10%;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 407px 40px 407px 40px 407px 160px;
+}
+
+.BlogPostContainer {
+    width: 500px;
+    height: 407px;
+    border: 1px solid lightgrey;
+    justify-self: center;
+}
+
+.BlogPostImage {
+    width: 100%;
+}
+
+#researchColor {color:#57c3ed;}
+#motivationColor {color:#ff8080;}
+#reseourseColor {color:#59c28e;}
+#excitementColor {color:#f3d15a;}
+
+
+
+.BlogPostCategoryText {
+    
+    font-size: 12px;
+    font-weight: 600;
+    transform: translate(15px, 10px);
+    width: 200px;
+    margin: 0;
+}
+.BlogPostTitle {
+    font-size: 21px;
+    font-weight: 700;
+    transform: translate(15px, 10px);
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+#blog01 {
+    grid-row: 1;
+    grid-column: 2;
+    transform: translateX(-270px);
+}
+
+#blog02 {
+    grid-row: 1;
+    grid-column: 2;
+    transform: translateX(270px);
+}
+
+#blog03 {
+    grid-row: 3;
+    grid-column: 2;
+    transform: translateX(-270px);
+}
+
+#blog04 {
+    grid-row: 3;
+    grid-column: 2;
+    transform: translateX(270px);
+}
+
+#blog05 {
+    grid-row: 5;
+    grid-column: 2;
+    transform: translateX(-270px);
+}
+
+#blog06 {
+    grid-row: 5;
+    grid-column: 2;
+    transform: translateX(270px);
+}

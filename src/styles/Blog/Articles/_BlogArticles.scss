@@ -1,0 +1,107 @@
+.blog_article_container {
+    height:auto;
+    width: 100%;
+    display: grid;
+}
+
+.blog_article_title_section {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    display: grid;
+    justify-self: center;
+    p {font-size: 50px;font-family: 'Playfair Display', serif; width: 939px; justify-self: center; text-align: center; margin-bottom: 0;}
+}
+.blog_article_image_section {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    img {width: 1008px; margin-top: 20px; justify-self: center;}
+}
+
+.blog_article_text_section {
+    width: 100%;
+    height: auto;
+    font-family: 'Avenir Next', serif;
+    display: grid;
+    grid-template-columns: 100%;
+    margin-top: 20px;
+}
+
+.thinkTheyFinished_title-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;  
+    width: 100%;
+    margin: 0;
+    
+
+    p {text-align: center; justify-self: center;}
+}
+.blog_article_text_container {
+    justify-self: center;
+    font-size: 18px;
+    margin:0;
+    grid-row: 1;
+    grid-column: 1;
+    width: 936px;
+   
+}
+
+.blog_article_text_container_italic {
+    justify-self: center;
+    font-family: 'AvenirNext-Italic';
+    font-size: 18px;
+    margin:0;
+    grid-row: 1;
+    grid-column: 1;
+    width: 936px;
+}
+
+.blog_article_text_quote {
+    justify-self: center;
+    font-size: 30px;
+    font-family: 'AvenirNext-Italic';
+    text-align: center;
+    grid-row: 1;
+    grid-column: 2;
+   
+  
+}
+.thinkTheyFinished_first_section-text-3 {
+    justify-self: center;
+    font-size: 18px;
+    margin:0;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+
+
+@media only screen and (max-width: 999px) {
+    .blog_article_title_section {
+        width: 90%;
+    }
+    .blog_article_image_section {img {width: 100%;}}
+    .blog_article_title_section {
+        p {width: 90%; }
+    }
+    .blog_article_text_container {
+        width: 90%;
+    }
+    .blog_article_text_container_italic {width: 90%;}
+}
+@media only screen and (max-width: 765px) {
+    .blog_article_title_section {p {font-size: 40px;}}
+}
+@media only screen and (max-width: 615px) {
+    .blog_article_title_section {p {font-size: 30px;}}
+    .blog_article_text_container {font-size: 16px;}
+    .blog_article_text_container_italic {font-size: 16px;}
+}
+@media only screen and (max-width: 465px) {
+    .blog_article_title_section {p {font-size: 20px;}}
+    .blog_article_image_section {img {margin-top: 0px;}}
+    .blog_article_text_container {font-size: 15px;}
+    .blog_article_text_container_italic {font-size: 15px;}
+}

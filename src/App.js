@@ -10,6 +10,13 @@ import Email_section from "./components/email_section/Email_section";
 
 // MATH GENIUS
 import MGXHome from "./components/MathGenius/MGXHome";
+// BLOG
+import BlogHome from "./components/Blog/BlogHome";
+import AlmostDone from "./components/Blog/Articles/AlmostDone/AlmostDone";
+import ThinkTheyFinished from "./components/Blog/Articles/ThinkTheyFinished/ThinkTheyFinished";
+import FantasyWorld from "./components/Blog/Articles/FantasyWorld/FantasyWorld";
+import MathLeveling from "./components/Blog/Articles/MathLeveling/MathLeveling";
+import Trello from "./components/Blog/Articles/Trello/Trello";
 
 
 import './styles/style.css';
@@ -50,6 +57,12 @@ function App() {
           <Route path="/app" component={HomePage}/>
 
           <Route path="/math-leveling" component={MGXHome}/>
+          <Route path="/blog" component={BlogHome}/>
+          <Route path="/almost-done" component={AlmostDone}/>
+          <Route path="/think-they-finished" component={ThinkTheyFinished}/>
+          <Route path="/fantasy-world" component={FantasyWorld}/>
+          <Route path="/mathleveling" component={MathLeveling}/>
+          <Route path="/trello" component={Trello}/>
 
         </Switch>
         <Email_section />

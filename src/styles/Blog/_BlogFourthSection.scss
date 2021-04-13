@@ -1,0 +1,39 @@
+.BlogFourthSection {
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    background-image: url(../components/Blog/FourthSection/test7.jpg);
+    background-position: center center;
+    background-size:cover;
+    position: relative;
+    display: grid;
+}
+
+.BlogBigSectionText {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    transform: translateY(200px);
+    font-weight: 600;
+
+}
+
+.BlogBigSectionButton {
+    width: 200px;
+    height: 45px;
+    display: grid;
+    border: 3px solid white;
+    justify-self: center;
+    transform: translateY(25px);
+
+    
+    
+    p {
+        justify-self: center;
+        color: white;
+        font-weight: 500; 
+        transform: translateY(-4px);
+    }
+}
