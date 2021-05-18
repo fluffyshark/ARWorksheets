@@ -1,5 +1,5 @@
 import React from "react";
-import test6 from "./test7.jpg";
+import { Link } from "react-router-dom";
 
 class BlogFourthSection extends React.Component {
 
@@ -8,10 +8,10 @@ class BlogFourthSection extends React.Component {
     render() {
         return (
             <div className="BlogFourthSection">
-
+                <Link to="/worststudent" style={{ textDecoration: 'none' }} >
                 <p className="BlogBigSectionText">After Trying This Method The Worst <br/> Performing Student Was Motivated <br/> to Work The Hardest</p>
                 <div className="BlogBigSectionButton"><p>Read more</p></div>
-                
+                </Link>
                 
             </div>
         );

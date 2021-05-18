@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37650754e781dab2cb5f7d54430b0dff",
+    "revision": "0291b6e9f1d5d787ece4fbafa302688e",
     "url": "/index.html"
   },
   {
-    "revision": "ea30926ede3aafb804d6",
+    "revision": "970428e49a199db4ead8",
     "url": "/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "8ad5a5a2190185312808",
+    "revision": "525241db90ec28cb6547",
     "url": "/static/css/main.d63aa711.chunk.css"
   },
   {
-    "revision": "ea30926ede3aafb804d6",
-    "url": "/static/js/2.43ce59f3.chunk.js"
+    "revision": "970428e49a199db4ead8",
+    "url": "/static/js/2.5827a78d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.43ce59f3.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.5827a78d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8ad5a5a2190185312808",
-    "url": "/static/js/main.3dd32a54.chunk.js"
+    "revision": "525241db90ec28cb6547",
+    "url": "/static/js/main.37e8a912.chunk.js"
   },
   {
     "revision": "56c03dd11c5392f28634",
@@ -96,6 +96,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/background.e19595c9.jpg"
   },
   {
+    "revision": "8491f76b6c909ac795f5113934b55431",
+    "url": "/static/media/badgefront.8491f76b.png"
+  },
+  {
+    "revision": "73cb83e9b61429ceb2056fc6fa7da698",
+    "url": "/static/media/badgesprogress.73cb83e9.png"
+  },
+  {
     "revision": "55eb8255534eda675eda3e541e098747",
     "url": "/static/media/body01.55eb8255.png"
   },
@@ -166,6 +174,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "521d8f971ae42283a2e00ca3605a252e",
     "url": "/static/media/clothing05.521d8f97.png"
+  },
+  {
+    "revision": "6ed83a8b2e003fb914e10955449f3f5f",
+    "url": "/static/media/collectionapp.6ed83a8b.png"
   },
   {
     "revision": "8c2d9c198547b89dfaca897a1a139371",
@@ -260,6 +272,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/foods05.d86069c5.png"
   },
   {
+    "revision": "b970a8b8e0d103ef3f9a4baeb48f2b87",
+    "url": "/static/media/gamification.b970a8b8.png"
+  },
+  {
     "revision": "a8f862f80f538eb6a52d1497e1e1a648",
     "url": "/static/media/grammar01.a8f862f8.png"
   },
@@ -318,6 +334,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1a73a6e7c71158bbc7e75c6ce928e0d5",
     "url": "/static/media/grammar3_05.1a73a6e7.png"
+  },
+  {
+    "revision": "d1f8ed2ac62f65fc68d2cfc756ba367f",
+    "url": "/static/media/historyview01.d1f8ed2a.png"
+  },
+  {
+    "revision": "39c0e72fce8e5a851036a9b0d6b79f77",
+    "url": "/static/media/historyview02.39c0e72f.png"
+  },
+  {
+    "revision": "ea64410a9807c1f81a5aa9f708513533",
+    "url": "/static/media/historyview03.ea64410a.png"
+  },
+  {
+    "revision": "7d0d1a0e0a147f1fa898f478337ffdd0",
+    "url": "/static/media/historyview04.7d0d1a0e.png"
   },
   {
     "revision": "30f12eea32e272b3585e88df70c5945f",
@@ -412,12 +444,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pinterest_follow_btn1.0982aa4d.png"
   },
   {
+    "revision": "adc6b2119c20f23863621f98ecc1bd94",
+    "url": "/static/media/pokemoncollection.adc6b211.png"
+  },
+  {
     "revision": "69b8aeff493e5db1e43dd29b7a6f9548",
     "url": "/static/media/progressbar.69b8aeff.png"
   },
   {
     "revision": "aa2c4d69738038a43de0b8adf1bab5a5",
     "url": "/static/media/questcards.aa2c4d69.jpg"
+  },
+  {
+    "revision": "54aa97ca260780b84ff53c59022d9098",
+    "url": "/static/media/scouts.54aa97ca.png"
   },
   {
     "revision": "28d4e4652ce38194bcebc1abffb680b9",
@@ -566,5 +606,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0527523ddb10df6cf8ff1d4efd4c907b",
     "url": "/static/media/wordpuzzle05.0527523d.png"
+  },
+  {
+    "revision": "24b1d3d1fab4269d35ed77480e466a8b",
+    "url": "/static/media/worstcover.24b1d3d1.png"
   }
 ]);

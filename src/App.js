@@ -18,6 +18,9 @@ import FantasyWorld from "./components/Blog/Articles/FantasyWorld/FantasyWorld";
 import MathLeveling from "./components/Blog/Articles/MathLeveling/MathLeveling";
 import Trello from "./components/Blog/Articles/Trello/Trello";
 import BrainDrain from "./components/Blog/Articles/BrainDrain/BrainDrain";
+import HistoryApp from "./components/Blog/Articles/HistoryApp/HistoryApp";
+import Badges from "./components/Blog/Articles/Badges/Badges";
+import WorstStudent from "./components/Blog/Articles/WorstStudent/WorstStudent";
 
 
 import './styles/style.css';
@@ -65,6 +68,9 @@ function App() {
           <Route path="/mathleveling" component={MathLeveling}/>
           <Route path="/trello" component={Trello}/>
           <Route path="/braindrain" component={BrainDrain}/>
+          <Route path="/historyapp" component={HistoryApp}/>
+          <Route path="/badges" component={Badges}/>
+          <Route path="/worststudent" component={WorstStudent}/>
 
         </Switch>
         <Email_section />

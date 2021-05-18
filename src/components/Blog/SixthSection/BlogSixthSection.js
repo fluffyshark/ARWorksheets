@@ -27,11 +27,13 @@ class BlogSixthSection extends React.Component {
                 </div>
 
                 <div className="BlogPostContainer" id="blog02">
+                <Link to="/badges" style={{ textDecoration: 'none' }} >
                     <img className="BlogPostImage" src={test9} alt="blogimage" />
                     <div className="BlogPostBottom">
                         <p className="BlogPostCategoryText" id="motivationColor">MOTIVATION BOOSTER</p>
-                        <p className="BlogPostTitle">How Adopting Scouts and Swimming Badges <br/> Motivated Students to Work On Their Skills <br/> During Lesson Breaks</p>
+                        <p className="BlogPostTitle" style={{color:"black"}}>How Adopting Scouts and Swimming Badges <br/> Motivated Students to Work On Their Skills <br/> During Lesson Breaks</p>
                     </div>
+                </Link>
                 </div>
 
 
