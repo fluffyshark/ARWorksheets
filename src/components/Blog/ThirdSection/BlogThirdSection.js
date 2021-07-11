@@ -22,7 +22,7 @@ class BlogThirdSection extends React.Component {
                     <img className="BlogPostImage" src={test} alt="blogimage" />
                     <div className="BlogPostBottom">
                         <p className="BlogPostCategoryText" id="researchColor">RESEARCH STUDY</p>
-                        <p className="BlogPostTitle" style={{color:"black"}}>Brain Drain - This Common Distraction Might<br/> Be More Serious Than You Think </p>
+                        <p className="BlogPostTitle" style={{color:"black"}}>Brain Drain - This Common Distraction Might Be More Serious Than You Think </p>
                     </div>
                     </Link>
                 </div>
@@ -44,7 +44,7 @@ class BlogThirdSection extends React.Component {
                     <img className="BlogPostImage" src={fantasyworld} alt="fantasyworld" />
                     <div className="BlogPostBottom">
                         <p className="BlogPostCategoryText" id="motivationColor">MOTIVATION BOOSTER</p>
-                        <p className="BlogPostTitle" style={{color:"black"}}>My Students Struggled with Imagination when<br/>Writing. So I Created A Fantasy World For Them<br/> To Write About </p>
+                        <p className="BlogPostTitle" style={{color:"black"}}>My Students Struggled with Imagination when Writing. So I Created A Fantasy World For Them To Write About </p>
                     </div>
                 </Link>
                 </div>
